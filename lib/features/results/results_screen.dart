@@ -42,7 +42,14 @@ class _ResultsScreenState extends ConsumerState<ResultsScreen> {
             children: [
               _ScoreCard(score: score, marks: marks),
               const SizedBox(height: AppSpacing.md),
-              if (exam.sitting.paper.essays != null && essay != null && !essay.skipped) ...[
+              if (exam.sitting.paper.essays != null && !(essay?.done ?? false)) ...[
+                FilledButton.icon(
+                  onPressed: () => context.pushReplacement('/essay/${widget.attemptId}'),
+                  icon: const Icon(Icons.edit_note),
+                  label: Text(l10n.continuePartTwo),
+                ),
+                const SizedBox(height: AppSpacing.sm),
+              ] else if (exam.sitting.paper.essays != null && essay != null && !essay.skipped) ...[
                 OutlinedButton.icon(
                   onPressed: () => unawaited(context.push('/essay-rate/${widget.attemptId}')),
                   icon: const Icon(Icons.rate_review_outlined),

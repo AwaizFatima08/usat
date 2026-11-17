@@ -23,7 +23,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     final l10n = context.l10n;
     return Scaffold(
       appBar: AppBar(
-        title: Text(l10n.appTitle),
+        title: Text(l10n.homeTitle),
         actions: [
           IconButton(
             tooltip: l10n.about,

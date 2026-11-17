@@ -71,13 +71,27 @@ class _PaperBody extends ConsumerWidget {
     return ListView(
       padding: const EdgeInsetsDirectional.all(AppSpacing.md),
       children: [
-        Text(l10n.minutesLabel(paper.minutes), style: Theme.of(context).textTheme.titleMedium),
+        Text(l10n.partOneLabel(paper.minutes), style: Theme.of(context).textTheme.titleMedium),
         for (final section in sections)
           ListTile(
             dense: true,
             title: Text(section.title),
             trailing: Text(l10n.sectionCount(section.itemIds.length)),
           ),
+        if (paper.essays case final essays?) ...[
+          const SizedBox(height: AppSpacing.sm),
+          Text(l10n.partTwoLabel(essays.minutes), style: Theme.of(context).textTheme.titleMedium),
+          ListTile(
+            dense: true,
+            title: Text(l10n.argumentEssay(essays.argumentMarks)),
+            trailing: Text(l10n.chooseOneOf(essays.argument.length)),
+          ),
+          ListTile(
+            dense: true,
+            title: Text(l10n.narrativeEssay(essays.narrativeMarks)),
+            trailing: Text(l10n.chooseOneOf(essays.narrative.length)),
+          ),
+        ],
         if (hasEthics)
           SwitchListTile(
             title: Text(l10n.useEthics),

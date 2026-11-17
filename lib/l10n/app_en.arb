@@ -348,5 +348,31 @@
   "argumentPractice": "Argument essays",
   "narrativePractice": "Narrative essays",
   "argumentPracticeIntro": "Take a position and defend it. In the test you choose 1 of 3 prompts; it carries 15 marks. A 20-minute clock runs, half of Part II.",
-  "narrativePracticeIntro": "Tell a story with a clear beginning, turning point and ending. In the test you choose 1 of 3 prompts; it carries 10 marks. A 20-minute clock runs, half of Part II."
+  "narrativePracticeIntro": "Tell a story with a clear beginning, turning point and ending. In the test you choose 1 of 3 prompts; it carries 10 marks. A 20-minute clock runs, half of Part II.",
+  "homeTitle": "USAT Simulator",
+  "partOneLabel": "Part I: 75 MCQs, {minutes} minutes",
+  "@partOneLabel": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "partTwoLabel": "Part II: Essays, {minutes} minutes",
+  "@partTwoLabel": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "chooseOneOf": "choose 1 of {count}",
+  "@chooseOneOf": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "continuePartTwo": "Continue to Part II"
 }

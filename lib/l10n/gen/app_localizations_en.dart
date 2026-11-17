@@ -482,4 +482,25 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get narrativePracticeIntro =>
       'Tell a story with a clear beginning, turning point and ending. In the test you choose 1 of 3 prompts; it carries 10 marks. A 20-minute clock runs, half of Part II.';
+
+  @override
+  String get homeTitle => 'USAT Simulator';
+
+  @override
+  String partOneLabel(int minutes) {
+    return 'Part I: 75 MCQs, $minutes minutes';
+  }
+
+  @override
+  String partTwoLabel(int minutes) {
+    return 'Part II: Essays, $minutes minutes';
+  }
+
+  @override
+  String chooseOneOf(int count) {
+    return 'choose 1 of $count';
+  }
+
+  @override
+  String get continuePartTwo => 'Continue to Part II';
 }

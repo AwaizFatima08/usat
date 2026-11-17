@@ -919,6 +919,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Tell a story with a clear beginning, turning point and ending. In the test you choose 1 of 3 prompts; it carries 10 marks. A 20-minute clock runs, half of Part II.'**
   String get narrativePracticeIntro;
+
+  /// No description provided for @homeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'USAT Simulator'**
+  String get homeTitle;
+
+  /// No description provided for @partOneLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Part I: 75 MCQs, {minutes} minutes'**
+  String partOneLabel(int minutes);
+
+  /// No description provided for @partTwoLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Part II: Essays, {minutes} minutes'**
+  String partTwoLabel(int minutes);
+
+  /// No description provided for @chooseOneOf.
+  ///
+  /// In en, this message translates to:
+  /// **'choose 1 of {count}'**
+  String chooseOneOf(int count);
+
+  /// No description provided for @continuePartTwo.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue to Part II'**
+  String get continuePartTwo;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

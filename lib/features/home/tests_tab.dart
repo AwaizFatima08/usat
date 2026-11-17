@@ -70,7 +70,7 @@ class _TestsList extends ConsumerWidget {
             children: [
               for (final stream in mode.streams)
                 ChoiceChip(
-                  label: Text(stream.title),
+                  label: Text(stream.title.split(' (').first),
                   selected: stream.key == choice.stream,
                   onSelected: (_) => unawaited(
                     ref.read(choiceProvider.notifier).choose(choice.copyWith(stream: stream.key)),
@@ -79,7 +79,11 @@ class _TestsList extends ConsumerWidget {
             ],
           ),
         const SizedBox(height: AppSpacing.sm),
-        Text('${mode.subtitle}. ${context.l10n.testsIntro(mode.questionCount, mode.minutes)}'),
+        Text(
+          mode.streams.firstWhere((s) => s.key == choice.stream).title,
+          style: Theme.of(context).textTheme.titleMedium,
+        ),
+        Text(context.l10n.testsIntro(mode.questionCount, mode.minutes)),
         const SizedBox(height: AppSpacing.sm),
         for (final paper in shown) _PaperTile(paper: paper, attempts: attempts),
       ],

@@ -4,8 +4,8 @@ import 'package:usat_prep/l10n/gen/app_localizations.dart';
 import 'package:usat_prep/router.dart';
 import 'package:usat_prep/ui/theme.dart';
 
-class NtsApp extends ConsumerWidget {
-  const NtsApp({super.key});
+class UsatApp extends ConsumerWidget {
+  const UsatApp({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) => MaterialApp.router(
