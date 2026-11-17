@@ -1,0 +1,380 @@
+[
+ {
+  "id": "chemistry-m01",
+  "section": "chemistry",
+  "title": "The mole at a glance",
+  "lines": [
+   "| You know | Moles n =",
+   "| mass m (g) | m ÷ M",
+   "| particles N | N ÷ 6.02 × 10²³",
+   "| gas volume at STP | V ÷ 22.4 dm³",
+   "| solution | molarity × V (dm³)",
+   "- STP: 0 °C (273 K) and 1 atm.",
+   "- Empirical formula: divide by atomic mass, then by the smallest result.",
+   "- Limiting reactant: smallest value of moles ÷ coefficient.",
+   "- % yield = actual ÷ theoretical × 100.",
+   "! Molecules or atoms? 9 g of water is 0.5 mol: 3.01 × 10²³ molecules but 9.03 × 10²³ atoms."
+  ]
+ },
+ {
+  "id": "chemistry-m02",
+  "section": "chemistry",
+  "title": "Gas laws",
+  "lines": [
+   "| Law | Statement | Constant",
+   "| Boyle | P₁V₁ = P₂V₂ | T, n",
+   "| Charles | V₁/T₁ = V₂/T₂ | P, n",
+   "| Avogadro | V ∝ n | P, T",
+   "| Dalton | P(total) = p₁ + p₂ + … | V, T",
+   "| Graham | rate ∝ 1/√M | P, T",
+   "- PV = nRT; R = 0.0821 dm³ atm K⁻¹ mol⁻¹ = 8.314 J K⁻¹ mol⁻¹.",
+   "- 1 atm = 760 mm Hg = 101,325 Pa.",
+   "- Real gases are most ideal at low pressure and high temperature.",
+   "! H₂ diffuses 4 times as fast as O₂ (√(32/2) = 4)."
+  ]
+ },
+ {
+  "id": "chemistry-m03",
+  "section": "chemistry",
+  "title": "Intermolecular forces and solids",
+  "lines": [
+   "- Strength for similar sizes: London < dipole-dipole < hydrogen bond.",
+   "- Hydrogen bonds need H on F, O or N: water boils at 100 °C, H₂S is a gas.",
+   "- Boiling point: vapour pressure = external pressure.",
+   "| Solid | Example | Conducts?",
+   "| Ionic | NaCl | only molten or dissolved",
+   "| Covalent network | diamond, SiO₂ | no (graphite yes)",
+   "| Molecular | ice, I₂ | no",
+   "| Metallic | Cu | yes, as a solid",
+   "! Ice is less dense than water because hydrogen bonds hold its molecules in an open lattice."
+  ]
+ },
+ {
+  "id": "chemistry-m04",
+  "section": "chemistry",
+  "title": "Atomic particles and quantum numbers",
+  "lines": [
+   "| Particle | Relative mass | Charge | Found through",
+   "| Electron | 1/1836 | −1 | cathode rays (J. J. Thomson)",
+   "| Proton | 1 | +1 | positive rays (Goldstein)",
+   "| Neutron | 1 | 0 | Chadwick (1932)",
+   "- n shell; l = 0 to n − 1 (s, p, d, f); m = −l to +l; s = ±½.",
+   "- Shell holds 2n²; subshells s 2, p 6, d 10, f 14.",
+   "- Orbitals per subshell = 2l + 1.",
+   "! There is no 1p or 2d orbital."
+  ]
+ },
+ {
+  "id": "chemistry-m05",
+  "section": "chemistry",
+  "title": "Filling orbitals",
+  "lines": [
+   "- Order (n + l rule): 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s.",
+   "- Pauli: at most 2 electrons per orbital, opposite spins.",
+   "- Hund: fill degenerate orbitals singly, spins parallel, before pairing.",
+   "- Exceptions: Cr [Ar] 3d⁵ 4s¹, Cu [Ar] 3d¹⁰ 4s¹.",
+   "- Ions lose 4s before 3d: Fe²⁺ = [Ar] 3d⁶.",
+   "! N (2p³) has 3 unpaired electrons, O (2p⁴) has 2."
+  ]
+ },
+ {
+  "id": "chemistry-m06",
+  "section": "chemistry",
+  "title": "VSEPR shapes",
+  "lines": [
+   "| Bond pairs, lone pairs | Shape | Angle | Example",
+   "| 2, 0 | linear | 180° | BeCl₂, CO₂",
+   "| 3, 0 | trigonal planar | 120° | BF₃",
+   "| 4, 0 | tetrahedral | 109.5° | CH₄",
+   "| 3, 1 | pyramidal | about 107° | NH₃",
+   "| 2, 2 | bent | 104.5° | H₂O",
+   "| 5, 0 | trigonal bipyramidal | 120°, 90° | PCl₅",
+   "| 6, 0 | octahedral | 90° | SF₆",
+   "! Repulsion: lone-lone > lone-bond > bond-bond, so CH₄ > NH₃ > H₂O in bond angle."
+  ]
+ },
+ {
+  "id": "chemistry-m07",
+  "section": "chemistry",
+  "title": "Hybridisation and bond order",
+  "lines": [
+   "| Hybrid | Shape | s-character | Example",
+   "| sp | linear | 50 % | C₂H₂",
+   "| sp² | trigonal planar | 33 % | C₂H₄, BF₃",
+   "| sp³ | tetrahedral | 25 % | CH₄",
+   "- Single = σ; double = σ + π; triple = σ + 2π. Ethene 5σ 1π; ethyne 3σ 2π.",
+   "- Bond order = (bonding − antibonding electrons) ÷ 2: N₂ 3, O₂ 2, He₂ 0.",
+   "- O₂ is paramagnetic (2 unpaired electrons), explained only by MO theory.",
+   "! Symmetrical CO₂, BF₃ and CCl₄ have zero dipole moment despite polar bonds."
+  ]
+ },
+ {
+  "id": "chemistry-m08",
+  "section": "chemistry",
+  "title": "Thermochemistry",
+  "lines": [
+   "- Exothermic ΔH < 0; endothermic ΔH > 0. Standard: 298 K, 1 atm.",
+   "| Enthalpy of | Note",
+   "| formation | zero for an element in its standard state",
+   "| combustion | always negative",
+   "| neutralisation | about −57 kJ/mol (strong acid + strong base)",
+   "| atomisation | always positive",
+   "- Hess: ΔH is the same by any route; ΔH = ΣΔH(f, products) − ΣΔH(f, reactants).",
+   "- Reverse an equation: change the sign of ΔH.",
+   "- ΔG = ΔH − TΔS; spontaneous when ΔG < 0."
+  ]
+ },
+ {
+  "id": "chemistry-m09",
+  "section": "chemistry",
+  "title": "Equilibrium and Le Chatelier",
+  "lines": [
+   "- Kc = [products]^coefficients ÷ [reactants]^coefficients; leave out pure solids and liquids.",
+   "- Kp = Kc(RT)^Δn (Δn = change in gas moles).",
+   "| Change | Shift | K changes?",
+   "| add reactant | forward | no",
+   "| raise pressure | to fewer gas moles | no",
+   "| raise temperature | endothermic direction | yes",
+   "| add catalyst | none | no",
+   "- Q < K: goes forward; Q > K: goes backward.",
+   "! Reversed equation: 1/K. Equation doubled: K²."
+  ]
+ },
+ {
+  "id": "chemistry-m10",
+  "section": "chemistry",
+  "title": "Acids, bases and pH",
+  "lines": [
+   "| Concept | Acid | Base",
+   "| Arrhenius | gives H⁺ in water | gives OH⁻ in water",
+   "| Brønsted-Lowry | proton donor | proton acceptor",
+   "| Lewis | electron-pair acceptor | electron-pair donor",
+   "- pH = −log[H⁺]; pH + pOH = 14 at 25 °C; Kw = 1.0 × 10⁻¹⁴.",
+   "- Buffer pH = pKa + log([salt]/[acid]).",
+   "- NH₄Cl solution is acidic; CH₃COONa is basic; NaCl is neutral.",
+   "- Indicators: methyl orange for strong acid + weak base; phenolphthalein for weak acid + strong base.",
+   "! Diluting a strong acid tenfold raises pH by 1, but never above 7."
+  ]
+ },
+ {
+  "id": "chemistry-m11",
+  "section": "chemistry",
+  "title": "Reaction kinetics",
+  "lines": [
+   "- Rate = k[A]ˣ[B]ʸ; order = x + y, found by experiment.",
+   "| Order | Unit of k | Half-life",
+   "| 0 | mol dm⁻³ s⁻¹ | ∝ [A]₀",
+   "| 1 | s⁻¹ | 0.693/k, constant",
+   "| 2 | dm³ mol⁻¹ s⁻¹ | ∝ 1/[A]₀",
+   "- Arrhenius k = Ae^(−Ea/RT); a 10 K rise roughly doubles the rate near room temperature.",
+   "- The slowest step is rate-determining.",
+   "! A catalyst lowers Ea for both directions; ΔH and K do not change."
+  ]
+ },
+ {
+  "id": "chemistry-m12",
+  "section": "chemistry",
+  "title": "Oxidation numbers: OIL RIG",
+  "lines": [
+   "Mnemonic \"OIL RIG\": Oxidation Is Loss of electrons, Reduction Is Gain.",
+   "- Elements 0; F always −1; sum = charge on the species.",
+   "- O −2 (peroxides −1, OF₂ +2); H +1 (metal hydrides −1).",
+   "- Mn +7 in KMnO₄; Cr +6 in K₂Cr₂O₇; S +6 in H₂SO₄.",
+   "- The oxidising agent is reduced; the reducing agent is oxidised.",
+   "! Disproportionation: Cl₂ + cold NaOH gives Cl⁻ (−1) and OCl⁻ (+1)."
+  ]
+ },
+ {
+  "id": "chemistry-m13",
+  "section": "chemistry",
+  "title": "Cells and electrolysis",
+  "lines": [
+   "|  | Galvanic cell | Electrolytic cell",
+   "| Energy | chemical to electrical | electrical to chemical",
+   "| Anode (oxidation) | negative | positive",
+   "| Cathode (reduction) | positive | negative",
+   "- E°(cell) = E°(cathode) − E°(anode); Daniell cell 1.10 V.",
+   "- 1 F = 96,500 C per mole of electrons.",
+   "- 1 F deposits 108 g Ag, 31.75 g Cu, 9 g Al, or 11.2 dm³ H₂ at STP.",
+   "! Metals with more negative E° are stronger reducing agents and displace H₂ from acids."
+  ]
+ },
+ {
+  "id": "chemistry-m14",
+  "section": "chemistry",
+  "title": "Solutions and colligative properties",
+  "lines": [
+   "- Molarity: mol per dm³ of solution. Molality: mol per kg of solvent.",
+   "- Mole fraction: moles of component ÷ total moles.",
+   "- Raoult: vapour pressure ∝ mole fraction of the solvent.",
+   "- ΔT(b) = Kb m (water 0.52); ΔT(f) = Kf m (water 1.86 K kg mol⁻¹).",
+   "- Osmotic pressure π = CRT.",
+   "- Electrolytes: multiply by particles per formula (NaCl 2, CaCl₂ 3).",
+   "! Molality does not change with temperature; molarity does."
+  ]
+ },
+ {
+  "id": "chemistry-m15",
+  "section": "chemistry",
+  "title": "Periodic trends",
+  "lines": [
+   "| Property | Across a period | Down a group",
+   "| Atomic radius | decreases | increases",
+   "| Ionisation energy | increases | decreases",
+   "| Electronegativity | increases | decreases",
+   "| Metallic character | decreases | increases",
+   "- IE exceptions: Be > B, Mg > Al; N > O, P > S.",
+   "- Electron affinity: Cl > F.",
+   "- Isoelectronic: O²⁻ > F⁻ > Na⁺ > Mg²⁺ > Al³⁺.",
+   "- Period 3 oxides: basic (Na, Mg), amphoteric (Al), acidic (Si to Cl).",
+   "! Electronegativity: F > O > N ≈ Cl > C > H."
+  ]
+ },
+ {
+  "id": "chemistry-m16",
+  "section": "chemistry",
+  "title": "Groups 1 and 2",
+  "lines": [
+   "- Reactivity rises down both groups.",
+   "| Element | Flame colour",
+   "| Lithium | crimson",
+   "| Sodium | golden yellow",
+   "| Potassium | lilac",
+   "| Calcium | brick red",
+   "| Strontium | crimson red",
+   "| Barium | apple green",
+   "- Group 2 down: hydroxides more soluble, sulphates less soluble (BaSO₄ insoluble).",
+   "- Diagonal pairs: Li with Mg, Be with Al.",
+   "! Plaster of Paris CaSO₄·½H₂O; gypsum CaSO₄·2H₂O."
+  ]
+ },
+ {
+  "id": "chemistry-m17",
+  "section": "chemistry",
+  "title": "Halogens and noble gases",
+  "lines": [
+   "| Halogen | State at room temperature | AgX precipitate",
+   "| F₂ | pale yellow gas | none (AgF soluble)",
+   "| Cl₂ | greenish-yellow gas | white",
+   "| Br₂ | red-brown liquid | cream",
+   "| I₂ | grey-black solid | yellow",
+   "- Oxidising power F₂ > Cl₂ > Br₂ > I₂.",
+   "- Acid strength HI > HBr > HCl > HF.",
+   "- Xenon forms XeF₂ (linear), XeF₄ (square planar), XeF₆.",
+   "! The strongest X–X bond is Cl–Cl, not F–F."
+  ]
+ },
+ {
+  "id": "chemistry-m18",
+  "section": "chemistry",
+  "title": "Transition elements",
+  "lines": [
+   "- Variable oxidation states, coloured ions, paramagnetism, complexes, catalysis.",
+   "- Spin-only moment μ = √(n(n + 2)) BM.",
+   "| Ion | d electrons | Unpaired | μ (BM)",
+   "| Sc³⁺, Zn²⁺ | d⁰, d¹⁰ | 0 | 0 (colourless)",
+   "| Cu²⁺ | d⁹ | 1 | 1.73",
+   "| Fe²⁺ | d⁶ | 4 | 4.90",
+   "| Mn²⁺, Fe³⁺ | d⁵ | 5 | 5.92",
+   "- MnO₄⁻ (purple) → Mn²⁺ gains 5 e⁻; Cr₂O₇²⁻ (orange) → Cr³⁺ (green) gains 6 e⁻.",
+   "! KMnO₄ titrations need no indicator."
+  ]
+ },
+ {
+  "id": "chemistry-m19",
+  "section": "chemistry",
+  "title": "Industrial processes",
+  "lines": [
+   "| Process | Product | Catalyst | Key point",
+   "| Haber | NH₃ | iron | about 450 °C, 200 atm",
+   "| Contact | H₂SO₄ | V₂O₅ | about 450 °C, 1-2 atm",
+   "| Ostwald | HNO₃ | Pt-Rh gauze | NH₃ oxidised to NO",
+   "| Solvay | Na₂CO₃ | none | NaCl, NH₃, CO₂, limestone",
+   "| Hydrogenation | vanaspati ghee | nickel | oil + H₂",
+   "- Urea CO(NH₂)₂: 46.7 % N; ammonium nitrate 35 %; ammonium sulphate 21.2 %.",
+   "! SO₃ is absorbed in 98 % H₂SO₄ (oleum), not in water."
+  ]
+ },
+ {
+  "id": "chemistry-m20",
+  "section": "chemistry",
+  "title": "Functional groups and names",
+  "lines": [
+   "| Class | Group | Ending | Example",
+   "| Alcohol | –OH | -ol | ethanol",
+   "| Aldehyde | –CHO | -al | ethanal",
+   "| Ketone | C=O | -one | propanone",
+   "| Carboxylic acid | –COOH | -oic acid | ethanoic acid",
+   "| Ester | –COOR | -oate | ethyl ethanoate",
+   "| Amine | –NH₂ | -amine | ethylamine",
+   "| Ether | R–O–R | alkoxy- | methoxymethane",
+   "- Alkanes CₙH₂ₙ₊₂, alkenes CₙH₂ₙ, alkynes CₙH₂ₙ₋₂.",
+   "! Isomer counts: C₄H₁₀ 2, C₅H₁₂ 3, C₄H₁₀O 4 alcohols + 3 ethers."
+  ]
+ },
+ {
+  "id": "chemistry-m21",
+  "section": "chemistry",
+  "title": "Organic reaction types",
+  "lines": [
+   "| Compound | Typical reaction",
+   "| Alkane | free-radical substitution",
+   "| Alkene, alkyne | electrophilic addition",
+   "| Benzene | electrophilic substitution",
+   "| Alkyl halide | nucleophilic substitution, elimination",
+   "| Aldehyde, ketone | nucleophilic addition",
+   "- Markovnikov: H adds to the carbon with more H.",
+   "- Aqueous KOH substitutes; alcoholic KOH eliminates.",
+   "- Carbocation stability: 3° > 2° > 1°.",
+   "! Ortho-para directors: –OH, –NH₂, –CH₃, halogens. Meta: –NO₂, –CHO, –COOH."
+  ]
+ },
+ {
+  "id": "chemistry-m22",
+  "section": "chemistry",
+  "title": "Tests for organic compounds",
+  "lines": [
+   "| Test | Positive for | Observation",
+   "| Bromine water | C=C, phenol | decolourised (white ppt with phenol)",
+   "| Baeyer's (cold KMnO₄) | C=C | purple colour lost",
+   "| Tollens' | aldehydes | silver mirror",
+   "| Fehling's | aliphatic aldehydes | red precipitate",
+   "| 2,4-DNPH | aldehydes, ketones | orange precipitate",
+   "| Iodoform | CH₃CO– or CH₃CH(OH)– | yellow precipitate",
+   "| NaHCO₃ | carboxylic acids | CO₂ fizz",
+   "| Neutral FeCl₃ | phenol | violet colour",
+   "! Lucas test: 3° alcohol cloudy at once, 2° in minutes, 1° not at room temperature."
+  ]
+ },
+ {
+  "id": "chemistry-m23",
+  "section": "chemistry",
+  "title": "Polymers",
+  "lines": [
+   "| Polymer | Monomer | Type",
+   "| Polythene | ethene | addition",
+   "| PVC | chloroethene | addition",
+   "| Teflon | tetrafluoroethene | addition",
+   "| Polystyrene | phenylethene | addition",
+   "| Natural rubber | isoprene | addition",
+   "| Nylon-6,6 | hexane-1,6-diamine + hexanedioic acid | condensation",
+   "| Terylene | ethane-1,2-diol + benzene-1,4-dicarboxylic acid | condensation",
+   "! Condensation polymers lose water at each link; addition polymers lose nothing."
+  ]
+ },
+ {
+  "id": "chemistry-m24",
+  "section": "chemistry",
+  "title": "Biomolecules",
+  "lines": [
+   "- Glucose: aldohexose; fructose: ketohexose; both C₆H₁₂O₆.",
+   "- Sucrose = glucose + fructose, non-reducing; maltose and lactose reduce Fehling's.",
+   "- Starch and cellulose: polymers of glucose.",
+   "- Proteins: amino acids joined by peptide bonds –CO–NH–; n amino acids, n − 1 bonds.",
+   "- Fats: triglycerides; alkaline hydrolysis is saponification (soap).",
+   "- DNA: A–T and G–C pairs; RNA uses uracil instead of thymine.",
+   "- Enzymes are proteins; heat denatures them.",
+   "! Glycine is the only common amino acid without a chiral carbon."
+  ]
+ }
+]

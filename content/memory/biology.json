@@ -1,0 +1,406 @@
+[
+ {
+  "id": "biology-m01",
+  "section": "biology",
+  "title": "Prokaryote vs eukaryote",
+  "lines": [
+   "| Feature | Prokaryote | Eukaryote",
+   "| Nucleus | none; DNA in nucleoid | membrane-bound nucleus",
+   "| DNA | circular, no histones; plasmids | linear, with histones",
+   "| Ribosomes | 70S | 80S in cytoplasm",
+   "| Wall | peptidoglycan | plants cellulose; fungi chitin; animals none",
+   "| Organelles | no mitochondria, ER, Golgi | present",
+   "| Division | binary fission | mitosis and meiosis",
+   "! Mitochondria and chloroplasts have 70S ribosomes and circular DNA, like bacteria."
+  ]
+ },
+ {
+  "id": "biology-m02",
+  "section": "biology",
+  "title": "Organelles and their jobs",
+  "lines": [
+   "| Organelle | Job",
+   "| Nucleolus | makes rRNA; assembles ribosomes",
+   "| Rough ER | proteins for export",
+   "| Smooth ER | lipids and steroids; detox in liver",
+   "| Golgi | modifies, packages, secretes; makes lysosomes",
+   "| Lysosome | digestive enzymes; autophagy",
+   "| Mitochondrion | aerobic respiration (Krebs in matrix, ETC on cristae)",
+   "| Chloroplast | photosynthesis (light stage in grana, Calvin cycle in stroma)",
+   "| Centriole | spindle in animal cells",
+   "Secretory route: RER → vesicle → Golgi → secretory vesicle → cell membrane."
+  ]
+ },
+ {
+  "id": "biology-m03",
+  "section": "biology",
+  "title": "Carbohydrates at a glance",
+  "lines": [
+   "| Sugar | Made of | Note",
+   "| Maltose | glucose + glucose | from starch digestion",
+   "| Sucrose | glucose + fructose | non-reducing; moves in phloem",
+   "| Lactose | glucose + galactose | milk sugar",
+   "| Starch | α-glucose | plant store; iodine → blue-black",
+   "| Glycogen | α-glucose, highly branched | animal store: liver and muscle",
+   "| Cellulose | β-glucose, unbranched | plant cell wall",
+   "| Chitin | modified glucose (with nitrogen) | insect skeleton, fungal wall",
+   "! Glucose and fructose are both C₆H₁₂O₆: isomers. Humans cannot digest cellulose."
+  ]
+ },
+ {
+  "id": "biology-m04",
+  "section": "biology",
+  "title": "Four levels of protein structure",
+  "lines": [
+   "| Level | What it is | Held by",
+   "| Primary | amino acid sequence | peptide bonds",
+   "| Secondary | α-helix or β-pleated sheet | hydrogen bonds",
+   "| Tertiary | 3-D folding of one chain | disulphide, ionic, hydrogen bonds, hydrophobic forces",
+   "| Quaternary | two or more chains | same as tertiary; e.g. haemoglobin 2α + 2β",
+   "- n amino acids in one chain → n − 1 peptide bonds, n − 1 water molecules lost.",
+   "! Denaturing (heat, wrong pH) destroys the 3-D shape but not the primary sequence."
+  ]
+ },
+ {
+  "id": "biology-m05",
+  "section": "biology",
+  "title": "DNA numbers",
+  "lines": [
+   "- Watson and Crick, 1953 (X-ray data from Franklin and Wilkins).",
+   "- A = T (2 hydrogen bonds); G ≡ C (3 hydrogen bonds).",
+   "- Chargaff: A + G = T + C = 50 %.",
+   "- Strands antiparallel; 10 base pairs per turn; 3.4 nm per turn.",
+   "- Replication is semi-conservative (Meselson and Stahl).",
+   "> A = 20 % → T = 20 %, G = C = 30 %.",
+   "! RNA has ribose and uracil; Chargaff's rule does not apply to single-stranded RNA."
+  ]
+ },
+ {
+  "id": "biology-m06",
+  "section": "biology",
+  "title": "Enzymes: how they work",
+  "lines": [
+   "- Biological catalysts, mostly proteins; lower activation energy; not used up.",
+   "- Lock and key: Fischer. Induced fit: Koshland.",
+   "- Rate rises with temperature to an optimum (about 37 °C in humans), then falls as the enzyme denatures.",
+   "- More substrate: rate levels off when all active sites are full.",
+   "| Cofactor | Nature | Example",
+   "| Prosthetic group | organic, tightly bound | haem",
+   "| Coenzyme | organic, loosely bound | NAD⁺, FAD",
+   "| Activator | metal ion | Mg²⁺, Zn²⁺",
+   "Optimum pH: pepsin about 2, salivary amylase 6.8, pancreatic lipase about 9."
+  ]
+ },
+ {
+  "id": "biology-m07",
+  "section": "biology",
+  "title": "Enzyme inhibitors",
+  "lines": [
+   "| Type | Binds to | More substrate helps?",
+   "| Competitive | active site; looks like substrate | yes",
+   "| Non-competitive | another site; changes shape | no",
+   "| Irreversible | enzyme, by strong bonds | no; enzyme lost",
+   "Feedback inhibition: the end product switches off the first enzyme of its own pathway.",
+   "! Strong inhibition at low substrate that vanishes at high substrate = competitive."
+  ]
+ },
+ {
+  "id": "biology-m08",
+  "section": "biology",
+  "title": "Respiration: where and how much",
+  "lines": [
+   "| Stage | Site | Per glucose",
+   "| Glycolysis | cytoplasm | 2 pyruvate, net 2 ATP, 2 NADH",
+   "| Link reaction | matrix | 2 acetyl CoA, 2 CO₂, 2 NADH",
+   "| Krebs cycle (2 turns) | matrix | 4 CO₂, 6 NADH, 2 FADH₂, 2 ATP",
+   "| ETC | inner membrane (cristae) | most ATP; O₂ + H⁺ → H₂O",
+   "- Aerobic total: about 36-38 ATP per glucose.",
+   "- No O₂: muscle → lactic acid; yeast → ethanol + CO₂; net 2 ATP.",
+   "! O₂ is the final electron acceptor. Cyanide blocks the chain."
+  ]
+ },
+ {
+  "id": "biology-m09",
+  "section": "biology",
+  "title": "Photosynthesis in two stages",
+  "lines": [
+   "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (light, chlorophyll)",
+   "| Stage | Site | In | Out",
+   "| Light-dependent | thylakoids (grana) | light, H₂O, ADP, NADP⁺ | O₂, ATP, NADPH",
+   "| Calvin cycle | stroma | CO₂, ATP, NADPH | sugar (via PGAL)",
+   "- Rubisco fixes CO₂ onto RuBP (5C) → 2 PGA (3C).",
+   "- Chlorophyll absorbs red and blue light best; green is reflected.",
+   "! The O₂ released comes from water (photolysis), not from CO₂."
+  ]
+ },
+ {
+  "id": "biology-m10",
+  "section": "biology",
+  "title": "Classification and the kingdoms",
+  "lines": [
+   "Ranks, largest to smallest: kingdom, phylum, class, order, family, genus, species.",
+   "Mnemonic: King Philip Came Over For Good Soup (Kingdom, Phylum, Class, Order, Family, Genus, Species).",
+   "- Binomial name (Linnaeus): Genus capital, species small, in italics: Homo sapiens.",
+   "| Kingdom (Whittaker, 1969) | Examples",
+   "| Monera | bacteria, cyanobacteria",
+   "| Protista | Amoeba, Paramecium, Plasmodium, algae",
+   "| Fungi | yeast, Penicillium, mushroom",
+   "| Plantae | moss, fern, pine, mango",
+   "| Animalia | sponge to mammals",
+   "! Viruses are in no kingdom: acellular, DNA or RNA, reproduce only in a host cell."
+  ]
+ },
+ {
+  "id": "biology-m11",
+  "section": "biology",
+  "title": "Plant groups and monocot vs dicot",
+  "lines": [
+   "| Group | Vascular? | Seeds? | Example",
+   "| Bryophytes | no | no | moss",
+   "| Pteridophytes | yes | no | fern",
+   "| Gymnosperms | yes | naked | pine",
+   "| Angiosperms | yes | in fruit | wheat, mango",
+   "| Feature | Monocot | Dicot",
+   "| Cotyledons | one | two",
+   "| Veins | parallel | net",
+   "| Flower parts | threes | fours or fives",
+   "| Roots | fibrous | tap root",
+   "! Mosses: gametophyte dominant and need water for fertilisation. Ferns onwards: sporophyte dominant."
+  ]
+ },
+ {
+  "id": "biology-m12",
+  "section": "biology",
+  "title": "Animal phyla with examples",
+  "lines": [
+   "| Phylum | Hallmark | Example",
+   "| Porifera | pores | sponge",
+   "| Cnidaria | stinging cells | Hydra, jellyfish",
+   "| Platyhelminthes | flatworms | tapeworm, liver fluke",
+   "| Nematoda | roundworms | Ascaris",
+   "| Annelida | segmented worms | earthworm, leech",
+   "| Arthropoda | jointed legs, chitin | insects, spiders, crabs",
+   "| Mollusca | soft body, shell | snail, octopus",
+   "| Echinodermata | spiny skin, tube feet | starfish",
+   "| Chordata | notochord | fish to mammals",
+   "Heart chambers: fish 2, amphibians 3, reptiles 3 (crocodile 4), birds 4, mammals 4."
+  ]
+ },
+ {
+  "id": "biology-m13",
+  "section": "biology",
+  "title": "Ecology essentials",
+  "lines": [
+   "- Producers → primary → secondary → tertiary consumers; decomposers recycle.",
+   "- 10 % rule: 10,000 kJ in producers → 1,000 → 100 → 10 kJ.",
+   "| Interaction | Effect | Example",
+   "| Mutualism | +/+ | lichen; Rhizobium + legume",
+   "| Commensalism | +/0 | orchid on a tree",
+   "| Parasitism | +/− | tapeworm in a human",
+   "| Predation | +/− (prey dies) | hawk and sparrow",
+   "- Nitrogen: fixation (Rhizobium), nitrification (Nitrosomonas then Nitrobacter), denitrification (back to N₂).",
+   "- Acid rain: SO₂ and NOₓ. Ozone damage: CFCs. Greenhouse: CO₂, methane."
+  ]
+ },
+ {
+  "id": "biology-m14",
+  "section": "biology",
+  "title": "Digestive enzymes",
+  "lines": [
+   "| Enzyme | Made by | Acts on → gives",
+   "| Salivary amylase | salivary glands | starch → maltose",
+   "| Pepsin | stomach (as pepsinogen) | protein → polypeptides",
+   "| Trypsin | pancreas (as trypsinogen) | protein → peptides",
+   "| Pancreatic lipase | pancreas | fat → fatty acids + glycerol",
+   "| Maltase, sucrase, lactase | small intestine wall | disaccharides → monosaccharides",
+   "| Peptidases | small intestine wall | peptides → amino acids",
+   "! HCl activates pepsinogen; enterokinase activates trypsinogen. Bile has no enzyme: it emulsifies fat.",
+   "- Gastrin (stomach); secretin and cholecystokinin (duodenum)."
+  ]
+ },
+ {
+  "id": "biology-m15",
+  "section": "biology",
+  "title": "Heart and vessels",
+  "lines": [
+   "- Right side: right atrium → tricuspid → right ventricle → pulmonary artery.",
+   "- Left side: pulmonary veins → left atrium → bicuspid (mitral) → left ventricle → aorta.",
+   "- Impulse: SA node → AV node → bundle of His → Purkinje fibres.",
+   "- Lubb = AV valves close; dub = semilunar valves close.",
+   "- At 75 beats/min: cycle 0.8 s = atrial systole 0.1 + ventricular systole 0.3 + diastole 0.4.",
+   "| Vessel | Wall | Valves",
+   "| Artery | thick, elastic | no",
+   "| Vein | thin | yes",
+   "| Capillary | one cell thick | no",
+   "! Pulmonary artery carries deoxygenated blood; pulmonary veins carry oxygenated blood."
+  ]
+ },
+ {
+  "id": "biology-m16",
+  "section": "biology",
+  "title": "Breathing, gases and lung volumes",
+  "lines": [
+   "- Breathing in: diaphragm contracts and flattens; external intercostals lift ribs.",
+   "- O₂: about 97 % as oxyhaemoglobin. CO₂: about 70 % as bicarbonate.",
+   "- CO binds haemoglobin about 200 times more strongly than O₂.",
+   "| Volume | Typical adult",
+   "| Tidal volume | 500 mL",
+   "| Inspiratory reserve | 3,000 mL",
+   "| Expiratory reserve | 1,100 mL",
+   "| Residual volume | 1,200 mL",
+   "- Vital capacity = TV + IRV + ERV. Total lung capacity = VC + RV.",
+   "! Residual volume is not part of vital capacity. Breathing centre: medulla, driven mainly by CO₂."
+  ]
+ },
+ {
+  "id": "biology-m17",
+  "section": "biology",
+  "title": "Down the nephron",
+  "lines": [
+   "- Glomerulus → Bowman's capsule: ultrafiltration (no cells, no plasma proteins).",
+   "- Proximal tubule: reabsorbs all glucose and amino acids, most water and salts.",
+   "- Loop of Henle: concentrates the medulla so water can be drawn out.",
+   "- Distal tubule: aldosterone → more Na⁺ reabsorbed.",
+   "- Collecting duct: ADH → more water reabsorbed, less urine.",
+   "- Kidney → ureter → bladder → urethra.",
+   "! Urea is made in the liver; the kidney only removes it. Glucose in urine suggests diabetes mellitus; protein suggests glomerular damage."
+  ]
+ },
+ {
+  "id": "biology-m18",
+  "section": "biology",
+  "title": "Nerves and the brain",
+  "lines": [
+   "- Resting potential about −70 mV. Depolarisation: Na⁺ in. Repolarisation: K⁺ out.",
+   "- All-or-none; myelinated fibres conduct fastest (node to node).",
+   "- Synapse: acetylcholine crosses the gap; one-way transmission.",
+   "- Reflex arc: receptor → sensory → relay → motor neuron → effector.",
+   "| Part | Job",
+   "| Cerebrum | thought, memory, voluntary action",
+   "| Cerebellum | balance, coordination",
+   "| Medulla | breathing, heart rate",
+   "| Hypothalamus | temperature, thirst; controls pituitary",
+   "! Myopia: image in front of retina, concave lens. Hypermetropia: behind retina, convex lens."
+  ]
+ },
+ {
+  "id": "biology-m19",
+  "section": "biology",
+  "title": "Hormones to know",
+  "lines": [
+   "| Gland | Hormone | Job",
+   "| Anterior pituitary | GH, TSH, FSH, LH | growth; controls other glands",
+   "| Posterior pituitary | ADH, oxytocin | water reabsorption; labour",
+   "| Thyroid | thyroxine | metabolic rate (needs iodine)",
+   "| Pancreas | insulin / glucagon | lowers / raises blood glucose",
+   "| Adrenal medulla | adrenaline | fight or flight",
+   "| Testes | testosterone | male characters",
+   "| Ovaries | oestrogen, progesterone | female characters; uterus lining",
+   "! Too little iodine → goitre. Too little insulin → diabetes mellitus. Too little ADH → diabetes insipidus."
+  ]
+ },
+ {
+  "id": "biology-m20",
+  "section": "biology",
+  "title": "Immunity",
+  "lines": [
+   "Antibody classes: GAMED (IgG, IgA, IgM, IgE, IgD).",
+   "| Class | Key fact",
+   "| IgG | most abundant; crosses the placenta",
+   "| IgA | in milk, saliva, tears",
+   "| IgM | first made; largest (pentamer)",
+   "| IgE | allergy",
+   "| IgD | B-cell surface receptor",
+   "- B cells → plasma cells → antibodies (humoral). T cells mature in the thymus (cell-mediated).",
+   "| Immunity | Natural | Artificial",
+   "| Active | after infection | vaccination",
+   "| Passive | mother's milk, placenta | injected antibodies",
+   "! HIV destroys helper T cells, so both arms of immunity fail."
+  ]
+ },
+ {
+  "id": "biology-m21",
+  "section": "biology",
+  "title": "Reproduction",
+  "lines": [
+   "Sperm path, SEVEN UP: Seminiferous tubules, Epididymis, Vas deferens, Ejaculatory duct, (Nothing), Urethra, Penis.",
+   "| Days (28-day cycle) | Event | Hormones",
+   "| 1-5 | menstruation | oestrogen and progesterone low",
+   "| 6-13 | follicle grows; lining rebuilds | FSH → oestrogen rises",
+   "| about 14 | ovulation | LH surge",
+   "| 15-28 | corpus luteum; lining ready | progesterone high",
+   "- Fertilisation happens in the oviduct (Fallopian tube).",
+   "- 1 primary spermatocyte → 4 sperm; 1 primary oocyte → 1 egg + polar bodies.",
+   "! Gametes have 23 chromosomes; body cells 46."
+  ]
+ },
+ {
+  "id": "biology-m22",
+  "section": "biology",
+  "title": "Mendel's ratios and gametes",
+  "lines": [
+   "| Cross | Phenotypes | Genotypes",
+   "| Tt × Tt | 3 : 1 | 1 : 2 : 1",
+   "| Tt × tt | 1 : 1 | 1 : 1",
+   "| RrYy × RrYy | 9 : 3 : 3 : 1 | 9 kinds",
+   "| RrYy × rryy | 1 : 1 : 1 : 1 | 1 : 1 : 1 : 1",
+   "| Incomplete dominance F₂ | 1 : 2 : 1 | 1 : 2 : 1",
+   "- Gamete types = 2ⁿ (n = heterozygous pairs): AaBbCc → 8.",
+   "- Product rule: chance of rryy from RrYy × RrYy = ¼ × ¼ = 1/16.",
+   "! Of the tall F₂ plants from Tt × Tt, 2/3 are heterozygous."
+  ]
+ },
+ {
+  "id": "biology-m23",
+  "section": "biology",
+  "title": "Sex linkage, blood groups and syndromes",
+  "lines": [
+   "- X-linked recessive (haemophilia, colour blindness): more common in males.",
+   "- Father never passes an X-linked allele to his son.",
+   "- Carrier mother × normal father: ½ sons affected, ½ daughters carriers.",
+   "| Group | Genotypes",
+   "| A | IA IA, IA i",
+   "| B | IB IB, IB i",
+   "| AB | IA IB (codominance)",
+   "| O | i i",
+   "| Syndrome | Chromosomes",
+   "| Down | trisomy 21 (47)",
+   "| Klinefelter | XXY male (47)",
+   "| Turner | XO female (45)"
+  ]
+ },
+ {
+  "id": "biology-m24",
+  "section": "biology",
+  "title": "Genetic code and biotechnology",
+  "lines": [
+   "- 64 codons, 20 amino acids: triplet, degenerate, nearly universal.",
+   "- Start: AUG. Stop: UAA, UAG, UGA.",
+   "- Transcription: DNA → mRNA (nucleus). Translation: mRNA → protein (ribosome).",
+   "| Tool | Job",
+   "| Restriction enzyme | cuts DNA at a set sequence",
+   "| DNA ligase | joins DNA pieces",
+   "| Plasmid | vector that carries a gene into bacteria",
+   "| PCR (Taq polymerase) | copies DNA: 2ⁿ copies after n cycles",
+   "| Gel electrophoresis | sorts DNA by size; DNA fingerprinting",
+   "- Products: human insulin from E. coli; Bt cotton; Dolly the sheep (1996, cloned from an adult cell)."
+  ]
+ },
+ {
+  "id": "biology-m25",
+  "section": "biology",
+  "title": "Evolution",
+  "lines": [
+   "| Point | Lamarck | Darwin",
+   "| Idea | use and disuse; acquired characters inherited | natural selection of inherited variation",
+   "| Book | Philosophie Zoologique (1809) | On the Origin of Species (1859)",
+   "| Status | rejected | accepted",
+   "- Homologous organs: same structure, different job (human arm, bat wing, whale flipper).",
+   "- Analogous organs: same job, different origin (bird and insect wings).",
+   "- Vestigial: human appendix.",
+   "- Hardy-Weinberg: p + q = 1; p² + 2pq + q² = 1.",
+   "- Miller and Urey (1953): sparks in CH₄, NH₃, H₂, H₂O → amino acids.",
+   "! Herbert Spencer, not Darwin, coined \"survival of the fittest\"."
+  ]
+ }
+]

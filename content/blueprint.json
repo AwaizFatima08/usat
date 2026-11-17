@@ -1,0 +1,861 @@
+{
+ "sections": [
+  {
+   "key": "verbal",
+   "title": "Verbal Reasoning",
+   "topics": [
+    {
+     "key": "analogy",
+     "prefix": "an",
+     "title": "Analogies",
+     "test": 100,
+     "practice": 15,
+     "scope": "WORD : WORD pairs; state the relationship in the explanation."
+    },
+    {
+     "key": "synonym",
+     "prefix": "sy",
+     "title": "Synonyms",
+     "test": 40,
+     "practice": 15,
+     "scope": "Word closest in meaning."
+    },
+    {
+     "key": "antonym",
+     "prefix": "at",
+     "title": "Antonyms",
+     "test": 40,
+     "practice": 15,
+     "scope": "Word most opposite in meaning."
+    },
+    {
+     "key": "sentence-completion",
+     "prefix": "sc",
+     "title": "Sentence Completion",
+     "test": 120,
+     "practice": 15,
+     "scope": "One or two blanks: vocabulary in context, grammar (tense, auxiliaries, prepositions) and logic of the sentence."
+    },
+    {
+     "key": "comprehension",
+     "prefix": "rc",
+     "title": "Reading Comprehension",
+     "test": 100,
+     "practice": 18,
+     "scope": "Sets: one original passage of 150-220 words with 5-6 questions (main idea, detail, inference, tone, vocabulary in context)."
+    }
+   ]
+  },
+  {
+   "key": "quant",
+   "title": "Quantitative Reasoning",
+   "topics": [
+    {
+     "key": "arithmetic",
+     "prefix": "qa",
+     "title": "Arithmetic",
+     "test": 120,
+     "practice": 15,
+     "scope": "Number system, fractions, percentages, ratio and proportion, averages, profit and loss, simple interest. No calculator."
+    },
+    {
+     "key": "algebra",
+     "prefix": "qf",
+     "title": "Algebra and Functions",
+     "test": 80,
+     "practice": 15,
+     "scope": "Simplification, exponents, factorisation, algebraic expressions, functions and their values, sequences."
+    },
+    {
+     "key": "equations",
+     "prefix": "qe",
+     "title": "Equations and Inequalities",
+     "test": 60,
+     "practice": 15,
+     "scope": "Linear and quadratic equations, simultaneous equations, inequalities, word problems that set up an equation."
+    },
+    {
+     "key": "geometry",
+     "prefix": "ge",
+     "title": "Geometry",
+     "test": 60,
+     "practice": 15,
+     "scope": "Angles, triangles, circles, area, perimeter, volume, described fully in words without figures."
+    },
+    {
+     "key": "statistics",
+     "prefix": "qs",
+     "title": "Statistics and Probability",
+     "test": 60,
+     "practice": 15,
+     "scope": "Mean, median, mode, range, reading a table (`table` field), simple probability and counting."
+    },
+    {
+     "key": "scenario",
+     "prefix": "qm",
+     "title": "Scenario-based and Mental Maths",
+     "test": 120,
+     "practice": 15,
+     "scope": "Everyday scenarios (shopping, travel, time, work, unit rates) and quick mental arithmetic, solvable without a calculator in about a minute."
+    }
+   ]
+  },
+  {
+   "key": "physics",
+   "title": "Physics",
+   "topics": [
+    {
+     "key": "mechanics",
+     "prefix": "pm",
+     "title": "Mechanics",
+     "test": 50,
+     "practice": 10,
+     "scope": "Vectors, kinematics, forces, circular motion, work, energy, power, fluids."
+    },
+    {
+     "key": "waves",
+     "prefix": "pw",
+     "title": "Oscillations, Waves and Sound",
+     "test": 30,
+     "practice": 10,
+     "scope": "SHM, waves, sound, Doppler effect."
+    },
+    {
+     "key": "heat",
+     "prefix": "ph",
+     "title": "Heat and Thermodynamics",
+     "test": 20,
+     "practice": 10,
+     "scope": "Kinetic theory, laws of thermodynamics."
+    },
+    {
+     "key": "electricity",
+     "prefix": "pe",
+     "title": "Electricity and Magnetism",
+     "test": 50,
+     "practice": 10,
+     "scope": "Electrostatics, current, magnetism, EM induction, AC."
+    },
+    {
+     "key": "optics",
+     "prefix": "po",
+     "title": "Optics",
+     "test": 20,
+     "practice": 10,
+     "scope": "Reflection, refraction, lenses, interference, diffraction."
+    },
+    {
+     "key": "modern",
+     "prefix": "pn",
+     "title": "Modern Physics",
+     "test": 30,
+     "practice": 10,
+     "scope": "Quantum ideas, atomic and nuclear physics, electronics."
+    }
+   ]
+  },
+  {
+   "key": "chemistry",
+   "title": "Chemistry",
+   "topics": [
+    {
+     "key": "basics",
+     "prefix": "cb",
+     "title": "Basic Concepts and Atomic Structure",
+     "test": 40,
+     "practice": 10,
+     "scope": "Mole, stoichiometry, states of matter, atomic structure."
+    },
+    {
+     "key": "physical",
+     "prefix": "cp",
+     "title": "Physical Chemistry",
+     "test": 50,
+     "practice": 10,
+     "scope": "Bonding, equilibrium, kinetics, thermochemistry, electrochemistry, solutions."
+    },
+    {
+     "key": "inorganic",
+     "prefix": "ci",
+     "title": "Inorganic Chemistry",
+     "test": 50,
+     "practice": 10,
+     "scope": "Periodic table, s/p/d block, industrial chemistry."
+    },
+    {
+     "key": "organic",
+     "prefix": "co",
+     "title": "Organic Chemistry",
+     "test": 60,
+     "practice": 10,
+     "scope": "Hydrocarbons, functional groups, reaction types, biomolecules, polymers."
+    }
+   ]
+  },
+  {
+   "key": "math",
+   "title": "Mathematics",
+   "topics": [
+    {
+     "key": "algebra",
+     "prefix": "ma",
+     "title": "Algebra",
+     "test": 60,
+     "practice": 10,
+     "scope": "Functions, quadratics, sequences, matrices, permutations, binomial theorem."
+    },
+    {
+     "key": "trigonometry",
+     "prefix": "mt",
+     "title": "Trigonometry",
+     "test": 40,
+     "practice": 10,
+     "scope": "Identities, equations, inverse functions."
+    },
+    {
+     "key": "calculus",
+     "prefix": "mc",
+     "title": "Calculus",
+     "test": 60,
+     "practice": 10,
+     "scope": "Limits, differentiation, integration, applications."
+    },
+    {
+     "key": "analytic-geometry",
+     "prefix": "mg",
+     "title": "Analytic Geometry and Vectors",
+     "test": 40,
+     "practice": 10,
+     "scope": "Lines, circles, conics, vectors."
+    }
+   ]
+  },
+  {
+   "key": "biology",
+   "title": "Biology",
+   "topics": [
+    {
+     "key": "cell",
+     "prefix": "bc",
+     "title": "Cell Biology and Biomolecules",
+     "test": 60,
+     "practice": 10,
+     "scope": "Cell structure, enzymes, biomolecules, bioenergetics."
+    },
+    {
+     "key": "diversity",
+     "prefix": "bd",
+     "title": "Diversity of Life",
+     "test": 70,
+     "practice": 10,
+     "scope": "Classification, kingdoms, plants, animals, ecology."
+    },
+    {
+     "key": "physiology",
+     "prefix": "bp",
+     "title": "Human Physiology",
+     "test": 90,
+     "practice": 10,
+     "scope": "Digestion, circulation, respiration, excretion, nervous and endocrine systems, immunity, reproduction."
+    },
+    {
+     "key": "genetics",
+     "prefix": "bg",
+     "title": "Genetics and Evolution",
+     "test": 60,
+     "practice": 10,
+     "scope": "Inheritance, DNA, biotechnology, evolution."
+    }
+   ]
+  },
+  {
+   "key": "computer",
+   "title": "Computer Science",
+   "topics": [
+    {
+     "key": "intro",
+     "prefix": "ic",
+     "title": "Computer Fundamentals",
+     "test": 110,
+     "practice": 15,
+     "scope": "Hardware, software, memory, number systems, data representation, operating systems."
+    },
+    {
+     "key": "networks",
+     "prefix": "iw",
+     "title": "Networks, Internet and Security",
+     "test": 50,
+     "practice": 12,
+     "scope": "Network types and devices, protocols, the internet and web, security and ethics."
+    },
+    {
+     "key": "programming",
+     "prefix": "ip",
+     "title": "Programming Fundamentals",
+     "test": 60,
+     "practice": 15,
+     "scope": "Language-neutral and C/C++ basics: variables, control flow, arrays, functions, tracing output."
+    },
+    {
+     "key": "database",
+     "prefix": "id",
+     "title": "Database Fundamentals",
+     "test": 60,
+     "practice": 15,
+     "scope": "Tables, keys, relationships, normalisation, basic SQL."
+    }
+   ]
+  },
+  {
+   "key": "stats",
+   "title": "Statistics",
+   "topics": [
+    {
+     "key": "descriptive",
+     "prefix": "sd",
+     "title": "Data and Central Tendency",
+     "test": 55,
+     "practice": 12,
+     "scope": "Data types, classification, frequency distributions, graphs described in words, mean, median, mode, weighted and geometric mean."
+    },
+    {
+     "key": "dispersion",
+     "prefix": "sp",
+     "title": "Dispersion and Index Numbers",
+     "test": 50,
+     "practice": 12,
+     "scope": "Range, quartiles, mean deviation, variance, standard deviation, coefficient of variation, skewness basics, index numbers."
+    },
+    {
+     "key": "probability",
+     "prefix": "sb",
+     "title": "Probability and Distributions",
+     "test": 55,
+     "practice": 12,
+     "scope": "Counting, probability laws, random variables, expectation, binomial, Poisson and normal distributions."
+    },
+    {
+     "key": "inference",
+     "prefix": "sr",
+     "title": "Sampling, Regression and Correlation",
+     "test": 50,
+     "practice": 12,
+     "scope": "Sampling and sampling distributions, estimation, hypothesis testing basics, simple regression and correlation, time series basics."
+    }
+   ]
+  },
+  {
+   "key": "economics",
+   "title": "Economics",
+   "topics": [
+    {
+     "key": "micro",
+     "prefix": "xm",
+     "title": "Demand, Supply and Consumer Behaviour",
+     "test": 55,
+     "practice": 12,
+     "scope": "Basic concepts, demand, supply, equilibrium, elasticity, utility, consumer surplus."
+    },
+    {
+     "key": "production",
+     "prefix": "xp",
+     "title": "Production, Costs and Markets",
+     "test": 50,
+     "practice": 12,
+     "scope": "Factors of production, laws of returns, costs, revenue, perfect competition, monopoly, other market forms, factor pricing."
+    },
+    {
+     "key": "macro",
+     "prefix": "xn",
+     "title": "National Income and Macroeconomics",
+     "test": 50,
+     "practice": 12,
+     "scope": "National income accounting, consumption and saving, investment, employment, inflation, business cycles, fiscal policy."
+    },
+    {
+     "key": "money",
+     "prefix": "xb",
+     "title": "Money, Banking and Trade",
+     "test": 55,
+     "practice": 12,
+     "scope": "Money and its functions, banks and the central bank, monetary policy, public finance and taxes, international trade, balance of payments, exchange rates."
+    }
+   ]
+  },
+  {
+   "key": "accounting",
+   "title": "Accounting",
+   "topics": [
+    {
+     "key": "basics",
+     "prefix": "ab",
+     "title": "Accounting Basics and Double Entry",
+     "test": 55,
+     "practice": 12,
+     "scope": "Concepts and conventions, accounting equation, debit and credit rules, source documents."
+    },
+    {
+     "key": "records",
+     "prefix": "aj",
+     "title": "Journal, Ledger and Trial Balance",
+     "test": 55,
+     "practice": 12,
+     "scope": "Journal entries, subsidiary books, ledger posting and balancing, cash book, trial balance."
+    },
+    {
+     "key": "final",
+     "prefix": "af",
+     "title": "Final Accounts and Adjustments",
+     "test": 50,
+     "practice": 12,
+     "scope": "Income statement, balance sheet, capital and revenue items, adjustments (accruals, prepayments, bad debts, depreciation)."
+    },
+    {
+     "key": "special",
+     "prefix": "ar",
+     "title": "Bank Reconciliation, Errors and Partnership",
+     "test": 50,
+     "practice": 12,
+     "scope": "Bank reconciliation, rectification of errors, suspense account, depreciation methods, partnership basics, bills of exchange."
+    }
+   ]
+  },
+  {
+   "key": "commerce",
+   "title": "Commerce",
+   "topics": [
+    {
+     "key": "trade",
+     "prefix": "bt",
+     "title": "Commerce and Trade",
+     "test": 55,
+     "practice": 12,
+     "scope": "Meaning and scope of commerce, home and foreign trade, wholesale and retail, documents of trade, aids to trade."
+    },
+    {
+     "key": "organisation",
+     "prefix": "bo",
+     "title": "Forms of Business Organisation",
+     "test": 55,
+     "practice": 12,
+     "scope": "Sole proprietorship, partnership, joint stock companies, cooperatives, public enterprises, company documents and shares."
+    },
+    {
+     "key": "banking",
+     "prefix": "bb",
+     "title": "Banking, Insurance and Transport",
+     "test": 50,
+     "practice": 12,
+     "scope": "Banks and their services, negotiable instruments, insurance principles and types, modes of transport, warehousing."
+    },
+    {
+     "key": "office",
+     "prefix": "bm",
+     "title": "Marketing, Office and Communication",
+     "test": 50,
+     "practice": 12,
+     "scope": "Marketing and advertising, stock exchange basics, office work and filing, business communication and correspondence."
+    }
+   ]
+  },
+  {
+   "key": "gk",
+   "title": "General Knowledge",
+   "topics": [
+    {
+     "key": "world",
+     "prefix": "gw",
+     "title": "World Affairs and History",
+     "test": 100,
+     "practice": 12,
+     "scope": "Stable facts only: organisations, treaties, world history, firsts."
+    },
+    {
+     "key": "science",
+     "prefix": "gs",
+     "title": "Everyday Science",
+     "test": 70,
+     "practice": 12,
+     "scope": "Inventions, human body, environment, space, technology."
+    },
+    {
+     "key": "geography",
+     "prefix": "gg",
+     "title": "World Geography",
+     "test": 70,
+     "practice": 12,
+     "scope": "Continents, oceans, capitals, currencies, landmarks."
+    },
+    {
+     "key": "civics",
+     "prefix": "gc",
+     "title": "Economy and Civics",
+     "test": 60,
+     "practice": 12,
+     "scope": "Basic economics, government, abbreviations, international bodies."
+    }
+   ]
+  },
+  {
+   "key": "islamic",
+   "title": "Islamiat",
+   "topics": [
+    {
+     "key": "quran",
+     "prefix": "iq",
+     "title": "Quran",
+     "test": 70,
+     "practice": 12,
+     "scope": "Revelation, compilation, surahs, stories of the prophets, teachings."
+    },
+    {
+     "key": "hadith",
+     "prefix": "ih",
+     "title": "Hadith and Sunnah",
+     "test": 40,
+     "practice": 12,
+     "scope": "Compilers, the major collections, well-known teachings."
+    },
+    {
+     "key": "beliefs",
+     "prefix": "ib",
+     "title": "Beliefs and Pillars",
+     "test": 90,
+     "practice": 12,
+     "scope": "Tawhid, prophethood, the hereafter, prayer, fasting, zakat, Hajj."
+    },
+    {
+     "key": "seerah",
+     "prefix": "is",
+     "title": "Seerah",
+     "test": 60,
+     "practice": 12,
+     "scope": "Life of the Holy Prophet (PBUH), key events and dates."
+    },
+    {
+     "key": "history",
+     "prefix": "ir",
+     "title": "Rightly Guided Caliphs and Islamic History",
+     "test": 40,
+     "practice": 12,
+     "scope": "The four caliphs, early battles, Muslim contributions."
+    }
+   ]
+  },
+  {
+   "key": "pakistan",
+   "title": "Pakistan Studies",
+   "topics": [
+    {
+     "key": "movement",
+     "prefix": "km",
+     "title": "Pakistan Movement",
+     "test": 90,
+     "practice": 12,
+     "scope": "1857 to 1947, leaders, resolutions, sessions, dates."
+    },
+    {
+     "key": "constitution",
+     "prefix": "kc",
+     "title": "Constitution and Government",
+     "test": 40,
+     "practice": 12,
+     "scope": "1956, 1962 and 1973 constitutions, structure of the state. Stable facts, no office holders."
+    },
+    {
+     "key": "geography",
+     "prefix": "kg",
+     "title": "Geography of Pakistan",
+     "test": 40,
+     "practice": 12,
+     "scope": "Provinces, rivers, mountains, passes, dams, neighbours."
+    },
+    {
+     "key": "culture",
+     "prefix": "ke",
+     "title": "Culture and Economy",
+     "test": 30,
+     "practice": 12,
+     "scope": "National symbols, languages, heritage sites, resources, industries."
+    }
+   ]
+  },
+  {
+   "key": "ethics",
+   "title": "Ethics",
+   "topics": [
+    {
+     "key": "ethics",
+     "prefix": "et",
+     "title": "Ethics (for non-Muslim candidates)",
+     "test": 150,
+     "practice": 20,
+     "scope": "Honesty, justice, duty, tolerance, citizenship, professional conduct, major world religions' shared moral teaching."
+    }
+   ]
+  }
+ ],
+ "modes": {
+  "usat": {
+   "title": "USAT",
+   "subtitle": "Undergraduate Studies Admission Test",
+   "minutes": 100,
+   "questions": 75,
+   "essay": {
+    "minutes": 40,
+    "argument": {
+     "choices": 3,
+     "marks": 15
+    },
+    "narrative": {
+     "choices": 3,
+     "marks": 10
+    }
+   },
+   "pass_percent": 50,
+   "streams": {
+    "e": {
+     "title": "USAT-E (Pre-Engineering)",
+     "sections": [
+      {
+       "section": "verbal",
+       "quota": {
+        "analogy": 5,
+        "synonym": 2,
+        "antonym": 2,
+        "sentence-completion": 6,
+        "comprehension": 5
+       }
+      },
+      {
+       "section": "quant",
+       "quota": {
+        "arithmetic": 6,
+        "algebra": 4,
+        "geometry": 3,
+        "equations": 3,
+        "statistics": 3,
+        "scenario": 6
+       }
+      },
+      {
+       "section": "physics",
+       "quota": 10
+      },
+      {
+       "section": "chemistry",
+       "quota": 10
+      },
+      {
+       "section": "math",
+       "quota": 10
+      }
+     ]
+    },
+    "m": {
+     "title": "USAT-M (Pre-Medical)",
+     "sections": [
+      {
+       "section": "verbal",
+       "quota": {
+        "analogy": 5,
+        "synonym": 2,
+        "antonym": 2,
+        "sentence-completion": 6,
+        "comprehension": 5
+       }
+      },
+      {
+       "section": "quant",
+       "quota": {
+        "arithmetic": 6,
+        "algebra": 4,
+        "geometry": 3,
+        "equations": 3,
+        "statistics": 3,
+        "scenario": 6
+       }
+      },
+      {
+       "section": "physics",
+       "quota": 8
+      },
+      {
+       "section": "chemistry",
+       "quota": 8
+      },
+      {
+       "section": "biology",
+       "quota": 14
+      }
+     ]
+    },
+    "cs": {
+     "title": "USAT-CS (Computer Science)",
+     "sections": [
+      {
+       "section": "verbal",
+       "quota": {
+        "analogy": 5,
+        "synonym": 2,
+        "antonym": 2,
+        "sentence-completion": 6,
+        "comprehension": 5
+       }
+      },
+      {
+       "section": "quant",
+       "quota": {
+        "arithmetic": 6,
+        "algebra": 4,
+        "geometry": 3,
+        "equations": 3,
+        "statistics": 3,
+        "scenario": 6
+       }
+      },
+      {
+       "section": "physics",
+       "quota": 8
+      },
+      {
+       "section": "computer",
+       "quota": 14
+      },
+      {
+       "section": "math",
+       "quota": 8
+      }
+     ]
+    },
+    "gs": {
+     "title": "USAT-GS (General Science)",
+     "sections": [
+      {
+       "section": "verbal",
+       "quota": {
+        "analogy": 5,
+        "synonym": 2,
+        "antonym": 2,
+        "sentence-completion": 6,
+        "comprehension": 5
+       }
+      },
+      {
+       "section": "quant",
+       "quota": {
+        "arithmetic": 6,
+        "algebra": 4,
+        "geometry": 3,
+        "equations": 3,
+        "statistics": 3,
+        "scenario": 6
+       }
+      },
+      {
+       "section": "math",
+       "quota": 10
+      },
+      {
+       "section": "stats",
+       "quota": 10
+      },
+      {
+       "section": "economics",
+       "quota": 10
+      }
+     ]
+    },
+    "com": {
+     "title": "USAT-COM (Commerce)",
+     "sections": [
+      {
+       "section": "verbal",
+       "quota": {
+        "analogy": 5,
+        "synonym": 2,
+        "antonym": 2,
+        "sentence-completion": 6,
+        "comprehension": 5
+       }
+      },
+      {
+       "section": "quant",
+       "quota": {
+        "arithmetic": 6,
+        "algebra": 4,
+        "geometry": 3,
+        "equations": 3,
+        "statistics": 3,
+        "scenario": 6
+       }
+      },
+      {
+       "section": "accounting",
+       "quota": 10
+      },
+      {
+       "section": "commerce",
+       "quota": 10
+      },
+      {
+       "section": "economics",
+       "quota": 10
+      }
+     ]
+    },
+    "a": {
+     "title": "USAT-A (Arts and Humanities)",
+     "sections": [
+      {
+       "section": "verbal",
+       "quota": {
+        "analogy": 5,
+        "synonym": 2,
+        "antonym": 2,
+        "sentence-completion": 6,
+        "comprehension": 5
+       }
+      },
+      {
+       "section": "quant",
+       "quota": {
+        "arithmetic": 6,
+        "algebra": 4,
+        "geometry": 3,
+        "equations": 3,
+        "statistics": 3,
+        "scenario": 6
+       }
+      },
+      {
+       "section": "islamic",
+       "quota": 10
+      },
+      {
+       "section": "pakistan",
+       "quota": 10
+      },
+      {
+       "section": "gk",
+       "quota": 10
+      }
+     ]
+    }
+   }
+  }
+ },
+ "essays": {
+  "argument": {
+   "prefix": "ea",
+   "test": 60,
+   "practice": 15
+  },
+  "narrative": {
+   "prefix": "en",
+   "test": 60,
+   "practice": 15
+  }
+ },
+ "papers": 20
+}

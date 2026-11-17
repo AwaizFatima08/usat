@@ -1,0 +1,399 @@
+[
+ {
+  "id": "physics-m01",
+  "section": "physics",
+  "title": "SI base units and prefixes",
+  "lines": [
+   "| Quantity | Unit | Symbol",
+   "| Length | metre | m",
+   "| Mass | kilogram | kg",
+   "| Time | second | s",
+   "| Electric current | ampere | A",
+   "| Temperature | kelvin | K",
+   "| Amount of substance | mole | mol",
+   "| Luminous intensity | candela | cd",
+   "Prefixes: p 10⁻¹², n 10⁻⁹, μ 10⁻⁶, m 10⁻³, c 10⁻², k 10³, M 10⁶, G 10⁹.",
+   "! km/h to m/s: divide by 3.6, so 72 km/h = 20 m/s. 1 g/cm³ = 1,000 kg/m³."
+  ]
+ },
+ {
+  "id": "physics-m02",
+  "section": "physics",
+  "title": "Derived units",
+  "lines": [
+   "| Quantity | Unit | In base units",
+   "| Force | newton N | kg m s⁻²",
+   "| Energy, work | joule J = N m | kg m² s⁻²",
+   "| Power | watt W = J/s | kg m² s⁻³",
+   "| Pressure | pascal Pa = N/m² | kg m⁻¹ s⁻²",
+   "| Charge | coulomb C = A s | A s",
+   "| Potential difference | volt V = J/C | kg m² s⁻³ A⁻¹",
+   "| Resistance | ohm Ω = V/A | kg m² s⁻³ A⁻²",
+   "| Capacitance | farad F = C/V | —",
+   "| Magnetic flux density | tesla T = N A⁻¹ m⁻¹ | kg s⁻² A⁻¹",
+   "| Magnetic flux, inductance | weber Wb = T m², henry H = Wb/A | —",
+   "! Torque is in N m but is never written in joules. The kWh is energy: 1 kWh = 3.6 × 10⁶ J."
+  ]
+ },
+ {
+  "id": "physics-m03",
+  "section": "physics",
+  "title": "Constants to know",
+  "lines": [
+   "| Constant | Value",
+   "| g at the Earth's surface | 9.8 m/s² (use 10 only if told)",
+   "| Gravitational constant G | 6.67 × 10⁻¹¹ N m² kg⁻²",
+   "| Speed of light c | 3.0 × 10⁸ m/s",
+   "| Planck's constant h | 6.63 × 10⁻³⁴ J s",
+   "| Electron charge e | 1.6 × 10⁻¹⁹ C",
+   "| Electron mass | 9.11 × 10⁻³¹ kg",
+   "| Proton mass | 1.67 × 10⁻²⁷ kg",
+   "| Avogadro's number Nₐ | 6.02 × 10²³ mol⁻¹",
+   "| Coulomb constant k | 9 × 10⁹ N m² C⁻²",
+   "| μ₀ | 4π × 10⁻⁷ T m/A",
+   "| R; Boltzmann k | 8.314 J mol⁻¹ K⁻¹; 1.38 × 10⁻²³ J/K",
+   "! 1 eV = 1.6 × 10⁻¹⁹ J. 1 u is equivalent to 931 MeV. hc ≈ 1,240 eV nm."
+  ]
+ },
+ {
+  "id": "physics-m04",
+  "section": "physics",
+  "title": "Vectors: dot and cross product",
+  "lines": [
+   "|  | Dot A·B | Cross A × B",
+   "| Result | scalar | vector at right angles to both",
+   "| Size | AB cos θ | AB sin θ",
+   "| Parallel vectors | AB (largest) | 0",
+   "| Perpendicular vectors | 0 | AB (largest)",
+   "| Order | A·B = B·A | A × B = −B × A",
+   "| Examples | work W = F·d, power P = F·v | torque τ = r × F",
+   "- Resultant of A and B at angle θ: R² = A² + B² + 2AB cos θ.",
+   "! Two equal vectors at 120° have a resultant equal to either one; at 90° it is √2 times either."
+  ]
+ },
+ {
+  "id": "physics-m05",
+  "section": "physics",
+  "title": "Equations of motion and projectiles",
+  "lines": [
+   "| Equation | Leaves out",
+   "| v = u + at | distance s",
+   "| s = ut + ½at² | final speed v",
+   "| v² = u² + 2as | time t",
+   "| s = ½(u + v)t | acceleration a",
+   "- Velocity-time graph: slope = acceleration, area = displacement.",
+   "- Projectile: time 2u sin θ/g, height u² sin²θ/2g, range u² sin 2θ/g; greatest range at 45°.",
+   "- Angles θ and 90° − θ give equal ranges (30° and 60°).",
+   "! Dropped from rest, distances in successive seconds go 1 : 3 : 5 : 7.",
+   "! At the top of the path the speed is u cos θ, not zero."
+  ]
+ },
+ {
+  "id": "physics-m06",
+  "section": "physics",
+  "title": "Momentum and collisions",
+  "lines": [
+   "- Momentum p = mv (kg m/s = N s). Newton's second law: F = Δp/Δt.",
+   "- Impulse = FΔt = change in momentum = area under a force-time graph.",
+   "- No external force: total momentum is conserved (collisions, explosions, gun recoil).",
+   "| Collision | Momentum | Kinetic energy",
+   "| Elastic | conserved | conserved",
+   "| Inelastic | conserved | partly lost",
+   "| Bodies stick together | conserved | greatest loss",
+   "- Equal masses in a head-on elastic collision exchange velocities.",
+   "! A ball bouncing back with the same speed has Δp = 2mv.",
+   "! Action and reaction act on different bodies, so they never cancel."
+  ]
+ },
+ {
+  "id": "physics-m07",
+  "section": "physics",
+  "title": "Work, energy and power",
+  "lines": [
+   "- Work W = Fd cos θ; zero when the force is at right angles to the motion.",
+   "- Kinetic energy = ½mv² = p²/2m; potential energy near the surface = mgh.",
+   "- Work-energy principle: net work = change in kinetic energy.",
+   "- Speed after falling h from rest: v = √(2gh), whatever the mass.",
+   "- Power P = W/t = Fv; 1 hp = 746 W.",
+   "| Change | Kinetic energy",
+   "| speed doubled | × 4",
+   "| momentum doubled | × 4",
+   "| mass doubled, same speed | × 2",
+   "! Efficiency = useful output ÷ input × 100 %, always below 100 %."
+  ]
+ },
+ {
+  "id": "physics-m08",
+  "section": "physics",
+  "title": "Circular motion and gravitation",
+  "lines": [
+   "- ω = 2π/T = 2πf; v = rω; 1 rev = 2π rad.",
+   "- Centripetal acceleration v²/r = rω²; force mv²/r towards the centre.",
+   "- Gravitation F = Gm₁m₂/r²; at the surface g = GM/R².",
+   "- Orbital speed √(GM/r) ≈ 7.9 km/s near the Earth; period T² ∝ r³.",
+   "- Escape speed √(2gR) ≈ 11.2 km/s, independent of the body's mass.",
+   "- Geostationary orbit: period 24 h, above the equator, about 36,000 km up.",
+   "- Apparent weight in a lift: m(g + a) accelerating up, m(g − a) accelerating down, zero in free fall.",
+   "! Centripetal force does no work, so the speed stays constant."
+  ]
+ },
+ {
+  "id": "physics-m09",
+  "section": "physics",
+  "title": "Fluids",
+  "lines": [
+   "- Pressure at depth h: P = P₀ + ρgh; gauge pressure ρgh.",
+   "- Archimedes: upthrust = weight of fluid displaced. Fraction submerged when floating = ρ(body)/ρ(fluid).",
+   "- Continuity: A₁v₁ = A₂v₂ (volume flow rate Av is constant).",
+   "- Bernoulli: P + ½ρv² + ρgh = constant; faster flow, lower pressure.",
+   "- Torricelli: speed from a hole at depth h is √(2gh).",
+   "- Stokes' law: drag = 6πηrv; terminal velocity ∝ r².",
+   "! Diameter halved: area ÷ 4, so speed × 4."
+  ]
+ },
+ {
+  "id": "physics-m10",
+  "section": "physics",
+  "title": "SHM: spring and pendulum",
+  "lines": [
+   "- SHM condition: a = −ω²x. Speed v = ω√(x₀² − x²).",
+   "- Greatest speed ωx₀ at the mean position; greatest acceleration ω²x₀ at the extremes.",
+   "|  | Spring-mass | Simple pendulum",
+   "| Period | 2π√(m/k) | 2π√(l/g)",
+   "| Depends on | m, k | l, g",
+   "| On the Moon | unchanged | longer by √6",
+   "- Total energy ½kx₀² ∝ amplitude².",
+   "- Seconds pendulum: T = 2 s, l ≈ 1 m.",
+   "! T ∝ √l: length × 4 doubles the period."
+  ]
+ },
+ {
+  "id": "physics-m11",
+  "section": "physics",
+  "title": "Stationary waves and beats",
+  "lines": [
+   "- Wave equation v = fλ; frequency does not change between media.",
+   "- String: v = √(T/μ), μ = mass per metre.",
+   "| System | Fundamental | Harmonics",
+   "| String fixed at both ends | v/2L | all",
+   "| Pipe open at both ends | v/2L | all",
+   "| Pipe closed at one end | v/4L | odd only",
+   "- Node to node = λ/2; node to next antinode = λ/4.",
+   "- Beat frequency = |f₁ − f₂|. Wax lowers a fork's frequency; filing raises it.",
+   "! First overtone: open pipe 2f, closed pipe 3f."
+  ]
+ },
+ {
+  "id": "physics-m12",
+  "section": "physics",
+  "title": "Sound and the Doppler effect",
+  "lines": [
+   "- Speed in air ≈ 332 m/s at 0 °C, rising about 0.61 m/s per °C; v ∝ √T (kelvin).",
+   "- Laplace corrected Newton's 280 m/s by using adiabatic changes: v = √(γP/ρ).",
+   "- Pressure change at constant temperature does not alter v.",
+   "- Intensity level L = 10 log(I/I₀) dB, I₀ = 10⁻¹² W/m²; × 10 intensity adds 10 dB.",
+   "| Moving | Approaching | Receding",
+   "| Source (speed u) | f′ = fv/(v − u) | f′ = fv/(v + u)",
+   "| Observer (speed u) | f′ = f(v + u)/v | f′ = f(v − u)/v",
+   "! Pitch depends on frequency, loudness on intensity, quality on overtones."
+  ]
+ },
+ {
+  "id": "physics-m13",
+  "section": "physics",
+  "title": "Kinetic theory and gas processes",
+  "lines": [
+   "- P = ⅓ρ⟨v²⟩; PV = nRT = NkT.",
+   "- Average molecular kinetic energy = (3/2)kT; v(rms) = √(3RT/M).",
+   "| Process | Condition | First law Q = ΔU + W",
+   "| Isothermal | ΔT = 0 | ΔU = 0, Q = W",
+   "| Adiabatic | Q = 0 | W = −ΔU",
+   "| Isochoric | ΔV = 0 | W = 0, Q = ΔU",
+   "| Isobaric | ΔP = 0 | W = PΔV",
+   "- C(p) − C(v) = R; γ = 5/3 monatomic, 1.4 diatomic.",
+   "! Use kelvin: 27 °C to 927 °C is 300 K to 1,200 K, so v(rms) doubles."
+  ]
+ },
+ {
+  "id": "physics-m14",
+  "section": "physics",
+  "title": "Heat engines and entropy",
+  "lines": [
+   "- Efficiency η = W/Q₁ = 1 − Q₂/Q₁.",
+   "- Carnot (the best possible): η = 1 − T₂/T₁, temperatures in kelvin.",
+   "- Carnot cycle: two isothermal and two adiabatic steps.",
+   "- Second law: no engine converts all its heat into work; heat does not flow by itself from cold to hot.",
+   "- Refrigerator coefficient of performance = Q₂/W.",
+   "- Entropy change ΔS = ΔQ/T; total entropy rises in every real process.",
+   "! 327 °C and 27 °C are 600 K and 300 K: η = 50 %, not 92 %."
+  ]
+ },
+ {
+  "id": "physics-m15",
+  "section": "physics",
+  "title": "Electrostatics and capacitors",
+  "lines": [
+   "- Coulomb: F = kq₁q₂/r²; in a medium F/ε(r).",
+   "- Field E = F/q = kq/r² (N/C = V/m); parallel plates E = V/d.",
+   "- Potential V = kq/r (a scalar); work W = qV.",
+   "- Gauss: flux through a closed surface = q(enclosed)/ε₀.",
+   "- C = Q/V; parallel plates C = ε(r)ε₀A/d; energy ½CV².",
+   "| Combination | Capacitors | Same for each",
+   "| Series | 1/C = 1/C₁ + 1/C₂ | charge",
+   "| Parallel | C = C₁ + C₂ | voltage",
+   "! r doubled: force ÷ 4 but potential ÷ 2."
+  ]
+ },
+ {
+  "id": "physics-m16",
+  "section": "physics",
+  "title": "Resistors and cells",
+  "lines": [
+   "- R = ρL/A; series R₁ + R₂; parallel 1/R = 1/R₁ + 1/R₂.",
+   "- Wire stretched to n times its length: R × n².",
+   "- Power P = VI = I²R = V²/R.",
+   "- Cell: I = E/(R + r); terminal p.d. V = E − Ir.",
+   "- Greatest power to the load when R = r.",
+   "- Kirchhoff: junction rule (charge), loop rule (energy).",
+   "- Wheatstone bridge balanced when P/Q = R/S.",
+   "! Bulbs in series: the lower-watt bulb has more resistance and glows brighter."
+  ]
+ },
+ {
+  "id": "physics-m17",
+  "section": "physics",
+  "title": "Resistor colour code",
+  "lines": [
+   "Mnemonic \"BB ROY of Great Britain has a Very Good Wife\": the first letters give the colours for digits 0 to 9.",
+   "| Digit | Colour | Digit | Colour",
+   "| 0 | Black | 5 | Green",
+   "| 1 | Brown | 6 | Blue",
+   "| 2 | Red | 7 | Violet",
+   "| 3 | Orange | 8 | Grey",
+   "| 4 | Yellow | 9 | White",
+   "- Bands: first digit, second digit, multiplier (× 10ⁿ), tolerance (gold ±5 %, silver ±10 %).",
+   "! Brown, black, red = 10 × 10² Ω = 1 kΩ."
+  ]
+ },
+ {
+  "id": "physics-m18",
+  "section": "physics",
+  "title": "Magnetic fields and forces",
+  "lines": [
+   "- Force on a wire F = BIL sin θ; force on a charge F = qvB sin θ.",
+   "- Charge at right angles to B: circle of radius r = mv/qB.",
+   "- Long straight wire B = μ₀I/2πr; solenoid B = μ₀nI (n = turns per metre).",
+   "- Flux Φ = BA cos θ (weber).",
+   "- Fleming's left-hand rule: First finger Field, seCond finger Current, thuMb Motion.",
+   "- Ammeter: galvanometer + small shunt in parallel. Voltmeter: + large resistance in series.",
+   "! The magnetic force on a moving charge does no work: speed stays constant."
+  ]
+ },
+ {
+  "id": "physics-m19",
+  "section": "physics",
+  "title": "Induction, transformers and AC",
+  "lines": [
+   "- Faraday: ε = −N ΔΦ/Δt; moving rod ε = BLv. Lenz: the induced current opposes the change.",
+   "- Inductor energy ½LI²; generator peak EMF NBAω.",
+   "- Transformer: V(s)/V(p) = N(s)/N(p) = I(p)/I(s); AC only.",
+   "- V(rms) = V₀/√2; 220 V mains peaks near 311 V.",
+   "- X(L) = 2πfL; X(C) = 1/(2πfC); resonance f = 1/(2π√(LC)).",
+   "Mnemonic \"ELI the ICE man\": in an inductor (L) the voltage E leads the current I; in a capacitor (C) the current I leads E.",
+   "! Frequency doubled: X(L) doubles, X(C) halves."
+  ]
+ },
+ {
+  "id": "physics-m20",
+  "section": "physics",
+  "title": "Mirrors, lenses and refraction",
+  "lines": [
+   "- Mirror f = R/2. Lens and mirror formula 1/f = 1/p + 1/q (real-is-positive); m = q/p.",
+   "- Convex lens and concave mirror: f positive. Concave lens: f negative.",
+   "- Power P = 1/f (f in metres), dioptre; lenses in contact P = P₁ + P₂.",
+   "- Snell: n = sin i / sin r = c/v; wavelength in the medium λ/n.",
+   "- Critical angle sin C = 1/n; total internal reflection only from denser to less dense.",
+   "- Telescope M = f(o)/f(e), length f(o) + f(e). Magnifier M = 1 + d/f, d = 25 cm.",
+   "! Object inside F of a convex lens: virtual, upright, magnified image."
+  ]
+ },
+ {
+  "id": "physics-m21",
+  "section": "physics",
+  "title": "Wave optics",
+  "lines": [
+   "- Coherent sources: same frequency, constant phase difference.",
+   "- Bright fringe: path difference nλ; dark: (n + ½)λ.",
+   "- Young's fringe spacing Δy = λL/d.",
+   "- Grating d sin θ = nλ, d = 1/N; highest order = whole part of d/λ.",
+   "- Bragg (X-rays): 2d sin θ = nλ.",
+   "- Malus I = I₀ cos²θ; Brewster tan θ = n.",
+   "- Only transverse waves can be polarised.",
+   "! 5,000 lines per cm means d = 2 × 10⁻⁶ m."
+  ]
+ },
+ {
+  "id": "physics-m22",
+  "section": "physics",
+  "title": "Photons and matter waves",
+  "lines": [
+   "- E = hf = hc/λ; photon momentum p = h/λ.",
+   "- Photoelectric: hf = φ + K(max), K(max) = eV₀, φ = hf₀.",
+   "| Raise | Number of electrons | K(max)",
+   "| intensity | increases | unchanged",
+   "| frequency | unchanged | increases",
+   "- De Broglie λ = h/mv; uncertainty Δx Δp ≈ h.",
+   "- Pair production needs at least 1.02 MeV; Compton scattering lengthens the X-ray wavelength.",
+   "! Below the threshold frequency no electrons emerge, however bright the light."
+  ]
+ },
+ {
+  "id": "physics-m23",
+  "section": "physics",
+  "title": "Hydrogen atom and X-rays",
+  "lines": [
+   "- Eₙ = −13.6/n² eV: −13.6, −3.4, −1.51, −0.85; ionisation energy 13.6 eV.",
+   "- rₙ = n² × 0.053 nm; angular momentum nh/2π.",
+   "- Photon energy = E(upper) − E(lower).",
+   "Mnemonic \"Lazy Boys Play Billiards Professionally\": Lyman, Balmer, Paschen, Brackett, Pfund, ending on n = 1 to 5.",
+   "- Lyman ultraviolet, Balmer visible, the rest infrared.",
+   "- X-ray λ(min) = hc/eV: higher tube voltage, shorter λ(min).",
+   "- LASER: Light Amplification by Stimulated Emission of Radiation; needs population inversion."
+  ]
+ },
+ {
+  "id": "physics-m24",
+  "section": "physics",
+  "title": "Radioactivity and the nucleus",
+  "lines": [
+   "| Emission | A | Z | Stopped by",
+   "| α | −4 | −2 | paper",
+   "| β⁻ | 0 | +1 | aluminium",
+   "| γ | 0 | 0 | thick lead (reduced)",
+   "- Ionising α > β > γ; penetrating γ > β > α.",
+   "- After n half-lives (½)ⁿ remains; T½ = 0.693/λ.",
+   "- Binding energy = Δm c²; 1 u ↔ 931 MeV; BE per nucleon peaks near iron.",
+   "- Moderator slows neutrons; control rods absorb them.",
+   "! α count from the change in A ÷ 4; then β count from the Z balance."
+  ]
+ },
+ {
+  "id": "physics-m25",
+  "section": "physics",
+  "title": "Electronics and logic gates",
+  "lines": [
+   "- n-type: pentavalent donor (P, As); p-type: trivalent acceptor (B, Ga).",
+   "- Forward bias: p side to +; barrier about 0.7 V for Si, 0.3 V for Ge.",
+   "- Full-wave rectifier on 50 Hz gives 100 Hz ripple; half-wave gives 50 Hz.",
+   "- Transistor I(E) = I(B) + I(C); gain β = I(C)/I(B).",
+   "| Gate | Output 1 when",
+   "| AND | both inputs 1",
+   "| OR | at least one input 1",
+   "| NOT | input 0",
+   "| NAND | at least one input 0",
+   "| NOR | both inputs 0",
+   "| XOR | inputs differ",
+   "! NAND and NOR are universal: any gate can be built from either."
+  ]
+ }
+]

@@ -1,0 +1,223 @@
+#!/usr/bin/env python3
+"""Writes content/guide.json: the Guide tab articles. Facts from reports/USAT exam pattern 2026.md (checked 17 Nov 2026).
+Keep anything that changes (dates, fee) out of the app: point to the ETC website instead."""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+A = []
+
+
+def art(id, group, title, *lines):
+    A.append({"id": id, "group": group, "title": title, "lines": list(lines)})
+
+
+G1, G2, G3, G4 = "About USAT", "Rules and test day", "Strategy", "Memorise smarter"
+
+art("glance", G1, "USAT at a glance",
+    "USAT (Undergraduate Studies Admission Test) is run by the Education Testing Council (ETC) of the Higher Education Commission (HEC). It is for students with 12 years of education (FA, FSc, ICS, ICom, A-level or equivalent), including those waiting for their results.",
+    "## The paper",
+    "| Part | What | Time | Marks",
+    "| Part I | 75 MCQs, four options each | 100 minutes | 75",
+    "| Part II | 2 essays: argument (1 of 3) and narrative (1 of 3) | 40 minutes | 25",
+    "| Total | | 140 minutes | 100",
+    "## Part I in detail",
+    "| Section | MCQs | Inside it",
+    "| Verbal Reasoning | 20 | Analogy 5, Synonym/Antonym 4, Sentence Completion 6, Comprehension 5",
+    "| Quantitative Reasoning | 25 | Arithmetic 6, Algebra and functions 4, Geometry 3, Equations 3, Statistics 3, Scenario-based and mental maths 6",
+    "| Subject block | 30 | three subjects that depend on your category",
+    "- Verbal and Quantitative Reasoning are the same for every category: 45 of the 75 MCQs. Strong English and arithmetic help every candidate.",
+    "- The test is on paper: you fill bubbles on an OMR answer sheet with a blue or black ball-point pen.",
+    "- Calculators are not allowed. Every quantitative item is built to be solved by hand.",
+    "! This pattern follows HEC's published Content Weightages for USAT (August 2022, re-issued August 2023 and still cited for 2026). Always check the latest notice on the ETC website before your test.")
+
+art("categories", G1, "Choose your category",
+    "You pick one category when you register. It must match your intermediate group, and it cannot be changed after you submit the form.",
+    "| Category | For | Subject block (30 MCQs)",
+    "| USAT-E | Pre-Engineering | Physics 10, Chemistry 10, Mathematics 10",
+    "| USAT-M | Pre-Medical | Physics 8, Chemistry 8, Biology 14",
+    "| USAT-CS | Computer Science (ICS) | Physics 8, Computer Science 14, Mathematics 8",
+    "| USAT-GS | General Science | Mathematics 10, Statistics 10, Economics 10",
+    "| USAT-COM | Commerce (ICom) | Accounting 10, Commerce 10, Economics 10",
+    "| USAT-A | Arts and Humanities (FA) | Islamiat/Ethics 10, Pakistan Studies 10, General Knowledge 10",
+    "- USAT-GS is Maths, Statistics and Economics. Some websites wrongly list Physics, Chemistry and Biology for it.",
+    "- In USAT-A, Ethics is offered in place of Islamiat for non-Muslim candidates. The app lets you choose Ethics on each test page.",
+    "- Subject questions are short, concept-based one-liners at intermediate level. With only 8 to 14 items per subject, the paper samples the whole syllabus thinly: breadth beats depth.",
+    "! Pick the category your target university or scholarship asks for. If you are unsure, read the admission notice before you register.")
+
+art("scoring", G1, "Marks, qualifying score and results",
+    "## How marks add up",
+    "- Part I: one mark per correct MCQ, 75 in all.",
+    "- Part II: argument essay out of 15 and narrative essay out of 10.",
+    "- Total out of 100. The qualifying score reported for USAT is 50.",
+    "## Negative marking",
+    "No HEC document mentions negative marking, and guides for recent sittings say there is none. So never leave a bubble empty: eliminate what you can and choose the best remaining option.",
+    "! HEC has not published a statement on negative marking. If your roll-number slip or test instructions say otherwise, follow them.",
+    "## Results",
+    "- Your result card, with a breakdown by section, appears in your account on the ETC portal, usually a few weeks after the test.",
+    "- HEC publishes answer keys for each category in several booklet colours (the questions are shuffled between booklets), so you can check your Part I answers.",
+    "- How long a result stays valid: HEC's scholarship rules state one year. Check the rule of the university or scholarship you apply to.",
+    "## Scores in this app",
+    "Part I is marked automatically. Your essays are self-rated: you compare your writing with the marking points and a model answer, then set your marks honestly. Your total out of 100 appears once both essays are rated.")
+
+art("accepts", G1, "Who uses USAT scores",
+    "USAT is recommended by HEC, but each university decides whether to accept it for undergraduate admission and how much weight it carries. Some universities use it in place of their own entry test; others ignore it.",
+    "- HEC uses USAT for several overseas undergraduate scholarships, which often ask for at least 50% in USAT.",
+    "- Some universities accept a USAT score (often 50% or more) instead of their own admission test.",
+    "- Always read the admission notice of each university or scholarship: it says whether USAT counts, which category, and the minimum score.",
+    "! Do not assume USAT replaces MDCAT, ECAT or a university's own test. Plan for the tests your target programmes actually ask for.")
+
+art("register", G2, "Registering step by step",
+    "- Registration is online only, on the ETC portal at etc.hec.gov.pk.",
+    "- Make one profile with your own CNIC, or your B-Form if you are under 18. Duplicate profiles are not allowed.",
+    "- Your name must match your Matric certificate exactly.",
+    "- Choose your category and test city carefully: neither can be changed later.",
+    "- Generate the Consumer Number and pay the fee through 1Link/1Bill (internet banking, mobile wallet or bank). Then press Verify Payment. Your status must change to Submitted.",
+    "- Report any payment problem at least three days before the last date. Complaints on the last day are not taken.",
+    "- Download and print your roll-number slip when it is issued, about a week before the test.",
+    "! Test dates, deadlines and the fee change from session to session. Check the current test calendar on the ETC website rather than relying on old posts.")
+
+art("testday", G2, "Test-day rules and checklist",
+    "## Take with you",
+    "- Printed roll-number slip.",
+    "- Original CNIC or passport. Under 18: original B-Form and a Matric or Intermediate result card with your photo.",
+    "- Blue or black ball-point pens (take two or three).",
+    "- A transparent clipboard.",
+    "## Not allowed",
+    "- Photocopies or phone pictures of your ID.",
+    "- Calculators, mobile phones, smart watches, earbuds, any electronic device. A banned item is taken away and an unfair-means case can be registered against you.",
+    "- Pencils, fountain pens, gel markers and highlighters.",
+    "! If the CNIC number you bring differs by even one digit from the one you registered with, you may not be allowed to sit the test.",
+    "## On the day",
+    "- Reach the centre early; finding your hall and seat takes time.",
+    "- Fill your name, roll number and booklet colour on the OMR sheet exactly as instructed.",
+    "- Keep your eyes on your own paper and do not talk once the test starts.")
+
+art("omr", G2, "Bubble-sheet technique",
+    "- Fill each bubble completely and darkly with a ball-point pen. Half-filled or ticked bubbles may not be read.",
+    "- Pen marks cannot be erased. Decide first, then fill. Mark your choice lightly in the question booklet if you need to think.",
+    "- Every 10 questions, check that the question number in the booklet matches the row on the sheet. One skipped row shifts every later answer.",
+    "- Transfer answers as you go, not in the last two minutes.",
+    "- Make sure your booklet colour or code is bubbled correctly; it decides which answer key is used.",
+    "! Practise on paper too: print or draw a 75-row bubble sheet and use it with a mock test from this app.")
+
+art("time", G3, "Time plan for 140 minutes",
+    "## Part I: 100 minutes for 75 MCQs",
+    "That is 80 seconds per question. Many verbal and recall items take 30 seconds, which buys time for maths and comprehension.",
+    "| Block | Suggested time",
+    "| Verbal Reasoning (20) | 20 minutes, comprehension included",
+    "| Quantitative Reasoning (25) | 40 minutes",
+    "| Subject block (30) | 30 minutes",
+    "| Final check | 10 minutes",
+    "- First pass: answer everything you can in under a minute; flag the rest.",
+    "- Second pass: return to flagged items. Never spend more than two minutes on one question.",
+    "- Last five minutes: bubble a best guess for anything left. There is no penalty for a wrong answer.",
+    "## Part II: 40 minutes for two essays",
+    "| Step | Argument (15 marks) | Narrative (10 marks)",
+    "| Choose and plan | 3 minutes | 2 minutes",
+    "| Write | 17 minutes | 13 minutes",
+    "| Check | 2 minutes | 2 minutes",
+    "! Write the argument essay first: it carries more marks. A finished, organised essay beats a long one that stops mid-way.")
+
+art("verbal", G3, "Verbal Reasoning strategy",
+    "## Analogies (5)",
+    "- Name the relationship in a short sentence before you look at the options: \"A thermometer measures temperature.\"",
+    "- Test each option with the same sentence. If two fit, make your sentence more precise.",
+    "## Synonyms and antonyms (4)",
+    "- Read the instruction twice: CLOSEST or OPPOSITE. The answer of the other kind is always placed among the options.",
+    "- Use roots and prefixes: bene- good, mal- bad, -cide killing, chron- time.",
+    "## Sentence completion (6)",
+    "- Cover the options, read the sentence, and predict the word.",
+    "- Look for signal words: although, but and despite reverse the idea; because, so and and continue it.",
+    "- Many blanks test grammar: tense, subject-verb agreement, the right auxiliary or preposition.",
+    "## Comprehension (5)",
+    "- Read the questions first, then the passage once, carefully.",
+    "- Every answer must be supported by the passage, not by your own knowledge.",
+    "- Beware options that are true but not stated, too extreme (always, never, all), or about a detail when the question asks for the main idea.")
+
+art("quant", G3, "Quantitative Reasoning without a calculator",
+    "- Learn squares to 25², cubes to 10³, and the fraction-percent table (1/8 = 12.5%, 1/6 ≈ 16.7%). See Memory tricks.",
+    "- Simplify before you calculate: cancel common factors, round sensibly to estimate, then pick the option closest to your estimate.",
+    "- Work backwards from the options when an equation is messy: try the middle option first.",
+    "- Pick numbers: if a question uses x or a percentage of an unknown amount, try x = 10 or an amount of 100.",
+    "- Draw your own quick sketch for geometry; the paper may not give a figure.",
+    "- Check units: minutes and hours, rupees and paisa, metres and kilometres.",
+    "! Scenario-based and mental maths carries 6 of the 25 marks. Practise everyday problems against a clock until each takes under a minute.")
+
+art("essays", G3, "Writing the two essays",
+    "Each essay may be written in English or Urdu. This app practises English.",
+    "## Argument essay (15 marks), about 300-400 words",
+    "- Introduction: restate the issue in your own words and give your position in one clear sentence.",
+    "- Body 1 and 2: one reason per paragraph, each with a specific example from Pakistani life, school or news you know well.",
+    "- Body 3: the strongest point on the other side, and why your view still holds.",
+    "- Conclusion: sum up your position and add a practical suggestion.",
+    "## Narrative essay (10 marks), about 250-350 words",
+    "- Open with action, a voice or a striking detail, not with \"One day...\".",
+    "- Keep a clear order of events with one turning point.",
+    "- Show people and places with a few sharp details and one or two lines of dialogue.",
+    "- End with what changed or what you learned.",
+    "## For both",
+    "- Plan for two or three minutes; write short paragraphs; leave two minutes to correct spelling and tense.",
+    "- Simple, correct sentences score better than long, broken ones.",
+    "! The marking points and model answers in this app show what examiners reward. Rate your own essays honestly; that is how you improve.")
+
+art("plans", G3, "Study plans: 8 weeks and 4 weeks",
+    "## 8-week plan",
+    "| Weeks | Focus",
+    "| 1-2 | Read the study notes for every topic in your category; one practice set per topic. Start the memory cards.",
+    "| 3-4 | Weak topics first: two practice sets each. One essay of each kind per week.",
+    "| 5-6 | One full mock (Part I and II) every three days. Review every wrong answer; redo the topic practice.",
+    "| 7 | Two mocks; memory cards daily.",
+    "| 8 | One mock early in the week, then light revision of notes and memory cards. Rest the day before.",
+    "## 4-week plan",
+    "| Week | Focus",
+    "| 1 | Study notes and one practice set per topic; Verbal and Quant first (45 of 75 marks).",
+    "| 2 | Two mocks; fix the weakest five topics shown in your results.",
+    "| 3 | Three mocks; one essay of each kind every two days.",
+    "| 4 | Two mocks, then revise memory cards and notes only.",
+    "! A mock is only useful if you review it. Spend as long reviewing as you spent sitting it.")
+
+art("mistakes", G3, "Common mistakes",
+    "- Choosing the synonym when the question asked for the antonym, or the reverse.",
+    "- Bubbling in the wrong row after skipping a question.",
+    "- Leaving questions blank: with no published negative marking, a blank earns nothing.",
+    "- Spending five minutes on one maths item and rushing the last ten.",
+    "- In comprehension, choosing what you know rather than what the passage says.",
+    "- Writing one long essay and having no time for the second.",
+    "- Forgetting the original CNIC or B-Form, or bringing only a photocopy.",
+    "- Trusting old websites for the pattern or dates. Use the ETC website.")
+
+art("memorise", G4, "Cheat codes for memorisation",
+    "Memory tricks are in the Memory tricks list above this Guide: formula sheets, tables and mnemonics for every section. These methods make them stick.",
+    "## 1. Active recall",
+    "Cover the card, say or write the formula or fact, then check. Retrieving from memory is what builds memory; re-reading is not.",
+    "## 2. Spaced repetition",
+    "Review a card after 1 day, 3 days, 7 days and 14 days. Spend more time on cards you got wrong.",
+    "| Day | Review",
+    "| 1 | everything learned yesterday",
+    "| 3 | cards from day 1",
+    "| 7 | cards from days 1-3",
+    "| 14 | everything",
+    "## 3. Mnemonics",
+    "- Acronyms: the first letters make a word, like OIL RIG in Chemistry (Oxidation Is Loss, Reduction Is Gain).",
+    "- Sentences: the first letters of words, like the order of the planets.",
+    "- Stories and images: link a date or name to a vivid picture.",
+    "## 4. Chunking",
+    "Group items into threes or fours: 1857 · 1906 · 1930 · 1940 · 1947 for the Pakistan Movement.",
+    "## 5. Teach it",
+    "Explain a topic aloud to a friend or to yourself in one minute. Gaps show up immediately.",
+    "## 6. Mix and test",
+    "Switching between topics in a practice session feels harder, but it is closer to the real paper and lasts longer.",
+    "! Fifteen minutes a day with memory cards beats three hours the night before.")
+
+art("app", G4, "How to use this app",
+    "- Tests: 20 full mocks for each category, built exactly to HEC's weightages. Part I is timed at 100 minutes, Part II at 40.",
+    "- Results: your marks out of 100, a breakdown by section, and your weakest topics.",
+    "- Review: every question with your answer, the correct answer and a full explanation.",
+    "- Study: notes and practice sets for every topic, plus essay practice with model answers.",
+    "- Guide: rules, strategy and memory tricks.",
+    "- Practice questions are kept separate from the mock tests, so practice never spoils a mock.",
+    "! This is an independent practice app. It is not linked to HEC or ETC, and its questions are original, not past papers.")
+
+(ROOT / "content/guide.json").write_text(json.dumps({"articles": A}, indent=1, ensure_ascii=False) + "\n")
+print(len(A), "articles")

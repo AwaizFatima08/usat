@@ -1,0 +1,268 @@
+[
+ {
+  "id": "islamic-m01",
+  "section": "islamic",
+  "title": "The Quran in numbers",
+  "lines": [
+   "| Fact | Value",
+   "| Surahs | 114",
+   "| Paras (juz) | 30",
+   "| Revelation | about 23 years (13 Makkah, 10 Madinah)",
+   "| Longest surah | Al-Baqarah, 286 verses",
+   "| Shortest surah | Al-Kawthar, 3 verses",
+   "| No Bismillah at start | At-Tawbah",
+   "| Bismillah twice | An-Naml"
+  ]
+ },
+ {
+  "id": "islamic-m02",
+  "section": "islamic",
+  "title": "First revelation",
+  "lines": [
+   "- Place: Cave of Hira, Jabal an-Nur, near Makkah.",
+   "- Month: Ramadan, on Laylat al-Qadr.",
+   "- Age of the Prophet (PBUH): about 40 (610 CE).",
+   "- Verses: the opening of Surah Al-Alaq.",
+   "- Angel: Jibreel (AS)."
+  ]
+ },
+ {
+  "id": "islamic-m03",
+  "section": "islamic",
+  "title": "Compilation of the Quran",
+  "lines": [
+   "| Stage | Who",
+   "| Written in the Prophet's lifetime | scribes, led by Zayd ibn Thabit (RA)",
+   "| One copy after Yamamah | Abu Bakr (RA), on Umar's (RA) advice",
+   "| Copy kept | Abu Bakr, Umar, then Hafsa (RA)",
+   "| Standard copies sent out | Uthman (RA), Jami' al-Quran"
+  ]
+ },
+ {
+  "id": "islamic-m04",
+  "section": "islamic",
+  "title": "Revealed books",
+  "lines": [
+   "| Book | Prophet",
+   "| Tawrat | Musa (AS)",
+   "| Zabur | Dawud (AS)",
+   "| Injil | Isa (AS)",
+   "| Quran | Muhammad (PBUH)",
+   "- Suhuf (scrolls): Ibrahim (AS) and Musa (AS).",
+   "- 25 prophets are named in the Quran."
+  ]
+ },
+ {
+  "id": "islamic-m05",
+  "section": "islamic",
+  "title": "Prophets and their peoples",
+  "lines": [
+   "| Prophet | Remember",
+   "| Nuh (AS) | the ark and the flood",
+   "| Hud (AS) | people of Ad",
+   "| Salih (AS) | people of Thamud, the she-camel",
+   "| Shuaib (AS) | people of Madyan",
+   "| Yunus (AS) | the fish",
+   "| Musa (AS) | Kalimullah; Pharaoh",
+   "| Sulaiman (AS) | winds and jinn"
+  ]
+ },
+ {
+  "id": "islamic-m06",
+  "section": "islamic",
+  "title": "Hadith terms",
+  "lines": [
+   "| Term | Meaning",
+   "| Isnad | chain of narrators",
+   "| Matn | text of the hadith",
+   "| Rawi | narrator",
+   "| Taqrir | silent approval",
+   "| Hadith Qudsi | meaning from Allah in the Prophet's words",
+   "| Sahih, hasan, da'if, mawdu' | sound, good, weak, fabricated"
+  ]
+ },
+ {
+  "id": "islamic-m07",
+  "section": "islamic",
+  "title": "The six collections",
+  "lines": [
+   "| Collection | Compiler",
+   "| Sahih al-Bukhari | Muhammad ibn Ismail al-Bukhari",
+   "| Sahih Muslim | Muslim ibn al-Hajjaj",
+   "| Sunan Abu Dawud | Abu Dawud",
+   "| Jami' at-Tirmidhi | at-Tirmidhi",
+   "| Sunan an-Nasa'i | an-Nasa'i",
+   "| Sunan Ibn Majah | Ibn Majah",
+   "- Not in the six: Muwatta (Imam Malik), Musnad (Imam Ahmad)."
+  ]
+ },
+ {
+  "id": "islamic-m08",
+  "section": "islamic",
+  "title": "Articles of faith",
+  "lines": [
+   "- Allah (Tawhid)",
+   "- Angels",
+   "- Revealed books",
+   "- Prophets (last: Muhammad, PBUH)",
+   "- The Last Day",
+   "- Qadar (divine decree)",
+   "! Shirk, associating partners with Allah, is the gravest sin."
+  ]
+ },
+ {
+  "id": "islamic-m09",
+  "section": "islamic",
+  "title": "Angels and duties",
+  "lines": [
+   "| Angel | Duty",
+   "| Jibreel | revelation",
+   "| Mikail | rain and provision",
+   "| Israfil | trumpet on the Last Day",
+   "| Malak al-Mawt | taking souls",
+   "| Kiraman Katibin | recording deeds",
+   "| Munkar and Nakir | questioning in the grave"
+  ]
+ },
+ {
+  "id": "islamic-m10",
+  "section": "islamic",
+  "title": "Daily prayers",
+  "lines": [
+   "| Prayer | Fard rakats",
+   "| Fajr | 2",
+   "| Zuhr | 4",
+   "| Asr | 4",
+   "| Maghrib | 3",
+   "| Isha | 4",
+   "- Total 17. Jumu'ah (2) replaces Zuhr on Friday.",
+   "- Salah made obligatory at the Mi'raj."
+  ]
+ },
+ {
+  "id": "islamic-m11",
+  "section": "islamic",
+  "title": "Zakat and fasting",
+  "lines": [
+   "- Zakat: 2.5 % of savings above the nisab, held for one lunar year.",
+   "- Zakat and Ramadan fasting made obligatory in 2 AH.",
+   "- Eight groups may receive zakat (Surah At-Tawbah).",
+   "- Sadaqat al-Fitr: paid before the Eid al-Fitr prayer.",
+   "- Eid al-Fitr: 1 Shawwal."
+  ]
+ },
+ {
+  "id": "islamic-m12",
+  "section": "islamic",
+  "title": "Days of Hajj",
+  "lines": [
+   "| Dhul Hijjah | Rite",
+   "| 8th | ihram; go to Mina",
+   "| 9th | Arafat (central rite); night at Muzdalifah",
+   "| 10th | Jamarat, sacrifice, hair cut, tawaf; Eid al-Adha",
+   "| 11th–13th | stoning at Mina",
+   "- Sa'i: Safa to Marwah, seven times, recalling Hajar (AS)."
+  ]
+ },
+ {
+  "id": "islamic-m13",
+  "section": "islamic",
+  "title": "Seerah: Makkah",
+  "lines": [
+   "| Date | Event",
+   "| about 570 CE | birth, Year of the Elephant",
+   "| age 6 | mother Aminah dies",
+   "| age 25 | marriage to Khadijah (RA)",
+   "| 610 CE, age 40 | first revelation",
+   "| 5th year | migration to Abyssinia",
+   "| 10th year | Year of Sorrow; Ta'if",
+   "| 622 CE | Hijrah"
+  ]
+ },
+ {
+  "id": "islamic-m14",
+  "section": "islamic",
+  "title": "Seerah: Madinah",
+  "lines": [
+   "| AH | Event",
+   "| 1 | Quba mosque; Masjid an-Nabawi",
+   "| 2 | Badr; change of qibla",
+   "| 3 | Uhud",
+   "| 5 | Trench (Khandaq)",
+   "| 6 | Hudaybiyyah",
+   "| 7 | Khaybar",
+   "| 8 | Mu'tah; conquest of Makkah; Hunayn",
+   "| 9 | Tabuk",
+   "| 10 | Farewell Hajj",
+   "| 11 | passing away, age 63"
+  ]
+ },
+ {
+  "id": "islamic-m15",
+  "section": "islamic",
+  "title": "Caves and mosques",
+  "lines": [
+   "- Cave of Hira: first revelation.",
+   "- Cave of Thawr: shelter during the Hijrah.",
+   "- Quba: first mosque.",
+   "- Masjid al-Qiblatayn: qibla changed to the Kaaba.",
+   "- The Prophet (PBUH) is buried in the room of Aisha (RA)."
+  ]
+ },
+ {
+  "id": "islamic-m16",
+  "section": "islamic",
+  "title": "Rightly Guided Caliphs",
+  "lines": [
+   "| Caliph | Years (CE) | Title",
+   "| Abu Bakr (RA) | 632–634 | As-Siddiq",
+   "| Umar (RA) | 634–644 | Al-Faruq",
+   "| Uthman (RA) | 644–656 | Dhun-Nurayn",
+   "| Ali (RA) | 656–661 | Asadullah",
+   "- Order A-U-U-A: Abu Bakr, Umar, Uthman, Ali. The two U names sit in the middle, Umar before Uthman.",
+   "- In all about 30 years (11–40 AH)."
+  ]
+ },
+ {
+  "id": "islamic-m17",
+  "section": "islamic",
+  "title": "Caliphs: achievements",
+  "lines": [
+   "- Abu Bakr (RA): Riddah wars, Yamamah, Quran in one copy.",
+   "- Umar (RA): Hijri calendar, diwan, Jerusalem, Yarmuk, Qadisiyyah.",
+   "- Uthman (RA): standard Quran copies, first navy.",
+   "- Ali (RA): capital moved to Kufa."
+  ]
+ },
+ {
+  "id": "islamic-m18",
+  "section": "islamic",
+  "title": "Dynasties and dates",
+  "lines": [
+   "| Date (CE) | Event",
+   "| 661–750 | Umayyads, Damascus",
+   "| 711 | Tariq ibn Ziyad in Spain",
+   "| 712 | Muhammad bin Qasim in Sindh",
+   "| 750–1258 | Abbasids, Baghdad",
+   "| 1187 | Salahuddin takes Jerusalem",
+   "| 1258 | Mongols sack Baghdad",
+   "| 1453 | Ottomans take Constantinople"
+  ]
+ },
+ {
+  "id": "islamic-m19",
+  "section": "islamic",
+  "title": "Muslim scholars",
+  "lines": [
+   "| Scholar | Field",
+   "| Al-Khwarizmi | algebra",
+   "| Ibn Sina | medicine (Al-Qanun)",
+   "| Al-Razi | smallpox and measles",
+   "| Ibn al-Haytham | optics",
+   "| Jabir ibn Hayyan | chemistry",
+   "| Al-Biruni | astronomy, Kitab al-Hind",
+   "| Ibn Khaldun | Muqaddimah, history",
+   "| Al-Zahrawi | surgery"
+  ]
+ }
+]

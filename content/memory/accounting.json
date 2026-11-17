@@ -1,0 +1,242 @@
+[
+ {
+  "id": "accounting-m01",
+  "section": "accounting",
+  "title": "DEAD CLIC: debit and credit",
+  "lines": [
+   "| Debit increases (DEAD) | Credit increases (CLIC)",
+   "| Drawings | Liabilities",
+   "| Expenses and losses | Income and gains",
+   "| Assets | Capital",
+   "- D-E-A-D: Debit for Drawings, Expenses, Assets.",
+   "- C-L-I-C: Credit for Liabilities, Income, Capital.",
+   "- A decrease goes on the opposite side.",
+   "! Drawings are a debit but not an expense: they never enter profit and loss."
+  ]
+ },
+ {
+  "id": "accounting-m02",
+  "section": "accounting",
+  "title": "Golden rules",
+  "lines": [
+   "| Account type | Rule",
+   "| Personal (people, firms, banks) | Debit the receiver, credit the giver",
+   "| Real (assets) | Debit what comes in, credit what goes out",
+   "| Nominal (expenses, incomes) | Debit expenses and losses, credit incomes and gains",
+   "> Cash sale: Cash comes in (real, Dr); Sales is income (nominal, Cr).",
+   "! Outstanding Salaries is a representative personal account; Salaries itself is nominal."
+  ]
+ },
+ {
+  "id": "accounting-m03",
+  "section": "accounting",
+  "title": "Accounting equation",
+  "lines": [
+   "- Assets = Capital + Liabilities",
+   "- Capital = Assets − Liabilities",
+   "- Closing capital = Opening capital + Profit + New capital − Drawings",
+   "- Profit = Closing capital − Opening capital + Drawings − New capital",
+   "! Paying a creditor lowers assets and liabilities; capital does not change. Paying an expense lowers assets and capital."
+  ]
+ },
+ {
+  "id": "accounting-m04",
+  "section": "accounting",
+  "title": "Concepts in one line",
+  "lines": [
+   "| Concept | Key idea",
+   "| Business entity | Owner and business are separate",
+   "| Going concern | Business will continue",
+   "| Money measurement | Only money items recorded",
+   "| Historical cost | Assets at cost",
+   "| Realisation | Sale when goods delivered",
+   "| Matching | Expense in the year it helps earn revenue",
+   "| Consistency | Same method each year",
+   "| Prudence | Provide for losses, not gains",
+   "| Materiality | Ignore trivial items' strict treatment"
+  ]
+ },
+ {
+  "id": "accounting-m05",
+  "section": "accounting",
+  "title": "Source documents",
+  "lines": [
+   "| Document | Sent by | Shows",
+   "| Invoice | Seller | Credit sale",
+   "| Debit note | Buyer | Goods returned to seller",
+   "| Credit note | Seller | Buyer owes less",
+   "| Receipt | Receiver of cash | Cash received",
+   "| Cheque counterfoil | Payer | Cheque payment",
+   "| Pay-in slip | Depositor | Money paid into bank"
+  ]
+ },
+ {
+  "id": "accounting-m06",
+  "section": "accounting",
+  "title": "Subsidiary books",
+  "lines": [
+   "| Book | Records",
+   "| Purchases book | Credit purchases of goods for resale",
+   "| Sales book | Credit sales of goods",
+   "| Purchases returns book | Returns outwards (debit notes)",
+   "| Sales returns book | Returns inwards (credit notes)",
+   "| Cash book | All cash and bank items",
+   "| Journal proper | Fixed assets on credit, opening, adjusting and correcting entries",
+   "! Persons are posted one by one; the book total goes to the nominal account."
+  ]
+ },
+ {
+  "id": "accounting-m07",
+  "section": "accounting",
+  "title": "Discounts",
+  "lines": [
+   "- Trade discount: off the list price, never entered in the ledger.",
+   "- Cash discount: for prompt payment, always recorded.",
+   "- Discount allowed (to customers): a loss, debit, profit and loss.",
+   "- Discount received (from suppliers): a gain, credit, profit and loss.",
+   "> List Rs 80,000, trade 20 %, cash 5 %: 64,000 − 3,200 = Rs 60,800 received.",
+   "! Apply discounts one after another; never add the rates."
+  ]
+ },
+ {
+  "id": "accounting-m08",
+  "section": "accounting",
+  "title": "Trial balance sides",
+  "lines": [
+   "| Debit column | Credit column",
+   "| Assets, cash, bank | Capital",
+   "| Expenses, purchases | Liabilities, creditors, loans",
+   "| Drawings | Sales",
+   "| Returns inwards | Returns outwards",
+   "| Discount allowed | Discount received",
+   "| Opening stock | Bank overdraft",
+   "! Closing stock is usually a note below the trial balance, not a balance in it."
+  ]
+ },
+ {
+  "id": "accounting-m09",
+  "section": "accounting",
+  "title": "Errors the trial balance misses",
+  "lines": [
+   "Remember OCPOC:",
+   "- O: Omission (transaction left out)",
+   "- C: Commission (wrong account, same class)",
+   "- P: Principle (capital and revenue confused)",
+   "- O: Original entry (wrong amount in the prime book)",
+   "- C: Compensating (two errors cancel)",
+   "! One-sided errors, wrong sides and casting errors do make it disagree; their difference goes to suspense."
+  ]
+ },
+ {
+  "id": "accounting-m10",
+  "section": "accounting",
+  "title": "Final accounts formulas",
+  "lines": [
+   "- Net sales = Sales − Returns inwards",
+   "- Cost of goods sold = Opening stock + Purchases − Returns outwards + Carriage inwards − Closing stock",
+   "- Gross profit = Net sales − Cost of goods sold",
+   "- Net profit = Gross profit + Other income − Expenses",
+   "- Working capital = Current assets − Current liabilities",
+   "! Carriage inwards: trading account. Carriage outwards: profit and loss."
+  ]
+ },
+ {
+  "id": "accounting-m11",
+  "section": "accounting",
+  "title": "Adjustment effects",
+  "lines": [
+   "| Adjustment | Income statement | Balance sheet",
+   "| Outstanding expense | Add to expense | Current liability",
+   "| Prepaid expense | Deduct from expense | Current asset",
+   "| Accrued income | Add to income | Current asset",
+   "| Income in advance | Deduct from income | Current liability",
+   "| Depreciation | Expense | Deduct from asset",
+   "| Bad debts | Expense | Deduct from debtors",
+   "| Provision increase | Expense (increase only) | Deduct from debtors",
+   "| Closing stock | Credit trading | Current asset"
+  ]
+ },
+ {
+  "id": "accounting-m12",
+  "section": "accounting",
+  "title": "Correcting a draft profit",
+  "lines": [
+   "| Item found | Effect on profit",
+   "| Expense outstanding | −",
+   "| Expense prepaid | +",
+   "| Income accrued | +",
+   "| Income received in advance | −",
+   "| Depreciation or bad debt omitted | −",
+   "| Closing stock undervalued | +",
+   "| Capital item charged as expense | +"
+  ]
+ },
+ {
+  "id": "accounting-m13",
+  "section": "accounting",
+  "title": "Capital or revenue?",
+  "lines": [
+   "- Capital expenditure: buying or improving a fixed asset, plus carriage, installation and legal costs to bring it into use.",
+   "- Revenue expenditure: repairs, repainting, fuel, wages, rent, running insurance.",
+   "- Capital receipt: sale of a fixed asset, loan, new capital.",
+   "- Revenue receipt: sales, commission, interest, rent received.",
+   "! Capital treated as revenue: profit and assets both understated."
+  ]
+ },
+ {
+  "id": "accounting-m14",
+  "section": "accounting",
+  "title": "Depreciation methods",
+  "lines": [
+   "| Method | Charge | Book value",
+   "| Straight-line | (Cost − Residual) ÷ Life, same yearly | Falls evenly, can reach residual or nil",
+   "| Reducing balance | Fixed % of book value, falls yearly | Never reaches nil",
+   "> Rs 100,000 at 10 % reducing: 90,000 → 81,000 → 72,900.",
+   "- Profit or loss on sale = Proceeds − (Cost − Accumulated depreciation)",
+   "- Land is normally not depreciated."
+  ]
+ },
+ {
+  "id": "accounting-m15",
+  "section": "accounting",
+  "title": "Bank reconciliation",
+  "lines": [
+   "| From cash book (Dr) to bank statement | Action",
+   "| Cheques issued, not presented | Add",
+   "| Cheques deposited, not credited | Deduct",
+   "- First update the cash book for charges, interest, direct credits and dishonoured cheques.",
+   "- From the bank statement back to the cash book: reverse each sign.",
+   "! A positive balance is a debit in the cash book but a credit on the bank statement."
+  ]
+ },
+ {
+  "id": "accounting-m16",
+  "section": "accounting",
+  "title": "Partnership without a deed",
+  "lines": [
+   "Partnership Act, 1932 rules when nothing is agreed:",
+   "| Item | Rule",
+   "| Profits and losses | Shared equally",
+   "| Interest on capital | None",
+   "| Interest on drawings | None",
+   "| Partner's salary | None",
+   "| Interest on partner's loan | 6 % a year",
+   "! Partners' liability is unlimited."
+  ]
+ },
+ {
+  "id": "accounting-m17",
+  "section": "accounting",
+  "title": "Bills of exchange",
+  "lines": [
+   "- Drawer: creditor who writes the bill. Drawee: debtor who accepts it.",
+   "- Promissory note: a promise made by the debtor (maker).",
+   "- Due date = date + period + 3 days of grace.",
+   "- Discount on discounting = Amount × Rate × Months/12.",
+   "| Party | Entry on acceptance",
+   "| Drawer | Bills Receivable Dr, Debtor Cr",
+   "| Drawee | Creditor Dr, Bills Payable Cr",
+   "! On dishonour, charge the debtor the bill amount plus noting charges."
+  ]
+ }
+]

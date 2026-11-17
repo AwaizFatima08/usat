@@ -1,0 +1,248 @@
+[
+ {
+  "id": "gk-m01",
+  "section": "gk",
+  "title": "United Nations",
+  "lines": [
+   "- Founded 24 October 1945; HQ New York.",
+   "- Pakistan joined 30 September 1947.",
+   "- Six organs: General Assembly, Security Council, ECOSOC, Trusteeship Council, ICJ, Secretariat.",
+   "- Security Council: 15 members, 5 permanent with veto.",
+   "- P5: China, France, Russia, UK, USA."
+  ]
+ },
+ {
+  "id": "gk-m02",
+  "section": "gk",
+  "title": "Headquarters by city",
+  "lines": [
+   "| City | Bodies",
+   "| Geneva | WHO, ILO, WTO, Red Cross",
+   "| Vienna | IAEA, OPEC",
+   "| Paris | UNESCO",
+   "| Rome | FAO",
+   "| New York | UN, UNICEF",
+   "| Washington, D.C. | IMF, World Bank",
+   "| The Hague | ICJ",
+   "| Brussels | NATO, EU"
+  ]
+ },
+ {
+  "id": "gk-m03",
+  "section": "gk",
+  "title": "Regional bodies",
+  "lines": [
+   "| Body | Founded | HQ",
+   "| OIC | 1969 | Jeddah",
+   "| Arab League | 1945 | Cairo",
+   "| ASEAN | 1967 | Jakarta",
+   "| SAARC | 1985 | Kathmandu",
+   "| ECO | 1985 | Tehran",
+   "| OPEC | 1960 | Vienna"
+  ]
+ },
+ {
+  "id": "gk-m04",
+  "section": "gk",
+  "title": "World history dates",
+  "lines": [
+   "| Year | Event",
+   "| 1215 | Magna Carta",
+   "| 1492 | Columbus reaches the Americas",
+   "| 1776 | American independence",
+   "| 1789 | French Revolution",
+   "| 1914–18 | First World War",
+   "| 1939–45 | Second World War",
+   "| 1989 | Berlin Wall falls",
+   "| 1991 | USSR breaks up"
+  ]
+ },
+ {
+  "id": "gk-m05",
+  "section": "gk",
+  "title": "Famous firsts",
+  "lines": [
+   "| First | Who, when",
+   "| In space | Yuri Gagarin, 1961",
+   "| Woman in space | Valentina Tereshkova, 1963",
+   "| On the Moon | Neil Armstrong, 1969",
+   "| Everest summit | Hillary and Tenzing, 1953",
+   "| Satellite | Sputnik 1, 1957",
+   "| Modern Olympics | Athens, 1896"
+  ]
+ },
+ {
+  "id": "gk-m06",
+  "section": "gk",
+  "title": "Inventors",
+  "lines": [
+   "| Invention | Inventor",
+   "| Printing press | Gutenberg",
+   "| Telephone | Bell",
+   "| Light bulb (practical) | Edison",
+   "| Radio | Marconi",
+   "| X-rays | Röntgen",
+   "| Penicillin | Fleming",
+   "| World Wide Web | Berners-Lee",
+   "| Smallpox vaccine | Jenner"
+  ]
+ },
+ {
+  "id": "gk-m07",
+  "section": "gk",
+  "title": "Vitamins",
+  "lines": [
+   "| Vitamin | Deficiency",
+   "| A | night blindness",
+   "| B1 | beriberi",
+   "| C | scurvy",
+   "| D | rickets",
+   "| K | poor clotting",
+   "- Iron: anaemia. Iodine: goitre."
+  ]
+ },
+ {
+  "id": "gk-m08",
+  "section": "gk",
+  "title": "Disease causes",
+  "lines": [
+   "| Cause | Examples",
+   "| Virus | polio, measles, dengue, hepatitis, rabies",
+   "| Bacterium | TB, typhoid, cholera, tetanus",
+   "| Protozoan | malaria",
+   "- Malaria: female Anopheles. Dengue: Aedes.",
+   "! Antibiotics do not kill viruses."
+  ]
+ },
+ {
+  "id": "gk-m09",
+  "section": "gk",
+  "title": "Body facts",
+  "lines": [
+   "- 206 bones; smallest: stapes (ear).",
+   "- Largest organ: skin. Largest internal: liver.",
+   "- Normal temperature: about 37 °C.",
+   "- Insulin: pancreas. Haemoglobin carries oxygen.",
+   "- Universal donor: O negative."
+  ]
+ },
+ {
+  "id": "gk-m10",
+  "section": "gk",
+  "title": "Planets: My Very Easy Method Just Speeds Up Naming",
+  "lines": [
+   "- My = Mercury (nearest the Sun)",
+   "- Very = Venus (hottest)",
+   "- Easy = Earth",
+   "- Method = Mars (Red Planet)",
+   "- Just = Jupiter (largest)",
+   "- Speeds = Saturn (rings)",
+   "- Up = Uranus",
+   "- Naming = Neptune",
+   "- Pluto: dwarf planet since 2006."
+  ]
+ },
+ {
+  "id": "gk-m11",
+  "section": "gk",
+  "title": "World records",
+  "lines": [
+   "| Record | Answer",
+   "| Highest peak | Everest, about 8,849 m",
+   "| Longest river | Nile",
+   "| Largest ocean | Pacific",
+   "| Largest hot desert | Sahara",
+   "| Largest country | Russia",
+   "| Smallest country | Vatican City",
+   "| Largest island | Greenland",
+   "| Largest lake | Caspian Sea"
+  ]
+ },
+ {
+  "id": "gk-m12",
+  "section": "gk",
+  "title": "Capitals that are not the largest city",
+  "lines": [
+   "| Country | Capital | Not",
+   "| Australia | Canberra | Sydney",
+   "| Canada | Ottawa | Toronto",
+   "| Turkey | Ankara | Istanbul",
+   "| Brazil | Brasília | Rio de Janeiro",
+   "| Nigeria | Abuja | Lagos",
+   "| USA | Washington, D.C. | New York"
+  ]
+ },
+ {
+  "id": "gk-m13",
+  "section": "gk",
+  "title": "Currencies",
+  "lines": [
+   "| Country | Currency",
+   "| Bangladesh | taka",
+   "| Afghanistan | afghani",
+   "| Iran | rial",
+   "| Saudi Arabia | riyal",
+   "| Japan | yen",
+   "| China | yuan",
+   "| Russia | rouble",
+   "| Brazil | real",
+   "| Nigeria | naira"
+  ]
+ },
+ {
+  "id": "gk-m14",
+  "section": "gk",
+  "title": "Straits and canals",
+  "lines": [
+   "| Waterway | Links",
+   "| Gibraltar | Atlantic–Mediterranean",
+   "| Bosphorus | Black Sea–Marmara",
+   "| Hormuz | Persian Gulf–Gulf of Oman",
+   "| Malacca | Indian Ocean–South China Sea",
+   "| Bab-el-Mandeb | Red Sea–Gulf of Aden",
+   "| Suez (1869) | Mediterranean–Red Sea",
+   "| Panama (1914) | Atlantic–Pacific"
+  ]
+ },
+ {
+  "id": "gk-m15",
+  "section": "gk",
+  "title": "Economic terms",
+  "lines": [
+   "| Term | Meaning",
+   "| GDP | output within the country in a year",
+   "| Inflation | general rise in prices",
+   "| Fiscal policy | taxes and government spending",
+   "| Monetary policy | central bank, interest rates",
+   "| Direct tax | income tax",
+   "| Indirect tax | sales tax, customs"
+  ]
+ },
+ {
+  "id": "gk-m16",
+  "section": "gk",
+  "title": "Government basics",
+  "lines": [
+   "- State: population, territory, government, sovereignty.",
+   "- Organs: legislature (makes laws), executive (applies), judiciary (interprets).",
+   "- Separation of powers: Montesquieu.",
+   "- Federal: power shared with provinces. Unitary: centre holds power.",
+   "- Parliamentary: cabinet answers to legislature. Presidential: separate executive."
+  ]
+ },
+ {
+  "id": "gk-m17",
+  "section": "gk",
+  "title": "Pakistan abbreviations",
+  "lines": [
+   "| Short | Full form",
+   "| NADRA | National Database and Registration Authority",
+   "| HEC | Higher Education Commission",
+   "| WAPDA | Water and Power Development Authority",
+   "| FBR | Federal Board of Revenue",
+   "| SECP | Securities and Exchange Commission of Pakistan",
+   "| PEMRA | Pakistan Electronic Media Regulatory Authority",
+   "| CPEC | China-Pakistan Economic Corridor"
+  ]
+ }
+]

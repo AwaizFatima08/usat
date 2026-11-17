@@ -1,0 +1,241 @@
+[
+ {
+  "id": "stats-m01",
+  "section": "stats",
+  "title": "Types of data",
+  "lines": [
+   "| Type | Example",
+   "| Qualitative (attribute) | blood group, province",
+   "| Discrete | number of children",
+   "| Continuous | height, time",
+   "| Primary | collected by you",
+   "| Secondary | taken from a report",
+   "! Counted → discrete. Measured → continuous."
+  ]
+ },
+ {
+  "id": "stats-m02",
+  "section": "stats",
+  "title": "Frequency table terms",
+  "lines": [
+   "| Term | For class 20–29",
+   "| Limits | 20 and 29",
+   "| Boundaries | 19.5 and 29.5",
+   "| Midpoint | 24.5",
+   "| Width | 10",
+   "- Relative frequency = f ÷ Σf",
+   "- Sturges: k = 1 + 3.3 log n",
+   "- Pie sector angle = (part ÷ total) × 360°"
+  ]
+ },
+ {
+  "id": "stats-m03",
+  "section": "stats",
+  "title": "Graphs at a glance",
+  "lines": [
+   "| Graph | Plots",
+   "| Histogram | bars, area ∝ frequency",
+   "| Frequency polygon | f at midpoints",
+   "| Ogive | cumulative f at upper boundaries",
+   "| Pie chart | shares as angles",
+   "! Unequal widths: bar height = f ÷ width."
+  ]
+ },
+ {
+  "id": "stats-m04",
+  "section": "stats",
+  "title": "Averages: formulas",
+  "lines": [
+   "- Mean: x̄ = Σfx ÷ Σf",
+   "- Combined: (n₁x̄₁ + n₂x̄₂) ÷ (n₁ + n₂)",
+   "- Weighted: Σwx ÷ Σw",
+   "- G.M. = nth root of the product; log G.M. = Σlog x ÷ n",
+   "- H.M. = n ÷ Σ(1/x)",
+   "- A.M. > G.M. > H.M. for unequal positive values",
+   "- Two numbers: G.M.² = A.M. × H.M."
+  ]
+ },
+ {
+  "id": "stats-m05",
+  "section": "stats",
+  "title": "Median and mode, grouped",
+  "lines": [
+   "- Median = L + (h/f)(n/2 − C)",
+   "- Q₁ = L + (h/f)(n/4 − C); Q₃ uses 3n/4",
+   "- Mode = L + (f₁ − f₀)h ÷ [(f₁ − f₀) + (f₁ − f₂)]",
+   "- Empirical: Mode ≈ 3 Median − 2 Mean",
+   "! L is a class boundary, not a class limit."
+  ]
+ },
+ {
+  "id": "stats-m06",
+  "section": "stats",
+  "title": "Shape and the three averages",
+  "lines": [
+   "| Shape | Order",
+   "| Symmetrical | mean = median = mode",
+   "| Positive skew (right tail) | mean > median > mode",
+   "| Negative skew (left tail) | mean < median < mode",
+   "! Memory aid: the mean runs after the tail."
+  ]
+ },
+ {
+  "id": "stats-m07",
+  "section": "stats",
+  "title": "Dispersion formulas",
+  "lines": [
+   "- Range = xₘ − x₀; coefficient = (xₘ − x₀) ÷ (xₘ + x₀)",
+   "- Q.D. = (Q₃ − Q₁) ÷ 2; coefficient = (Q₃ − Q₁) ÷ (Q₃ + Q₁)",
+   "- M.D. = Σ|x − x̄| ÷ n",
+   "- σ² = Σx²/n − (Σx/n)²",
+   "- C.V. = (σ ÷ x̄) × 100; lower C.V. = more consistent",
+   "- Normal curve: Q.D. ≈ ⅔σ, M.D. ≈ ⅘σ"
+  ]
+ },
+ {
+  "id": "stats-m08",
+  "section": "stats",
+  "title": "Changing the data",
+  "lines": [
+   "| If y = ax + b | Effect",
+   "| Mean | a·x̄ + b",
+   "| Median, mode | change the same way",
+   "| S.D. | σ × size of a (sign dropped)",
+   "| Variance | a²·σ²",
+   "! Adding b moves the centre but never the spread."
+  ]
+ },
+ {
+  "id": "stats-m09",
+  "section": "stats",
+  "title": "Skewness and kurtosis",
+  "lines": [
+   "- Pearson: Sk = (mean − mode) ÷ σ = 3(mean − median) ÷ σ",
+   "- Bowley: (Q₃ + Q₁ − 2Q₂) ÷ (Q₃ − Q₁)",
+   "- m₁ = 0, m₂ = variance, m₂ = m₂′ − (m₁′)²",
+   "- b₂ = m₄ ÷ m₂²: normal = 3",
+   "- Leptokurtic: peaked (b₂ > 3). Platykurtic: flat (b₂ < 3)",
+   "! Lepto = slender, platy = flat (like a plate)."
+  ]
+ },
+ {
+  "id": "stats-m10",
+  "section": "stats",
+  "title": "Index numbers",
+  "lines": [
+   "- Price relative = (p₁ ÷ p₀) × 100",
+   "- Laspeyres = Σp₁q₀ ÷ Σp₀q₀ × 100 (base quantities)",
+   "- Paasche = Σp₁q₁ ÷ Σp₀q₁ × 100 (current quantities)",
+   "- Fisher = √(L × P)",
+   "- Chain index = previous chain × link relative ÷ 100",
+   "- Real wage = money wage × 100 ÷ CPI",
+   "! Laspeyres looks back to base-year quantities; Paasche uses the present."
+  ]
+ },
+ {
+  "id": "stats-m11",
+  "section": "stats",
+  "title": "Counting rules",
+  "lines": [
+   "- ⁿPᵣ = n! ÷ (n − r)!: order matters (posts, arrangements)",
+   "- ⁿCᵣ = n! ÷ [r!(n − r)!]: order does not matter (committees)",
+   "- Letters with p alike: n! ÷ p!",
+   "- Round table: (n − 1)!",
+   "- ⁿCᵣ = ⁿCₙ₋ᵣ; 0! = 1",
+   "! Ask: does swapping two people give a new result? Yes → P, no → C."
+  ]
+ },
+ {
+  "id": "stats-m12",
+  "section": "stats",
+  "title": "Laws of probability",
+  "lines": [
+   "- 0 ≤ P(A) ≤ 1; P(not A) = 1 − P(A)",
+   "- P(A ∪ B) = P(A) + P(B) − P(A ∩ B)",
+   "- Mutually exclusive: P(A ∩ B) = 0",
+   "- Independent: P(A ∩ B) = P(A) × P(B)",
+   "- P(A | B) = P(A ∩ B) ÷ P(B)",
+   "- Bayes: P(B₁ | A) = P(B₁)P(A | B₁) ÷ ΣP(Bᵢ)P(A | Bᵢ)"
+  ]
+ },
+ {
+  "id": "stats-m13",
+  "section": "stats",
+  "title": "Dice, coins and cards",
+  "lines": [
+   "| Experiment | Facts",
+   "| Two dice | 36 outcomes; sum 7 in 6 ways",
+   "| Two dice | sums 2 and 12 in 1 way each",
+   "| n coins | 2ⁿ outcomes",
+   "| Pack | 52 cards, 4 suits of 13",
+   "| Pack | 26 red, 4 aces, 12 face cards"
+  ]
+ },
+ {
+  "id": "stats-m14",
+  "section": "stats",
+  "title": "Random variables",
+  "lines": [
+   "- Σ P(x) = 1",
+   "- E(X) = Σx·P(x)",
+   "- Var(X) = E(X²) − [E(X)]²",
+   "- E(aX + b) = aE(X) + b",
+   "- Var(aX + b) = a²Var(X)"
+  ]
+ },
+ {
+  "id": "stats-m15",
+  "section": "stats",
+  "title": "Distributions",
+  "lines": [
+   "| Distribution | Mean | Variance",
+   "| Binomial (n, p) | np | npq",
+   "| Poisson (m) | m | m",
+   "| Normal (μ, σ) | μ | σ²",
+   "| Standard normal Z | 0 | 1",
+   "- Binomial: P(X = r) = ⁿCᵣ pʳ qⁿ⁻ʳ",
+   "- Poisson: P(X = r) = e⁻ᵐ mʳ ÷ r!",
+   "! Binomial variance is always less than its mean; Poisson's equals it."
+  ]
+ },
+ {
+  "id": "stats-m16",
+  "section": "stats",
+  "title": "Normal curve: 68–95–99.7",
+  "lines": [
+   "| Interval | Inside | Each tail",
+   "| μ ± σ | 68 % | 16 %",
+   "| μ ± 2σ | 95 % | 2.5 %",
+   "| μ ± 3σ | 99.7 % | 0.15 %",
+   "- z = (x − μ) ÷ σ",
+   "- Inflection points at μ ± σ"
+  ]
+ },
+ {
+  "id": "stats-m17",
+  "section": "stats",
+  "title": "Sampling and testing",
+  "lines": [
+   "- Samples: Nⁿ with replacement, ᴺCₙ without",
+   "- SE of mean = σ ÷ √n; SE of proportion = √(pq ÷ n)",
+   "- CI: x̄ ± z·σ/√n",
+   "| Level | Two-tailed z | One-tailed z",
+   "| 10 % | 1.645 | 1.28",
+   "| 5 % | 1.96 | 1.645",
+   "| 1 % | 2.58 | 2.33",
+   "- Type I: reject true H₀ (prob α). Type II: accept false H₀ (prob β)"
+  ]
+ },
+ {
+  "id": "stats-m18",
+  "section": "stats",
+  "title": "Regression, correlation, time series",
+  "lines": [
+   "- b = [nΣxy − ΣxΣy] ÷ [nΣx² − (Σx)²]; a = ȳ − b·x̄",
+   "- Line passes through (x̄, ȳ)",
+   "- r² = b_yx × b_xy; r has their sign; −1 ≤ r ≤ 1",
+   "- Spearman: ρ = 1 − 6Σd² ÷ [n(n² − 1)]",
+   "- Time series components: STCI = Secular trend, Seasonal (within a year), Cyclical (several years), Irregular (random)"
+  ]
+ }
+]

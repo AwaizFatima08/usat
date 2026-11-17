@@ -1,0 +1,376 @@
+[
+ {
+  "id": "math-m01",
+  "section": "math",
+  "title": "Functions: domain and inverse",
+  "lines": [
+   "| Part of f(x) | Domain needs",
+   "| √g(x) | g(x) ≥ 0",
+   "| 1/g(x) | g(x) ≠ 0",
+   "| log g(x) | g(x) > 0",
+   "- (f∘g)(x) = f(g(x)): apply g first; usually f∘g ≠ g∘f.",
+   "- Inverse: swap x and y, solve for y. f(x) = 2x + 3 gives f⁻¹(x) = (x − 3)/2.",
+   "- Domain of f⁻¹ = range of f. Graph of f⁻¹ = mirror of f in y = x.",
+   "- Even: f(−x) = f(x). Odd: f(−x) = −f(x).",
+   "! f⁻¹(x) is not 1/f(x)."
+  ]
+ },
+ {
+  "id": "math-m02",
+  "section": "math",
+  "title": "Logarithms and indices",
+  "lines": [
+   "- aᵐ × aⁿ = aᵐ⁺ⁿ; aᵐ ÷ aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐⁿ; a⁰ = 1; a⁻ⁿ = 1/aⁿ.",
+   "- log(mn) = log m + log n; log(m/n) = log m − log n; log mⁿ = n log m.",
+   "- Change of base: logₐb = log b ÷ log a, so logₐb × log_b a = 1.",
+   "- logₐ1 = 0; logₐa = 1; a^(logₐx) = x.",
+   "- log 2 ≈ 0.301, log 3 ≈ 0.477.",
+   "! log(m + n) is not log m + log n. Reject any answer that makes a log argument ≤ 0."
+  ]
+ },
+ {
+  "id": "math-m03",
+  "section": "math",
+  "title": "Quadratic equations",
+  "lines": [
+   "- Roots: x = (−b ± √(b² − 4ac)) ÷ 2a.",
+   "- α + β = −b/a; αβ = c/a; new equation x² − (sum)x + product = 0.",
+   "| b² − 4ac | Roots",
+   "| > 0, perfect square | real, unequal, rational",
+   "| > 0, not a square | real, unequal, irrational",
+   "| = 0 | real, equal",
+   "| < 0 | complex conjugates",
+   "- α² + β² = (α + β)² − 2αβ.",
+   "- Vertex of y = ax² + bx + c at x = −b/2a: minimum if a > 0.",
+   "! Remainder of p(x) ÷ (x − a) is p(a)."
+  ]
+ },
+ {
+  "id": "math-m04",
+  "section": "math",
+  "title": "Complex numbers and roots of unity",
+  "lines": [
+   "- i² = −1, i³ = −i, i⁴ = 1: divide the power by 4 and use the remainder.",
+   "- z = a + bi: conjugate a − bi; |z| = √(a² + b²); z z̄ = |z|².",
+   "- Cube roots of 1: 1, ω, ω², with ω = (−1 + i√3)/2.",
+   "- ω³ = 1 and 1 + ω + ω² = 0, so 1 + ω = −ω².",
+   "- Fourth roots of 1: 1, −1, i, −i.",
+   "- Real coefficients: complex roots come in conjugate pairs.",
+   "! √(−4) × √(−9) = 2i × 3i = −6, not +6."
+  ]
+ },
+ {
+  "id": "math-m05",
+  "section": "math",
+  "title": "Sequences and series",
+  "lines": [
+   "|  | AP | GP",
+   "| nth term | a + (n − 1)d | arⁿ⁻¹",
+   "| Sum of n terms | (n/2)[2a + (n − 1)d] | a(1 − rⁿ)/(1 − r)",
+   "| Mean of a, b | (a + b)/2 | √(ab)",
+   "- Infinite GP: a/(1 − r), only if |r| < 1.",
+   "- HP: reciprocals in AP; harmonic mean 2ab/(a + b). A > G > H, G² = AH.",
+   "- Σn = n(n + 1)/2; Σn² = n(n + 1)(2n + 1)/6; Σn³ = [n(n + 1)/2]².",
+   "! Three terms in AP: a − d, a, a + d. In GP: a/r, a, ar."
+  ]
+ },
+ {
+  "id": "math-m06",
+  "section": "math",
+  "title": "Matrices and determinants",
+  "lines": [
+   "- (m × n)(n × p) gives m × p; usually AB ≠ BA.",
+   "- 2 × 2 inverse: [[a, b], [c, d]]⁻¹ = (1/(ad − bc))[[d, −b], [−c, a]].",
+   "- (AB)⁻¹ = B⁻¹A⁻¹; (AB)ᵗ = BᵗAᵗ.",
+   "- |A| = 0: singular, no inverse.",
+   "- Swap two rows: sign changes. Two equal rows: 0.",
+   "- n × n: |kA| = kⁿ|A|; |adj A| = |A|ⁿ⁻¹; |AB| = |A||B|.",
+   "- Symmetric Aᵗ = A; skew-symmetric Aᵗ = −A (zero diagonal).",
+   "! For 3 × 3 with |A| = 4: |2A| = 32, not 8."
+  ]
+ },
+ {
+  "id": "math-m07",
+  "section": "math",
+  "title": "Permutations and combinations",
+  "lines": [
+   "- ⁿPᵣ = n!/(n − r)!; ⁿCᵣ = n!/(r!(n − r)!); 0! = 1.",
+   "- n things with p alike, q alike: n!/(p! q!). LEVEL gives 30.",
+   "- Round a table: (n − 1)!; necklace: (n − 1)!/2.",
+   "- ⁿCᵣ = ⁿCₙ₋ᵣ; ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ.",
+   "- Diagonals of an n-gon: n(n − 3)/2.",
+   "- Probability: P(not A) = 1 − P(A); P(A or B) = P(A) + P(B) − P(A and B).",
+   "! Arrange (order matters): P. Choose (order does not matter): C."
+  ]
+ },
+ {
+  "id": "math-m08",
+  "section": "math",
+  "title": "Binomial theorem",
+  "lines": [
+   "- (a + b)ⁿ has n + 1 terms; Tᵣ₊₁ = ⁿCᵣ aⁿ⁻ʳ bʳ.",
+   "- Sum of coefficients = 2ⁿ.",
+   "- Middle term: n even, T(n/2 + 1); n odd, two middle terms.",
+   "- Term free of x: set the power of x in Tᵣ₊₁ to zero.",
+   "- (1 + x)ⁿ = 1 + nx + n(n − 1)x²/2! + … (|x| < 1 if n is not a positive integer).",
+   "- (1 − x)⁻¹ = 1 + x + x² + …; (1 + x)⁻¹ = 1 − x + x² − …",
+   "! The rth term uses ⁿCᵣ₋₁."
+  ]
+ },
+ {
+  "id": "math-m09",
+  "section": "math",
+  "title": "Standard trig values",
+  "lines": [
+   "| θ | sin | cos | tan",
+   "| 0° | 0 | 1 | 0",
+   "| 30° (π/6) | 1/2 | √3/2 | 1/√3",
+   "| 45° (π/4) | 1/√2 | 1/√2 | 1",
+   "| 60° (π/3) | √3/2 | 1/2 | √3",
+   "| 90° (π/2) | 1 | 0 | undefined",
+   "- π rad = 180°; 1 rad ≈ 57.3°; arc l = rθ; sector ½r²θ.",
+   "- sin 15° = (√6 − √2)/4; tan 15° = 2 − √3; tan 75° = 2 + √3.",
+   "! sin of 0°, 30°, 45°, 60°, 90° = √0/2, √1/2, √2/2, √3/2, √4/2."
+  ]
+ },
+ {
+  "id": "math-m10",
+  "section": "math",
+  "title": "Quadrant signs and identities",
+  "lines": [
+   "Mnemonic \"All Students Take Coffee\": All positive in quadrant I, Sin in II, Tan in III, Cos in IV.",
+   "- sin²θ + cos²θ = 1; 1 + tan²θ = sec²θ; 1 + cot²θ = cosec²θ.",
+   "- sin(−θ) = −sin θ; cos(−θ) = cos θ.",
+   "- 90° ± θ, 270° ± θ: sin ↔ cos, tan ↔ cot.",
+   "- 180° ± θ, 360° − θ: same ratio.",
+   "- Sign always from the quadrant of the original angle.",
+   "! cos 120° = −cos 60° = −1/2."
+  ]
+ },
+ {
+  "id": "math-m11",
+  "section": "math",
+  "title": "Compound and multiple angles",
+  "lines": [
+   "- sin(A ± B) = sin A cos B ± cos A sin B.",
+   "- cos(A ± B) = cos A cos B ∓ sin A sin B.",
+   "- tan(A ± B) = (tan A ± tan B)/(1 ∓ tan A tan B).",
+   "- sin 2A = 2 sin A cos A = 2 tan A/(1 + tan²A).",
+   "- cos 2A = 2cos²A − 1 = 1 − 2sin²A.",
+   "- tan 2A = 2 tan A/(1 − tan²A).",
+   "- sin 3A = 3 sin A − 4 sin³A; cos 3A = 4 cos³A − 3 cos A.",
+   "! cos(A + B) has a minus sign in the middle."
+  ]
+ },
+ {
+  "id": "math-m12",
+  "section": "math",
+  "title": "Sum and product formulas",
+  "lines": [
+   "| Sum | Product",
+   "| sin C + sin D | 2 sin((C + D)/2) cos((C − D)/2)",
+   "| sin C − sin D | 2 cos((C + D)/2) sin((C − D)/2)",
+   "| cos C + cos D | 2 cos((C + D)/2) cos((C − D)/2)",
+   "| cos C − cos D | −2 sin((C + D)/2) sin((C − D)/2)",
+   "- 2 sin A cos B = sin(A + B) + sin(A − B).",
+   "- 2 cos A cos B = cos(A + B) + cos(A − B).",
+   "- 2 sin A sin B = cos(A − B) − cos(A + B).",
+   "! cos C − cos D carries a minus sign."
+  ]
+ },
+ {
+  "id": "math-m13",
+  "section": "math",
+  "title": "Periods and ranges",
+  "lines": [
+   "| Function | Range | Period",
+   "| sin, cos | [−1, 1] | 2π",
+   "| tan, cot | all reals | π",
+   "| sec, cosec | ≤ −1 or ≥ 1 | 2π",
+   "- sin(ax + b), cos(ax + b): period 2π/|a|; tan(ax + b): π/|a|.",
+   "- a sin x + b cos x ranges from −√(a² + b²) to √(a² + b²).",
+   "- Even: cos, sec. Odd: sin, tan, cot, cosec.",
+   "! sin²x and |sin x| have period π, not 2π."
+  ]
+ },
+ {
+  "id": "math-m14",
+  "section": "math",
+  "title": "Inverse trig functions",
+  "lines": [
+   "| Function | Domain | Principal values",
+   "| sin⁻¹x | [−1, 1] | [−π/2, π/2]",
+   "| cos⁻¹x | [−1, 1] | [0, π]",
+   "| tan⁻¹x | all reals | (−π/2, π/2)",
+   "- sin⁻¹x + cos⁻¹x = π/2; tan⁻¹x + cot⁻¹x = π/2.",
+   "- tan⁻¹x + tan⁻¹y = tan⁻¹((x + y)/(1 − xy)) if xy < 1.",
+   "- cos⁻¹(−x) = π − cos⁻¹x; sin⁻¹(−x) = −sin⁻¹x.",
+   "! sin⁻¹(sin 5π/6) = π/6, not 5π/6."
+  ]
+ },
+ {
+  "id": "math-m15",
+  "section": "math",
+  "title": "Trig equations",
+  "lines": [
+   "| Equation | General solution (n an integer)",
+   "| sin θ = 0 | nπ",
+   "| cos θ = 0 | (2n + 1)π/2",
+   "| tan θ = k | α + nπ",
+   "| cos θ = k | 2nπ ± α",
+   "| sin θ = k | nπ + (−1)ⁿα",
+   "- Factorise quadratics in sin θ or cos θ; reject values outside [−1, 1].",
+   "- Change mixed functions to one function first.",
+   "! Never cancel sin θ or cos θ from both sides: factorise, or solutions are lost."
+  ]
+ },
+ {
+  "id": "math-m16",
+  "section": "math",
+  "title": "Standard limits",
+  "lines": [
+   "| Limit | Value",
+   "| sin x / x, x → 0 | 1",
+   "| tan x / x, x → 0 | 1",
+   "| (1 − cos x)/x², x → 0 | 1/2",
+   "| (eˣ − 1)/x, x → 0 | 1",
+   "| (aˣ − 1)/x, x → 0 | ln a",
+   "| (1 + 1/n)ⁿ, n → ∞ | e",
+   "| (xⁿ − aⁿ)/(x − a), x → a | naⁿ⁻¹",
+   "! Rational function as x → ∞: equal top and bottom degrees give the ratio of leading coefficients."
+  ]
+ },
+ {
+  "id": "math-m17",
+  "section": "math",
+  "title": "Derivatives",
+  "lines": [
+   "| f(x) | f′(x) | f(x) | f′(x)",
+   "| xⁿ | nxⁿ⁻¹ | eˣ | eˣ",
+   "| sin x | cos x | aˣ | aˣ ln a",
+   "| cos x | −sin x | ln x | 1/x",
+   "| tan x | sec²x | sin⁻¹x | 1/√(1 − x²)",
+   "| cot x | −cosec²x | cos⁻¹x | −1/√(1 − x²)",
+   "| sec x | sec x tan x | tan⁻¹x | 1/(1 + x²)",
+   "- Product (uv)′ = u′v + uv′; quotient (vu′ − uv′)/v²; chain dy/dx = (dy/du)(du/dx).",
+   "! Every \"co\" function (cos, cot, cosec, cos⁻¹) gets a minus sign."
+  ]
+ },
+ {
+  "id": "math-m18",
+  "section": "math",
+  "title": "Applications of derivatives",
+  "lines": [
+   "- Tangent slope m = f′(a); normal slope −1/m.",
+   "- f′ > 0 increasing; f′ < 0 decreasing.",
+   "- Stationary point f′ = 0: f″ < 0 maximum, f″ > 0 minimum.",
+   "- Velocity v = ds/dt; acceleration a = dv/dt.",
+   "- Small change δy ≈ f′(x)δx; % error in xⁿ ≈ n × % error in x.",
+   "- Rectangle of fixed perimeter has greatest area when it is a square.",
+   "! Horizontal tangent: dy/dx = 0. Vertical tangent: dx/dy = 0."
+  ]
+ },
+ {
+  "id": "math-m19",
+  "section": "math",
+  "title": "Standard integrals",
+  "lines": [
+   "| f(x) | ∫ f(x) dx",
+   "| xⁿ (n ≠ −1) | xⁿ⁺¹/(n + 1)",
+   "| 1/x | ln|x|",
+   "| eᵃˣ | eᵃˣ/a",
+   "| sin ax | −cos ax / a",
+   "| cos ax | sin ax / a",
+   "| sec²x | tan x",
+   "| 1/(a² + x²) | (1/a) tan⁻¹(x/a)",
+   "| 1/√(a² − x²) | sin⁻¹(x/a)",
+   "! Add + C. Check by differentiating the answer."
+  ]
+ },
+ {
+  "id": "math-m20",
+  "section": "math",
+  "title": "Integration methods",
+  "lines": [
+   "- ∫ f′(x)/f(x) dx = ln|f(x)| + C.",
+   "- ∫ [f(x)]ⁿ f′(x) dx = [f(x)]ⁿ⁺¹/(n + 1) + C.",
+   "- By parts ∫ u dv = uv − ∫ v du.",
+   "Mnemonic ILATE for choosing u: Inverse trig, Logarithmic, Algebraic, Trigonometric, Exponential (earliest letter first).",
+   "- ∫ x eˣ dx = eˣ(x − 1) + C; ∫ ln x dx = x ln x − x + C.",
+   "- ∫ sin²x dx = x/2 − (sin 2x)/4 + C.",
+   "! ∫ 1/(1 + x²) dx is tan⁻¹x, not ln(1 + x²)."
+  ]
+ },
+ {
+  "id": "math-m21",
+  "section": "math",
+  "title": "Definite integrals and area",
+  "lines": [
+   "- ∫ₐᵇ f(x) dx = F(b) − F(a); swapping limits changes the sign.",
+   "- Odd f: integral from −a to a is 0. Even f: twice the integral from 0 to a.",
+   "- Area between curves = ∫ (upper − lower) dx.",
+   "- Volume about the x-axis: π ∫ y² dx.",
+   "- dy/dx = ky gives y = Ae^(kx).",
+   "! The integral of sin x from 0 to 2π is 0, but the area is 4: split at the zeros."
+  ]
+ },
+ {
+  "id": "math-m22",
+  "section": "math",
+  "title": "Straight lines",
+  "lines": [
+   "- Distance √((x₂ − x₁)² + (y₂ − y₁)²); midpoint ((x₁ + x₂)/2, (y₁ + y₂)/2).",
+   "- Slope m = (y₂ − y₁)/(x₂ − x₁); for ax + by + c = 0, m = −a/b.",
+   "- Forms: y = mx + c; y − y₁ = m(x − x₁); x/a + y/b = 1.",
+   "- Parallel: m₁ = m₂. Perpendicular: m₁m₂ = −1.",
+   "- Angle: tan θ = |(m₂ − m₁)/(1 + m₁m₂)|.",
+   "- Point to line: |ax₁ + by₁ + c| ÷ √(a² + b²).",
+   "- Triangle area ½|x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)|; zero means collinear.",
+   "! A vertical line x = k has undefined slope, not zero."
+  ]
+ },
+ {
+  "id": "math-m23",
+  "section": "math",
+  "title": "Circles",
+  "lines": [
+   "- (x − h)² + (y − k)² = r²: centre (h, k), radius r.",
+   "- x² + y² + 2gx + 2fy + c = 0: centre (−g, −f), r = √(g² + f² − c).",
+   "- Tangent to x² + y² = r² at (x₁, y₁): xx₁ + yy₁ = r².",
+   "- y = mx + c touches x² + y² = a² when c² = a²(1 + m²).",
+   "- A line touches a circle when its distance from the centre equals r.",
+   "! Halve the x and y coefficients, then change their signs to get the centre."
+  ]
+ },
+ {
+  "id": "math-m24",
+  "section": "math",
+  "title": "Conic sections",
+  "lines": [
+   "| Conic | Equation | c and e | Foci",
+   "| Parabola | y² = 4ax | e = 1 | (a, 0), directrix x = −a",
+   "| Ellipse | x²/a² + y²/b² = 1 | c² = a² − b², e < 1 | (±c, 0)",
+   "| Hyperbola | x²/a² − y²/b² = 1 | c² = a² + b², e > 1 | (±c, 0)",
+   "- e = c/a for ellipse and hyperbola.",
+   "- Latus rectum: parabola 4a; ellipse and hyperbola 2b²/a.",
+   "- Hyperbola asymptotes y = ±(b/a)x; rectangular hyperbola e = √2.",
+   "! y² = 8x: 4a = 8, focus (2, 0)."
+  ]
+ },
+ {
+  "id": "math-m25",
+  "section": "math",
+  "title": "Vectors",
+  "lines": [
+   "- |xi + yj + zk| = √(x² + y² + z²); unit vector v/|v|; AB = OB − OA.",
+   "- Direction cosines: their squares add to 1.",
+   "|  | Dot a·b | Cross a × b",
+   "| Result | scalar | vector",
+   "| Size | |a||b| cos θ | |a||b| sin θ",
+   "| Zero means | perpendicular | parallel",
+   "| Unit vectors | i·i = 1, i·j = 0 | i × j = k, j × i = −k",
+   "- Projection of a on b = a·b ÷ |b|; triangle area ½|a × b|.",
+   "- a·(b × c) = volume of parallelepiped; 0 means coplanar."
+  ]
+ }
+]

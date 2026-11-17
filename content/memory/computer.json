@@ -1,0 +1,415 @@
+[
+ {
+  "id": "computer-m01",
+  "section": "computer",
+  "title": "Processing cycle and software",
+  "lines": [
+   "| Stage | Examples",
+   "| Input | keyboard, mouse, scanner, microphone",
+   "| Processing | CPU (ALU + control unit)",
+   "| Output | monitor, printer, speaker, plotter",
+   "| Storage | hard disk, SSD, USB flash, DVD",
+   "- Data = raw facts; information = processed, meaningful data.",
+   "- System software: OS, utilities (antivirus, defragmenter, backup), translators.",
+   "- Application software: word processor, spreadsheet, browser.",
+   "! A touchscreen is both an input and an output device."
+  ]
+ },
+ {
+  "id": "computer-m02",
+  "section": "computer",
+  "title": "CPU, registers and buses",
+  "lines": [
+   "| Part | Job",
+   "| ALU | arithmetic and logic (compare)",
+   "| Control unit | fetches, decodes, sends control signals",
+   "| PC | address of the next instruction",
+   "| IR | instruction being executed",
+   "| MAR / MDR | memory address / data being moved",
+   "| Address bus | CPU → memory, one way",
+   "| Data bus | both ways",
+   "| Control bus | read, write, clock signals",
+   "- Cycle: fetch → decode → execute.",
+   "! n-bit address bus → 2ⁿ locations: 16 bits → 65,536; 20 bits → 1,048,576."
+  ]
+ },
+ {
+  "id": "computer-m03",
+  "section": "computer",
+  "title": "Memory types",
+  "lines": [
+   "| Memory | Volatile? | Note",
+   "| RAM | yes | running programs; read/write",
+   "| ROM | no | boot program; read only",
+   "| Cache | yes | fast SRAM between CPU and RAM",
+   "| Secondary | no | hard disk, SSD, CD/DVD, tape",
+   "- Fastest → slowest: registers → cache → RAM → secondary storage.",
+   "- PROM: write once. EPROM: erased by UV light. EEPROM and flash: erased electrically.",
+   "- Magnetic: hard disk, tape. Optical: CD, DVD, Blu-ray. Solid state: SSD, USB flash.",
+   "! Tape is sequential access only; disks allow direct access."
+  ]
+ },
+ {
+  "id": "computer-m04",
+  "section": "computer",
+  "title": "Units of data",
+  "lines": [
+   "| Unit | Size",
+   "| Bit | 0 or 1",
+   "| Nibble | 4 bits",
+   "| Byte | 8 bits",
+   "| Kilobyte (KB) | 1,024 bytes",
+   "| Megabyte (MB) | 1,024 KB",
+   "| Gigabyte (GB) | 1,024 MB",
+   "| Terabyte (TB) | 1,024 GB",
+   "- Order: bit < nibble < byte < KB < MB < GB < TB < PB.",
+   "! Some sources use 1 KB = 1,000 bytes (SI units); HSSC questions normally use 1,024."
+  ]
+ },
+ {
+  "id": "computer-m05",
+  "section": "computer",
+  "title": "Number conversions",
+  "lines": [
+   "- Binary → decimal: add place values 128 64 32 16 8 4 2 1.",
+   "- Decimal → binary: divide by 2; read remainders bottom to top.",
+   "- Binary → octal: groups of 3 from the right. Binary → hex: groups of 4.",
+   "| Number | Working | Result",
+   "| (101101)₂ | 32 + 8 + 4 + 1 | 45",
+   "| (101101)₂ → octal | 101 101 | (55)₈",
+   "| (101101)₂ → hex | 0010 1101 | (2D)₁₆",
+   "| (2F)₁₆ | 2 × 16 + 15 | 47",
+   "| (17)₈ | 1 × 8 + 7 | 15",
+   "! Hex digits: A = 10, B = 11, C = 12, D = 13, E = 14, F = 15."
+  ]
+ },
+ {
+  "id": "computer-m06",
+  "section": "computer",
+  "title": "Two's complement and character codes",
+  "lines": [
+   "- Negative number: invert all bits of the positive number, then add 1.",
+   "> −6 in 8 bits: 00000110 → 11111001 → 11111010",
+   "- Leftmost bit 1 = negative. 8-bit range: −128 to +127.",
+   "- One's complement: just invert the bits.",
+   "| Code | Bits | Characters",
+   "| ASCII | 7 | 128",
+   "| Extended ASCII | 8 | 256",
+   "| Unicode | 16 or more | nearly all languages, including Urdu",
+   "- ASCII values: 'A' = 65, 'a' = 97, '0' = 48, space = 32."
+  ]
+ },
+ {
+  "id": "computer-m07",
+  "section": "computer",
+  "title": "Translators and errors",
+  "lines": [
+   "| Translator | Converts | How",
+   "| Assembler | assembly → machine code | instruction by instruction",
+   "| Compiler | high-level → machine code | whole program at once; lists all errors",
+   "| Interpreter | high-level → runs directly | one line at a time; stops at first error",
+   "| Error | Found | Example",
+   "| Syntax | by compiler | missing semicolon",
+   "| Runtime | while running | division by zero",
+   "| Logic | not reported | < instead of <=",
+   "! Logic errors are the hardest to find: there is no message, only a wrong answer."
+  ]
+ },
+ {
+  "id": "computer-m08",
+  "section": "computer",
+  "title": "Operating system",
+  "lines": [
+   "| Function | What it does",
+   "| Process management | decides which program gets the CPU",
+   "| Memory management | gives and frees RAM",
+   "| File management | creates, copies, deletes files and folders",
+   "| Device management | controls hardware through drivers",
+   "| Security | accounts, passwords, permissions",
+   "| User interface | GUI or command line",
+   "- Real-time OS: responds at once (machine control). Multi-user: many users share one system.",
+   "- Ctrl+C copy, Ctrl+X cut, Ctrl+V paste, Ctrl+Z undo, Ctrl+S save.",
+   "! Deleted from hard disk → Recycle Bin (restorable). Deleted from a USB drive → usually gone for good."
+  ]
+ },
+ {
+  "id": "computer-m09",
+  "section": "computer",
+  "title": "Word processor and spreadsheet",
+  "lines": [
+   "- Mail merge: one main document + data source → one copy per record.",
+   "- Find and Replace changes every match at once. Format Painter copies formatting only.",
+   "- Justify lines text up with both margins. A page break starts a new page.",
+   "- Spreadsheet formulas start with =.",
+   "> =B2*C2 in D2, copied to E3 → =C3*D3",
+   "> =B2*$C$1 in D2, copied to D5 → =B5*$C$1",
+   "> $A1 fixes the column; A$1 fixes the row.",
+   "- With B2:B4 = 10, 20, 30: SUM 60, AVERAGE 20, MAX 30, COUNT 3.",
+   "! =2+3*4 gives 14: multiplication before addition."
+  ]
+ },
+ {
+  "id": "computer-m10",
+  "section": "computer",
+  "title": "Network types and topologies",
+  "lines": [
+   "- PAN (Bluetooth) < LAN (building) < MAN (city) < WAN (country, world).",
+   "- Client-server: central server. Peer-to-peer: all equal.",
+   "| Topology | Layout | If one part fails",
+   "| Bus | one backbone cable | backbone break stops all",
+   "| Star | all to a central switch | centre fails → all fail",
+   "| Ring | closed loop | one break can stop all",
+   "| Mesh | every node to every other | most reliable, most cable",
+   "| Tree | stars in a hierarchy | a branch is cut off",
+   "! Full mesh of n nodes needs n(n − 1) ÷ 2 links: 6 nodes → 15."
+  ]
+ },
+ {
+  "id": "computer-m11",
+  "section": "computer",
+  "title": "The 7 OSI layers",
+  "lines": [
+   "Mnemonic, layer 1 to 7: Please Do Not Throw Samosas, Pakoras Away.",
+   "| Layer | Job | Device or protocol",
+   "| 1 Physical | bits on the medium | hub, repeater",
+   "| 2 Data link | frames, MAC addresses | switch, bridge",
+   "| 3 Network | IP addresses, routing | router",
+   "| 4 Transport | end-to-end delivery | TCP, UDP",
+   "| 5 Session | open and close a conversation | -",
+   "| 6 Presentation | format, encryption, compression | -",
+   "| 7 Application | user services | HTTP, FTP, SMTP, DNS",
+   "! TCP is reliable and resends lost data; UDP is faster with no guarantee. TCP/IP model has 4 layers."
+  ]
+ },
+ {
+  "id": "computer-m12",
+  "section": "computer",
+  "title": "Network devices and addresses",
+  "lines": [
+   "| Device | Does",
+   "| Hub | sends to every port",
+   "| Switch | sends to one port, by MAC address",
+   "| Router | joins networks, routes by IP address",
+   "| Repeater | regenerates a weak signal",
+   "| Modem | digital ↔ analogue",
+   "| NIC | connects a computer; holds the MAC address",
+   "- IPv4: 32 bits, four numbers 0-255.",
+   "- IPv6: 128 bits, hexadecimal groups.",
+   "- MAC: 48 bits, 12 hex digits."
+  ]
+ },
+ {
+  "id": "computer-m13",
+  "section": "computer",
+  "title": "Protocols, ports and IP classes",
+  "lines": [
+   "| Protocol | Use | Port",
+   "| HTTP | web pages | 80",
+   "| HTTPS | secure web pages | 443",
+   "| FTP | file transfer | 20, 21",
+   "| SMTP | send e-mail | 25",
+   "| POP3 / IMAP | receive e-mail | 110 / 143",
+   "| DNS | name → IP address | 53",
+   "| Class | First octet",
+   "| A | 1-126",
+   "| B | 128-191",
+   "| C | 192-223",
+   "! 127.x.x.x is the loopback address, used to test a computer's own network software."
+  ]
+ },
+ {
+  "id": "computer-m14",
+  "section": "computer",
+  "title": "Transmission modes and media",
+  "lines": [
+   "| Mode | Direction | Example",
+   "| Simplex | one way | TV broadcast",
+   "| Half duplex | both ways, one at a time | walkie-talkie",
+   "| Full duplex | both ways at once | phone call",
+   "- Twisted pair: cheap, LANs. Coaxial: shielded, cable TV. Fibre optic: light, highest bandwidth, no electrical interference.",
+   "- Wireless: radio (Wi-Fi), microwave (line of sight), infrared (short range), satellite.",
+   "- Modulation: AM (amplitude), FM (frequency), PM (phase).",
+   "- Frequency = 1 ÷ period: 0.01 s → 100 Hz.",
+   "! Packet switching (internet) splits data into packets; circuit switching keeps one path for the whole call."
+  ]
+ },
+ {
+  "id": "computer-m15",
+  "section": "computer",
+  "title": "Malware and protection",
+  "lines": [
+   "| Threat | How it works",
+   "| Virus | attaches to a file; spreads when it runs",
+   "| Worm | spreads across networks by itself",
+   "| Trojan horse | looks useful, hides harm; does not copy itself",
+   "| Spyware | secretly records activity",
+   "| Ransomware | encrypts files, demands payment",
+   "| Phishing | fake messages to steal passwords",
+   "- Antivirus removes malware; a firewall filters traffic by rules.",
+   "- Encryption: plaintext → ciphertext with a key. Symmetric: one key. Public-key: public key locks, private key unlocks.",
+   "! Caesar shift 3: CAT → FDW."
+  ]
+ },
+ {
+  "id": "computer-m16",
+  "section": "computer",
+  "title": "Ethics and software licences",
+  "lines": [
+   "| Term | Meaning",
+   "| Copyright | protects original work (code, books, music)",
+   "| Piracy | copying software without a licence",
+   "| Plagiarism | passing off others' work as your own",
+   "| Hacking | entering a system without permission",
+   "| Freeware | free to use; code not open",
+   "| Shareware | free trial, then pay",
+   "| Open source | code free to read and change",
+   "| Proprietary | owned and licensed by a company",
+   "! Typing whole sentences in capitals is poor netiquette: it reads as shouting."
+  ]
+ },
+ {
+  "id": "computer-m17",
+  "section": "computer",
+  "title": "C operators",
+  "lines": [
+   "Precedence (high → low): ( ) → ! ++ -- → * / % → + − → < <= > >= → == != → && → || → = += −=",
+   "> 7 / 2 → 3 (int ÷ int drops the fraction)",
+   "> 7 % 2 → 1",
+   "> 100 / 10 * 5 → 50 (left to right)",
+   "> 5 / 2 * 2.0 → 4.0",
+   "> (float) 7 / 2 → 3.5",
+   "> 5 > 3 → 1 (true)",
+   "- x++ uses then increases; ++x increases then uses.",
+   "! = assigns; == compares. if (x = 5) is always true."
+  ]
+ },
+ {
+  "id": "computer-m18",
+  "section": "computer",
+  "title": "printf, scanf and cout",
+  "lines": [
+   "| Specifier | Type",
+   "| %d | int",
+   "| %f | float",
+   "| %lf | double (in scanf)",
+   "| %c | char",
+   "| %s | string",
+   "- Escapes: \\n new line, \\t tab, \\\\ backslash, \\0 null character.",
+   "- printf(\"%.2f\", 3.14159) prints 3.14.",
+   "- scanf(\"%d\", &n); needs the & (address). C++: cin >> n; cout << n << endl;",
+   "! A char array name for %s needs no & in scanf."
+  ]
+ },
+ {
+  "id": "computer-m19",
+  "section": "computer",
+  "title": "if and switch",
+  "lines": [
+   "- if (x == 5) compares; if (x = 5) assigns and is always true.",
+   "- else pairs with the nearest unmatched if.",
+   "- big = (a > b) ? a : b; is a short if-else.",
+   "- switch case labels must be int or char constants.",
+   "> int n = 2;",
+   "> switch (n) { case 1: printf(\"one \"); case 2: printf(\"two \"); case 3: printf(\"three \"); }",
+   "> Output: two three (no break, so it falls through)",
+   "! Put break; at the end of each case unless fall-through is wanted."
+  ]
+ },
+ {
+  "id": "computer-m20",
+  "section": "computer",
+  "title": "Tracing loops",
+  "lines": [
+   "- for (i = a; i <= b; i++) runs b − a + 1 times; with i < b it runs b − a times.",
+   "- while tests first (may run 0 times); do-while tests last (runs at least once).",
+   "- continue skips to the next round; break leaves the loop.",
+   "> for (i = 1; i <= 10; i++) {",
+   ">     if (i % 3 == 0) continue;",
+   ">     if (i == 8) break;",
+   ">     printf(\"%d \", i);",
+   "> }",
+   "> Output: 1 2 4 5 7",
+   "! for (i = 0; i < 3; i++); has an empty body: the next line runs once, with i = 3."
+  ]
+ },
+ {
+  "id": "computer-m21",
+  "section": "computer",
+  "title": "Arrays, strings and functions",
+  "lines": [
+   "- int a[10]; valid indexes 0 to 9.",
+   "- char s[] = \"pak\"; takes 4 bytes: 'p', 'a', 'k', '\\0'.",
+   "- Prototype ends with ;: int sq(int);",
+   "- Arguments are passed by value: the function changes only its copy.",
+   "> void addTen(int x) { x = x + 10; }",
+   "> int n = 5; addTen(n); printf(\"%d\", n);",
+   "> Output: 5",
+   "- A recursive function calls itself and needs a base case.",
+   "! &x is the address of x; if p = &x, then *p is x itself."
+  ]
+ },
+ {
+  "id": "computer-m22",
+  "section": "computer",
+  "title": "Flowchart symbols",
+  "lines": [
+   "| Symbol | Meaning",
+   "| Oval | start or stop",
+   "| Parallelogram | input or output",
+   "| Rectangle | process",
+   "| Diamond | decision (yes / no)",
+   "| Arrow | flow of control",
+   "- An algorithm is a finite list of clear, ordered steps.",
+   "- Pseudocode writes the steps in plain structured English.",
+   "! Reading marks is input (parallelogram); calculating the average is a process (rectangle)."
+  ]
+ },
+ {
+  "id": "computer-m23",
+  "section": "computer",
+  "title": "Database keys",
+  "lines": [
+   "| Key | Meaning",
+   "| Super key | any field set that identifies each row",
+   "| Candidate key | a minimal super key",
+   "| Primary key | the chosen candidate key; unique, not NULL",
+   "| Alternate key | a candidate key not chosen",
+   "| Composite key | two or more fields together",
+   "| Foreign key | matches another table's primary key",
+   "> Student(RollNo, CNIC, Name): RollNo and CNIC are candidate keys; RollNo is primary, CNIC alternate.",
+   "! Name is not a key: two students can share a name. A foreign key value may repeat."
+  ]
+ },
+ {
+  "id": "computer-m24",
+  "section": "computer",
+  "title": "Normal forms and integrity",
+  "lines": [
+   "| Form | Rule",
+   "| 1NF | atomic values; no repeating groups",
+   "| 2NF | 1NF + no partial dependency on part of a composite key",
+   "| 3NF | 2NF + no transitive dependency (non-key → non-key)",
+   "- Anomalies: insertion, update, deletion.",
+   "- Entity integrity: primary key never NULL.",
+   "- Referential integrity: each foreign key matches an existing primary key.",
+   "- 1:M relationship: the foreign key goes in the \"many\" table. M:N needs a linking table.",
+   "! A 1NF table whose primary key is a single field is already in 2NF."
+  ]
+ },
+ {
+  "id": "computer-m25",
+  "section": "computer",
+  "title": "SQL cheat sheet",
+  "lines": [
+   "| Group | Commands",
+   "| DDL | CREATE, ALTER, DROP, TRUNCATE",
+   "| DML | SELECT, INSERT, UPDATE, DELETE",
+   "| DCL | GRANT, REVOKE",
+   "> SELECT Name FROM Student WHERE City = 'Lahore' ORDER BY Marks DESC;",
+   "- Aggregates: COUNT, SUM, AVG, MIN, MAX. WHERE filters rows; HAVING filters groups.",
+   "- BETWEEN includes both ends. IS NULL, not = NULL.",
+   "- LIKE: % any number of characters, _ exactly one. LIKE 'S%' = starts with S.",
+   "! DELETE removes rows; DROP TABLE removes the whole table and its structure."
+  ]
+ }
+]

@@ -1,0 +1,322 @@
+[
+ {
+  "id": "verbal-m01",
+  "section": "verbal",
+  "title": "Analogy method",
+  "lines": [
+   "- Make a precise sentence linking the stem pair.",
+   "- Test each option in the same sentence, in the same order.",
+   "- Two fit? Tighten the sentence and test again.",
+   "! Same topic is not same relationship."
+  ]
+ },
+ {
+  "id": "verbal-m02",
+  "section": "verbal",
+  "title": "Analogy types 1",
+  "lines": [
+   "| Type | Example",
+   "| Part : whole | page : book",
+   "| Member : class | sparrow : bird",
+   "| Worker : workplace | pilot : cockpit",
+   "| Worker : tool | tailor : needle",
+   "| Worker : product | poet : poem",
+   "| Tool : action | knife : cut"
+  ]
+ },
+ {
+  "id": "verbal-m03",
+  "section": "verbal",
+  "title": "Analogy types 2",
+  "lines": [
+   "| Type | Example",
+   "| Cause : effect | fire : smoke",
+   "| Degree | warm : hot",
+   "| Object : material | ring : gold",
+   "| Young : adult | cub : lion",
+   "| Animal : home | bee : hive",
+   "| Organ : function | ear : hear",
+   "| Unit : quantity | litre : volume",
+   "| Lack of | drought : rain"
+  ]
+ },
+ {
+  "id": "verbal-m04",
+  "section": "verbal",
+  "title": "Analogy traps",
+  "lines": [
+   "! Reversed order: WHOLE : PART does not match PART : WHOLE.",
+   "! Degree must move the same way: mild to strong, or strong to mild.",
+   "! Prefer links that are always true (lung : breathe), not loose associations (rose : red).",
+   "- Match parts of speech: NOUN : VERB with noun : verb."
+  ]
+ },
+ {
+  "id": "verbal-m05",
+  "section": "verbal",
+  "title": "Roots: meaning",
+  "lines": [
+   "| Root | Meaning | Example",
+   "| bene | good | benevolent",
+   "| mal | bad | malice",
+   "| ver | true | veracity",
+   "| pac | peace | pacify",
+   "| amb | both, around | ambiguous",
+   "| loqu | speak | eloquent",
+   "| chron | time | chronic"
+  ]
+ },
+ {
+  "id": "verbal-m06",
+  "section": "verbal",
+  "title": "Roots: actions",
+  "lines": [
+   "| Root | Meaning | Example",
+   "| dict | say | contradict",
+   "| duc, duct | lead | conduct",
+   "| scrib, script | write | manuscript",
+   "| spect | look | inspect",
+   "| voc, vok | call | invoke",
+   "| port | carry | export",
+   "| ject | throw | reject"
+  ]
+ },
+ {
+  "id": "verbal-m07",
+  "section": "verbal",
+  "title": "Prefixes",
+  "lines": [
+   "| Prefix | Meaning | Example",
+   "| in-, im-, il-, ir- | not | illegal, irregular",
+   "| un-, dis- | not, reverse | dishonest",
+   "| pre- | before | precede",
+   "| re- | again, back | revive",
+   "| sub- | under | submerge",
+   "| circum- | around | circumspect",
+   "| omni- | all | omnipresent",
+   "| mis- | wrongly | misjudge"
+  ]
+ },
+ {
+  "id": "verbal-m08",
+  "section": "verbal",
+  "title": "Suffixes show word class",
+  "lines": [
+   "| Suffix | Makes | Example",
+   "| -ous, -ive, -ful, -al | adjective | cautious, decisive",
+   "| -ity, -ness, -tion, -ment | noun | scarcity, tidiness",
+   "| -ify, -ize, -en | verb | simplify, widen",
+   "| -ly | adverb | swiftly",
+   "! The synonym should be the same word class as the stem."
+  ]
+ },
+ {
+  "id": "verbal-m09",
+  "section": "verbal",
+  "title": "Confusing pairs 1",
+  "lines": [
+   "| Word | Meaning",
+   "| eminent | famous, respected",
+   "| imminent | about to happen",
+   "| credible | believable",
+   "| credulous | too ready to believe",
+   "| affect (verb) | to influence",
+   "| effect (noun) | a result",
+   "| principal | main; head of a school",
+   "| principle | a rule or belief"
+  ]
+ },
+ {
+  "id": "verbal-m10",
+  "section": "verbal",
+  "title": "Confusing pairs 2",
+  "lines": [
+   "| Word | Meaning",
+   "| complement | something that completes",
+   "| compliment | praise",
+   "| stationary | not moving",
+   "| stationery | paper, pens",
+   "| elicit | draw out",
+   "| illicit | illegal",
+   "| prescribe | order, recommend",
+   "| proscribe | forbid"
+  ]
+ },
+ {
+  "id": "verbal-m11",
+  "section": "verbal",
+  "title": "Tricky opposites",
+  "lines": [
+   "! Inflammable = flammable (easily burnt). Opposite: non-flammable.",
+   "! Invaluable = extremely valuable, not worthless.",
+   "- Opposite of the noun zenith (highest point): nadir.",
+   "- Opposite of verbose (wordy): concise.",
+   "- Opposite of transparent: opaque.",
+   "- Opposite of frugal: extravagant."
+  ]
+ },
+ {
+  "id": "verbal-m12",
+  "section": "verbal",
+  "title": "Synonym groups",
+  "lines": [
+   "| Idea | Words",
+   "| very large | enormous, colossal, immense, vast",
+   "| short-lived | transient, fleeting, ephemeral",
+   "| stubborn | obstinate, adamant, headstrong",
+   "| praise | commend, laud, acclaim",
+   "| scold | rebuke, reprimand, admonish",
+   "| clear | lucid, explicit, evident"
+  ]
+ },
+ {
+  "id": "verbal-m13",
+  "section": "verbal",
+  "title": "Antonym pairs",
+  "lines": [
+   "| Word | Opposite",
+   "| affluent | needy",
+   "| candid | evasive",
+   "| diligent | idle",
+   "| hostile | friendly",
+   "| genuine | counterfeit",
+   "| reluctant | eager",
+   "| scarce | abundant",
+   "| humble | arrogant"
+  ]
+ },
+ {
+  "id": "verbal-m14",
+  "section": "verbal",
+  "title": "Synonym and antonym method",
+  "lines": [
+   "- Use the word in your own sentence.",
+   "- Predict a meaning (or its opposite) before reading options.",
+   "- Match strength and tone: colossal is stronger than big.",
+   "! In antonym items, one wrong option is usually a synonym."
+  ]
+ },
+ {
+  "id": "verbal-m15",
+  "section": "verbal",
+  "title": "Context clue signals",
+  "lines": [
+   "| Signal words | Blank does",
+   "| but, although, however, yet, despite | contrasts",
+   "| and, also, moreover | continues the idea",
+   "| because, so, therefore | follows from a cause",
+   "| such as, that is, a colon | is defined nearby",
+   "! Hardly, rarely and not reverse the meaning."
+  ]
+ },
+ {
+  "id": "verbal-m16",
+  "section": "verbal",
+  "title": "Tense rules for blanks",
+  "lines": [
+   "| Clue | Tense | Example",
+   "| since, for (still true) | present perfect | has lived since 2019",
+   "| by next year | future perfect | will have finished",
+   "| yesterday, ago | simple past | left two days ago",
+   "| by the time (past) | past perfect | had left before we came"
+  ]
+ },
+ {
+  "id": "verbal-m17",
+  "section": "verbal",
+  "title": "Conditionals",
+  "lines": [
+   "| Type | Pattern",
+   "| Real future | If + present, will + verb",
+   "| Unreal present | If + past, would + verb",
+   "| Unreal past | If + had + past participle, would have + past participle",
+   "> If he had studied, he would have passed."
+  ]
+ },
+ {
+  "id": "verbal-m18",
+  "section": "verbal",
+  "title": "Agreement rules",
+  "lines": [
+   "- Each, every, either, neither take a singular verb: Each of the boys is here.",
+   "- Either/neither … or/nor: the verb agrees with the nearer subject.",
+   "- Collective nouns (team, committee) take a singular verb when the group acts as one unit: The team has won.",
+   "- \"The number of\" is singular; \"a number of\" is plural."
+  ]
+ },
+ {
+  "id": "verbal-m19",
+  "section": "verbal",
+  "title": "Verb patterns",
+  "lines": [
+   "| Followed by -ing | Followed by to + verb",
+   "| enjoy, avoid, finish | want, decide, hope",
+   "| suggest, mind, deny | agree, refuse, plan",
+   "- After modals use the base verb: must go, can swim.",
+   "- Look forward to + -ing: look forward to meeting you."
+  ]
+ },
+ {
+  "id": "verbal-m20",
+  "section": "verbal",
+  "title": "Prepositions",
+  "lines": [
+   "| Correct | Wrong",
+   "| good at | good in",
+   "| interested in | interested on",
+   "| insist on | insist for",
+   "| accused of | accused for",
+   "| married to | married with",
+   "| prefer X to Y | prefer X than Y",
+   "| consist of | consist from"
+  ]
+ },
+ {
+  "id": "verbal-m21",
+  "section": "verbal",
+  "title": "Articles",
+  "lines": [
+   "- a before a consonant sound: a university, a one-way road.",
+   "- an before a vowel sound: an hour, an honest man, an MBA.",
+   "- the for something already known or unique: the sun, the Indus.",
+   "! Go by sound, not spelling."
+  ]
+ },
+ {
+  "id": "verbal-m22",
+  "section": "verbal",
+  "title": "Two-blank strategy",
+  "lines": [
+   "- Start with the blank that has the clearer clue.",
+   "- Cross out options whose word fails there.",
+   "- Test the survivors in the other blank.",
+   "! One right word and one wrong word = wrong option."
+  ]
+ },
+ {
+  "id": "verbal-m23",
+  "section": "verbal",
+  "title": "Comprehension question types",
+  "lines": [
+   "| Type | Strategy",
+   "| Main idea | covers the whole passage",
+   "| Detail | find and match the line",
+   "| Inference | must follow from the text",
+   "| Tone | check opinion words; usually moderate",
+   "| Vocabulary | substitute into the sentence",
+   "| Purpose | ask why the sentence is there"
+  ]
+ },
+ {
+  "id": "verbal-m24",
+  "section": "verbal",
+  "title": "Eliminating options",
+  "lines": [
+   "- Too broad or too narrow.",
+   "- Extreme words: always, never, only, completely.",
+   "- True in life but not stated in the passage.",
+   "- Uses passage words but reverses their meaning.",
+   "! The passage wins over your own opinion."
+  ]
+ }
+]

@@ -1,0 +1,234 @@
+[
+ {
+  "id": "economics-m01",
+  "section": "economics",
+  "title": "Definitions of economics",
+  "lines": [
+   "| Economist | Definition stresses",
+   "| Adam Smith | science of wealth",
+   "| Alfred Marshall | material welfare",
+   "| Lionel Robbins | scarce means with alternative uses",
+   "- Opportunity cost: the next best alternative given up.",
+   "- PPC bowed outward: rising opportunity cost. Inside: idle resources. Outside: unattainable."
+  ]
+ },
+ {
+  "id": "economics-m02",
+  "section": "economics",
+  "title": "Shift or movement?",
+  "lines": [
+   "| Change in | Result",
+   "| the good's own price | movement along the curve",
+   "| income, tastes, related prices, expectations | demand curve shifts",
+   "| costs, technology, taxes, subsidies | supply curve shifts",
+   "- Demand up: price up, quantity up.",
+   "- Supply up: price down, quantity up.",
+   "! Ceiling below equilibrium: shortage. Floor above equilibrium: surplus."
+  ]
+ },
+ {
+  "id": "economics-m03",
+  "section": "economics",
+  "title": "Elasticity formulas",
+  "lines": [
+   "- PED = % ΔQd ÷ % ΔP",
+   "- YED = % ΔQd ÷ % ΔIncome",
+   "- XED = % ΔQx ÷ % ΔPy",
+   "- PES = % ΔQs ÷ % ΔP",
+   "- Midpoint method: divide each change by the average of the old and new values.",
+   "! Quantity change always goes on top."
+  ]
+ },
+ {
+  "id": "economics-m04",
+  "section": "economics",
+  "title": "Reading elasticity signs",
+  "lines": [
+   "| Value | Meaning",
+   "| PED above 1 | elastic: price cut raises revenue",
+   "| PED below 1 | inelastic: price rise raises revenue",
+   "| PED = 1 | unitary: revenue unchanged, and at its maximum",
+   "| YED negative | inferior good",
+   "| YED above 1 | luxury",
+   "| XED positive | substitutes",
+   "| XED negative | complements",
+   "- Horizontal curve: perfectly elastic. Vertical curve: perfectly inelastic (zero)."
+  ]
+ },
+ {
+  "id": "economics-m05",
+  "section": "economics",
+  "title": "Utility and consumer equilibrium",
+  "lines": [
+   "- MU = change in TU from one more unit; MU falls (law of diminishing MU).",
+   "- TU is highest when MU = 0.",
+   "- Equi-marginal rule: MUx ÷ Px = MUy ÷ Py, all income spent.",
+   "- Consumer surplus = willing to pay − actually paid.",
+   "- Indifference curves: downward, convex (diminishing MRS), never cross.",
+   "- Equilibrium: budget line tangent to the highest indifference curve."
+  ]
+ },
+ {
+  "id": "economics-m06",
+  "section": "economics",
+  "title": "Factors and rewards: LLCE",
+  "lines": [
+   "Mnemonic LLCE, 'Little Lambs Chew Everything':",
+   "| Factor | Reward",
+   "| Land | rent",
+   "| Labour | wages",
+   "| Capital | interest",
+   "| Entrepreneur | profit",
+   "! Entrepreneur bears uncertainty (Knight); interest rewards parting with liquidity (Keynes)."
+  ]
+ },
+ {
+  "id": "economics-m07",
+  "section": "economics",
+  "title": "Product curves",
+  "lines": [
+   "- AP = TP ÷ L. MP = ΔTP from one more worker.",
+   "- MP cuts AP at the maximum of AP.",
+   "- TP is at its maximum when MP = 0.",
+   "- Stage II (rational stage): from maximum AP to MP = 0.",
+   "- Returns to scale: all inputs change together (long run).",
+   "- Diminishing returns: one input varies, others fixed (short run)."
+  ]
+ },
+ {
+  "id": "economics-m08",
+  "section": "economics",
+  "title": "Cost formulas",
+  "lines": [
+   "- TC = TFC + TVC",
+   "- AFC = TFC ÷ Q (always falls)",
+   "- AVC = TVC ÷ Q; ATC = TC ÷ Q = AFC + AVC",
+   "- MC = TCₙ − TCₙ₋₁",
+   "- MC cuts AVC and ATC at their lowest points.",
+   "- Break-even Q = fixed cost ÷ (price − variable cost per unit)",
+   "! Total cost at zero output = total fixed cost."
+  ]
+ },
+ {
+  "id": "economics-m09",
+  "section": "economics",
+  "title": "Revenue and profit rules",
+  "lines": [
+   "- TR = P × Q; AR = TR ÷ Q = P; MR = ΔTR from one more unit.",
+   "- Profit maximum: MR = MC.",
+   "- Short-run shutdown: price below minimum AVC.",
+   "- Perfect competition: P = AR = MR; long run, normal profit only.",
+   "- Monopoly: MR below AR; higher price, lower output than competition."
+  ]
+ },
+ {
+  "id": "economics-m10",
+  "section": "economics",
+  "title": "Market forms",
+  "lines": [
+   "| Form | Sellers | Product",
+   "| Perfect competition | very many | identical",
+   "| Monopolistic competition | many | differentiated",
+   "| Oligopoly | a few, interdependent | either",
+   "| Duopoly | two | either",
+   "| Monopoly | one | no close substitute",
+   "! Monopsony = one buyer. Cartel = firms agreeing on price or output."
+  ]
+ },
+ {
+  "id": "economics-m11",
+  "section": "economics",
+  "title": "National income chain",
+  "lines": [
+   "- GDP = C + I + G + (X − M)",
+   "- GNP = GDP + net factor income from abroad",
+   "- NNP = GNP − depreciation",
+   "- NI (factor cost) = NNP − indirect taxes + subsidies",
+   "- Disposable income = personal income − direct taxes",
+   "- Real GDP = nominal GDP × 100 ÷ deflator",
+   "! Leave out transfer payments, second-hand sales and intermediate goods."
+  ]
+ },
+ {
+  "id": "economics-m12",
+  "section": "economics",
+  "title": "Consumption and multiplier",
+  "lines": [
+   "- APC + APS = 1; MPC + MPS = 1",
+   "- MPC = ΔC ÷ ΔY",
+   "- k = 1 ÷ (1 − MPC) = 1 ÷ MPS",
+   "- ΔY = k × ΔI",
+   "- C = a + bY: saving is zero at Y = a ÷ (1 − b)",
+   "- Balanced budget multiplier = 1",
+   "! MPC 0.8 gives k = 5, not 1.25."
+  ]
+ },
+ {
+  "id": "economics-m13",
+  "section": "economics",
+  "title": "Unemployment and inflation types",
+  "lines": [
+   "| Type | Key idea",
+   "| Frictional | between jobs",
+   "| Structural | skills made obsolete",
+   "| Cyclical | recession, low demand",
+   "| Seasonal | crop or season work",
+   "| Disguised | marginal product zero",
+   "- Demand-pull: too much money, too few goods. Cost-push: rising costs.",
+   "- Stagflation: inflation plus unemployment.",
+   "- Inflation % = (new index − old) ÷ old × 100"
+  ]
+ },
+ {
+  "id": "economics-m14",
+  "section": "economics",
+  "title": "Money: four functions",
+  "lines": [
+   "Mnemonic 'My Uncle Stores Dates':",
+   "- M: Medium of exchange",
+   "- U: Unit of account",
+   "- S: Store of value",
+   "- D: standard of Deferred payments",
+   "- Fisher: MV = PT, so P = MV ÷ T.",
+   "- Gresham's law: bad money drives out good."
+  ]
+ },
+ {
+  "id": "economics-m15",
+  "section": "economics",
+  "title": "Banks and monetary policy",
+  "lines": [
+   "- Credit multiplier = 1 ÷ reserve ratio (20 % gives 5).",
+   "- Central bank: note issue, banker to government and banks, lender of last resort, controls credit.",
+   "| Tool | To fight inflation",
+   "| Policy rate | raise",
+   "| Open market operations | sell securities",
+   "| Cash reserve ratio | raise",
+   "! Buying securities expands money; selling contracts it."
+  ]
+ },
+ {
+  "id": "economics-m16",
+  "section": "economics",
+  "title": "Taxes and Smith's canons",
+  "lines": [
+   "- Direct: cannot be shifted (income tax). Indirect: can be shifted (sales tax).",
+   "- Progressive: rate rises with income. Proportional: one rate. Regressive: hits the poor harder.",
+   "- Canons, mnemonic 'ECCE': Equality, Certainty, Convenience, Economy.",
+   "- Inelastic demand: buyers bear the tax. Elastic demand: sellers bear it."
+  ]
+ },
+ {
+  "id": "economics-m17",
+  "section": "economics",
+  "title": "Trade and exchange rates",
+  "lines": [
+   "- Absolute advantage: Adam Smith. Comparative advantage (lower opportunity cost): Ricardo.",
+   "- Terms of trade = export price index ÷ import price index × 100",
+   "- Balance of trade: goods only. Current account: goods, services, income, remittances.",
+   "- Depreciation: exports cheaper abroad, imports dearer at home.",
+   "- Tariff: tax on imports. Quota: limit on quantity. Dumping: selling abroad below home price.",
+   "! More rupees per dollar means a weaker rupee."
+  ]
+ }
+]

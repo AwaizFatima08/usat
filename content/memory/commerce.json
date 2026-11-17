@@ -1,0 +1,246 @@
+[
+ {
+  "id": "commerce-m01",
+  "section": "commerce",
+  "title": "Hindrances and aids to trade",
+  "lines": [
+   "| Hindrance | Removed by",
+   "| persons | wholesalers and retailers",
+   "| place | transport",
+   "| time | warehousing",
+   "| risk | insurance",
+   "| finance | banking",
+   "| knowledge | advertising",
+   "! Commerce = trade + aids to trade."
+  ]
+ },
+ {
+  "id": "commerce-m02",
+  "section": "commerce",
+  "title": "Documents of home trade",
+  "lines": [
+   "| Document | From | Effect",
+   "| quotation | seller | prices and terms",
+   "| order | buyer | asks for goods",
+   "| invoice | seller | amount due",
+   "| pro forma invoice | seller | no payment demanded",
+   "| debit note | seller | buyer owes more",
+   "| credit note | seller | buyer owes less",
+   "| statement of account | seller | periodic balance",
+   "! E. & O.E. = errors and omissions excepted."
+  ]
+ },
+ {
+  "id": "commerce-m03",
+  "section": "commerce",
+  "title": "Documents of foreign trade",
+  "lines": [
+   "| Document | Purpose",
+   "| indent | import order through an agent",
+   "| mate's receipt | given on loading; exchanged for bill of lading",
+   "| bill of lading | receipt, contract and document of title (sea)",
+   "| charter party | hiring a whole ship",
+   "| letter of credit | bank undertakes to pay exporter",
+   "| certificate of origin | where goods were made",
+   "| bill of entry / shipping bill | customs: importer / exporter"
+  ]
+ },
+ {
+  "id": "commerce-m04",
+  "section": "commerce",
+  "title": "Price terms",
+  "lines": [
+   "| Term | Seller pays up to",
+   "| loco | his own premises",
+   "| F.O.B. | goods on board ship",
+   "| C.I.F. | cost, insurance, freight to destination port",
+   "| franco | buyer's premises",
+   "! Discounts: trade discount first, then cash discount on the reduced amount."
+  ]
+ },
+ {
+  "id": "commerce-m05",
+  "section": "commerce",
+  "title": "Middlemen",
+  "lines": [
+   "- Broker: arranges deals, never holds goods.",
+   "- Factor: holds goods, may sell in own name.",
+   "- Commission agent: paid a percentage.",
+   "- Del credere agent: guarantees buyers will pay, for extra commission.",
+   "- Auctioneer: sells to the highest bidder."
+  ]
+ },
+ {
+  "id": "commerce-m06",
+  "section": "commerce",
+  "title": "Forms of business compared",
+  "lines": [
+   "| Feature | Sole trader | Partnership | Company",
+   "| owners | one | two or more | shareholders",
+   "| liability | unlimited | unlimited, joint and several | limited",
+   "| legal entity | no | no | separate",
+   "| continuity | ends with owner | ends on dissolution | perpetual succession",
+   "| key document | none | partnership deed | memorandum and articles"
+  ]
+ },
+ {
+  "id": "commerce-m07",
+  "section": "commerce",
+  "title": "Kinds of partners",
+  "lines": [
+   "| Partner | Capital | Manages | Known publicly",
+   "| active | yes | yes | yes",
+   "| sleeping | yes | no | usually not",
+   "| nominal | no | no | yes",
+   "| secret | yes | yes | no",
+   "! A minor: benefits only, with all partners' consent; liability limited to his share."
+  ]
+ },
+ {
+  "id": "commerce-m08",
+  "section": "commerce",
+  "title": "Company documents and doctrines",
+  "lines": [
+   "- Memorandum: charter; objects; relations with outsiders.",
+   "- Articles: internal rules.",
+   "- Certificate of incorporation: the company's birth.",
+   "- Prospectus: invitation to the public.",
+   "- Ultra vires: beyond objects, void.",
+   "- Constructive notice: outsiders presumed to know the documents.",
+   "- Indoor management: outsiders may assume internal rules were followed."
+  ]
+ },
+ {
+  "id": "commerce-m09",
+  "section": "commerce",
+  "title": "Shares and debentures",
+  "lines": [
+   "| Security | Holder is | Return",
+   "| ordinary share | owner, votes | varying dividend",
+   "| preference share | owner, priority | fixed dividend, paid first",
+   "| debenture | creditor | fixed interest, even in a loss year",
+   "- Bonus shares: free from reserves. Right shares: offered first to members, paid for.",
+   "- Paid-up capital = called-up capital − calls in arrears.",
+   "! Special resolution: three-fourths of votes cast; ordinary: simple majority."
+  ]
+ },
+ {
+  "id": "commerce-m10",
+  "section": "commerce",
+  "title": "Cooperatives and public enterprises",
+  "lines": [
+   "- Cooperative: service motive, one member one vote, elected committee, surplus by patronage.",
+   "- Departmental undertaking: run by a ministry, budget-financed.",
+   "- Statutory corporation: created by a special Act, separate legal person.",
+   "- Government company: state holds majority shares, registered as a company."
+  ]
+ },
+ {
+  "id": "commerce-m11",
+  "section": "commerce",
+  "title": "Negotiable instruments",
+  "lines": [
+   "| Instrument | Nature | Parties",
+   "| promissory note | promise | maker, payee",
+   "| bill of exchange | order | drawer, drawee, payee",
+   "| cheque | order on a banker, on demand | drawer, bank, payee",
+   "! Days of grace: 3 days for bills and notes not payable on demand; none for cheques."
+  ]
+ },
+ {
+  "id": "commerce-m12",
+  "section": "commerce",
+  "title": "Kinds of crossing",
+  "lines": [
+   "| Crossing | Effect",
+   "| general (two lines) | pay only through a bank account",
+   "| special (bank named) | pay only through that bank",
+   "| Not Negotiable | no better title than the transferor's",
+   "| Account Payee | credit only to the payee's account",
+   "- Post-dated: future date. Stale: presented too late. Bearer: pay whoever presents it."
+  ]
+ },
+ {
+  "id": "commerce-m13",
+  "section": "commerce",
+  "title": "Endorsements",
+  "lines": [
+   "- Blank: signature only; becomes payable to bearer.",
+   "- Special (full): names the endorsee.",
+   "- Restrictive: \"Pay Ali only\"; stops further negotiation.",
+   "- Sans recourse: endorser excludes his own liability.",
+   "- Holder in due course: for value, in good faith, before maturity."
+  ]
+ },
+ {
+  "id": "commerce-m14",
+  "section": "commerce",
+  "title": "Principles of insurance",
+  "lines": [
+   "Mnemonic \"I Insure Under Proper Care, Sir\":",
+   "- I: Insurable interest",
+   "- I: Indemnity (not for life insurance)",
+   "- U: Utmost good faith",
+   "- P: Proximate cause",
+   "- C: Contribution (double insurance, shared by ratio of sums insured)",
+   "- S: Subrogation (insurer takes over the insured's rights)"
+  ]
+ },
+ {
+  "id": "commerce-m15",
+  "section": "commerce",
+  "title": "Islamic modes of finance",
+  "lines": [
+   "| Mode | Meaning",
+   "| mudarabah | capital from one, skill from other",
+   "| musharakah | all give capital; share profit and loss",
+   "| murabahah | cost-plus sale, profit disclosed",
+   "| ijarah | lease; bank keeps ownership",
+   "| salam | price in advance, goods later",
+   "| istisna | order to manufacture"
+  ]
+ },
+ {
+  "id": "commerce-m16",
+  "section": "commerce",
+  "title": "Transport and warehouses",
+  "lines": [
+   "| Mode | Best for",
+   "| road | short distance, door-to-door",
+   "| rail | heavy goods, long land routes",
+   "| water | cheapest for bulky goods",
+   "| air | fastest; perishable, valuable",
+   "| pipeline | oil and gas",
+   "- Liners: fixed routes. Tramps: no fixed route.",
+   "- Bonded warehouse: imports before duty paid. Warehouse warrant: document of title."
+  ]
+ },
+ {
+  "id": "commerce-m17",
+  "section": "commerce",
+  "title": "Stock exchange terms",
+  "lines": [
+   "| Term | Meaning",
+   "| bull | expects a rise, buys",
+   "| bear | expects a fall, sells",
+   "| stag | buys new issues to sell at a premium",
+   "| lame duck | bear unable to meet commitments",
+   "| primary market | new issues",
+   "| secondary market | existing securities",
+   "! Pakistan Stock Exchange: formed 2016 by merging Karachi, Lahore and Islamabad exchanges; regulated by SECP."
+  ]
+ },
+ {
+  "id": "commerce-m18",
+  "section": "commerce",
+  "title": "Marketing and letters",
+  "lines": [
+   "- Four Ps: product, price, place, promotion.",
+   "- AIDA: attention, interest, desire, action.",
+   "- Life cycle: introduction, growth, maturity, decline.",
+   "- Filing: alphabetical, numerical (needs index), geographical, subject, chronological.",
+   "- \"Dear Sir\" → Yours faithfully; \"Dear Mr Raza\" → Yours sincerely.",
+   "- Agenda before a meeting; minutes after it."
+  ]
+ }
+]
