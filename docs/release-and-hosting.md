@@ -3,16 +3,22 @@
 ## Build
 - Package `com.homilabs.usat_prep` (locked after the first Play upload). Version 1.0.0 (versionCode 1).
 - Build: `jobq run --name usat-release-aab -- flutter build appbundle --release`, then `./gradlew --stop` in `android/`.
-- Bundle: `releases/v1.0.0-1/usat-prep-1.0.0-1.aab` (49 MB, local and Drive only). SHA-256 `3e414afe62fc913a7aa310590ee1f02516f63c22153a8cd3689b6d688bb9975c` (rebuilt 2 Nov 2026 with the About screen's Privacy choices link; the earlier build was never uploaded).
-- Upload key SHA-1: `58:65:D1:36:B7:E1:45:FD:77:45:62:11:D0:86:48:54:2C:C1:12:10`.
+- Release 1.0.0+1: `releases/1.0.0+1/usat-prep-1.0.0+1.aab` (upload to Play) and `.apk` (sideload test). SHA-256 in `releases/1.0.0+1/SHA256SUMS`.
+- Upload key created 18 Nov 2026: `.secrets/usat-upload.keystore` (alias `usat-upload`, RSA 2048, 10,000 days), passwords in `.secrets/usat-upload-keystore-credentials.txt`, read by `android/key.properties`. SHA-1 `63:51:46:8A:E1:28:C2:02:A2:13:04:1B:BF:08:7C:FD:97:BD:35:B2`, SHA-256 `15:7C:BA:4E:CA:5C:0C:90:DC:13:35:5F:98:24:0D:81:E2:B3:A6:19:C3:D5:CD:E6:0C:16:2E:16:27:69:83:0E`. `.secrets/` goes to the local and Drive backups, never GitHub.
 - Before every release: `bash scripts/check-release-ad-ids.sh`, `python3 tool/validate.py`, `flutter test`.
-- Signing: `android/key.properties` → `.secrets/usat-upload.keystore` (credentials in `.secrets/usat-upload-keystore-credentials.txt`). `.secrets/` is in the local and Drive backups, not in GitHub. Losing it means a support request to Google.
+- Store listing text: `docs/store-listing.md`; screenshots `store-assets/screenshots/`.
 
 ## Website: https://usat.homilabs.org
-- Own PHP/HTML website in hPanel, deployed by Hostinger Git from the `deploy` branch (auto-deployment).
-- Change `website/`, commit, then `bash scripts/publish-site.sh`. Flush the CDN cache in hPanel if pages look stale.
+- Hostinger: subdomain `usat.homilabs.org` created 17 Nov 2026 (folder `public_html/usat` of the homilabs.org website), Lifetime SSL active (Let's Encrypt cert seen 18 Nov 2026).
+- `public_html/usat` is a git checkout of this repo's `deploy` branch (cloned over HTTPS; hPanel's one Git slot for homilabs.org belongs to the games site).
+- Change `website/`, commit, then `bash scripts/publish-site.sh` (pushes `deploy`, then pulls it on the server over SSH). Flush the CDN cache in hPanel if pages look stale.
 - Pages: landing, `/privacy.html`, `/terms.html`, `/app-ads.txt`.
 - After Play launch: replace "Coming soon on Google Play" with the Play link, and add the app to homilabs.org.
+
+## AdMob (account homilabs.smc@gmail.com)
+- Created 17 Nov 2026: app "Prep Simulator for USAT", App ID `ca-app-pub-2087846699268567~8383175362`; units `usat_home_banner` (`/4904250306`) and `usat_results_interstitial` (`/5276444535`). Status: requires review until the Play listing is linked.
+- Privacy & messaging: European regulations message "Prep Simulator for USAT consent" published 17 Nov 2026 (Consent / Do not consent / Manage options, privacy URL https://usat.homilabs.org/privacy.html).
+- After Play launch: link the store listing to the AdMob app.
 
 ## Play Console
 | Item | Value |
