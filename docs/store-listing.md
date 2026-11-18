@@ -2,7 +2,7 @@
 
 - App name (30 max): **USAT Prep: HEC Mock Tests** (26), or "Prep Simulator for USAT" (23) to match the sibling apps. Homi's choice.
 - Short description (80 max):
-  > 20 full USAT mocks per category, essay practice, notes and every answer explained (78)
+  > 20 USAT mocks per category, essay practice, study notes, every answer explained
 - Category: Education · Tags: Test prep, Education
 - Contact: homilabs.smc@gmail.com · Website: https://usat.homilabs.org · Privacy: https://usat.homilabs.org/privacy.html
 
