@@ -21,6 +21,9 @@
 - After Play launch: link the store listing to the AdMob app.
 
 ## Play Console
+- App "Prep Simulator for USAT" created 18 Nov 2026, app id 4974249587431001102 (org account 9161588402757830740). Production release 1 (1.0.0), 178 countries, full rollout, sent for review 18 Nov 2026 (managed publishing off, so it goes live on approval). Target audience 16-17 and 18+; content rating Everyone, educational. AAB dragged in by Homi (the browser tool's upload limit is 10 MB).
+- After approval: link the Play listing in AdMob, put the Play link on usat.homilabs.org, add the app to homilabs.org.
+
 | Item | Value |
 |---|---|
 | App icon 512×512 | `store-assets/icon-512.png` |
